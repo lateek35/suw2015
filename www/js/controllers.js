@@ -19,6 +19,7 @@ angular.module('starter.controllers', [])
 
 .controller('DashCtrl', function($scope, $resource, Bar, Camera) {
   if($localStorage.hasOwnProperty("accessToken")) {
+    
       // $scope.getPhoto = function() {
       //   Camera.getPicture().then(function(imageURI) {
       //     console.log(imageURI);

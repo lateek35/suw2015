@@ -1,1 +1,13 @@
 /* Empty. Add your own CSS if you like */
+
+/***************************************/
+/*               LOGIN                 */
+/***************************************/
+.login{
+	background:url(../img/back-login.jpg) no-repeat center;
+	background-size:cover;
+}
+.button{
+	border-radius:50px;
+}
+/***************************************/
