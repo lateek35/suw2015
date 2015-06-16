@@ -18,15 +18,19 @@ angular.module('starter.controllers', [])
 })
 
 .controller('DashCtrl', function($scope, $resource, Bar, Camera) {
-  // $scope.getPhoto = function() {
-  //   Camera.getPicture().then(function(imageURI) {
-  //     console.log(imageURI);
-  //   }, function(err) {
-  //     console.err(err);
-  //   });
-  // };
+  if($localStorage.hasOwnProperty("accessToken")) {
+      // $scope.getPhoto = function() {
+      //   Camera.getPicture().then(function(imageURI) {
+      //     console.log(imageURI);
+      //   }, function(err) {
+      //     console.err(err);
+      //   });
+      // };
 
-    $scope.bars = Bar.query();
+      $scope.bars = Bar.query();
+  } else {
+      $location.path("/login");
+  }
 })
 
 .controller('ChatsCtrl', function($scope, Chats) {
