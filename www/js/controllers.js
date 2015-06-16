@@ -1,5 +1,22 @@
 angular.module('starter.controllers', [])
 
+.controller("LoginController", function($scope, $cordovaOauth, $localStorage, $location) {
+    $scope.login = function() {
+      if(!$localStorage.hasOwnProperty("accessToken")) {
+        $cordovaOauth.facebook("763024983807122", ["email", "read_stream", "user_website", "user_location", "user_relationships", "user_friends"]).then(function(result) {
+            $localStorage.accessToken = result.access_token;
+            $location.path("/tab/dash");
+        }, function(error) {
+            alert("There was a problem signing in!  See the console for logs");
+            console.log(error);
+        });
+      }else{
+        $location.path("/tab/dash");
+      }
+    };
+ 
+})
+
 .controller('DashCtrl', function($scope, $resource, Bar, Camera) {
   // $scope.getPhoto = function() {
   //   Camera.getPicture().then(function(imageURI) {
