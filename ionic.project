@@ -1,4 +1,12 @@
 {
-  "name": "MeetingNight",
-  "app_id": ""
+  "name": "meetNight",
+  "app_id": "",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
 }
