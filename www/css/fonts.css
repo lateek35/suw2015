@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Neon-Light';
-	src: url('../fonts/Neon-Light.eot?') format('eot'), 
+	src: url('../fonts/Neon-Light.eot') format('eot'), 
 	     url('../fonts/Neon-Light.woff') format('woff'), 
 	     url('../fonts/Neon-Light.ttf')  format('truetype'),
 	     url('../fonts/Neon-Light.svg#NEONLIGHTS') format('svg');
