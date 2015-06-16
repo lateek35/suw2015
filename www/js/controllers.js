@@ -42,6 +42,10 @@ angular.module('starter.controllers', [])
       $ionicScrollDelegate.$getByHandle('mainScroll').scrollBottom(true);
     };
 
+    $scope.$watch('messages', function() {
+      alert('hey, myVar has changed!');
+    });
+
 
 }])
 
