@@ -49,7 +49,20 @@ angular.module('starter.controllers', [])
   }
 })
 
-.controller('chatController', ["$scope", "chatMessages","$ionicScrollDelegate", function($scope, chatMessages, $ionicScrollDelegate ) {
+.controller('chatController', ["$scope", "$localStorage", "$http", "$location", "chatMessages","$ionicScrollDelegate", function($scope, $localStorage, $http, $location, chatMessages, $ionicScrollDelegate ) {
+    
+    if($localStorage.hasOwnProperty("accessToken")) {
+      $http.get("https://graph.facebook.com/v2.3/me", { params: { access_token: $localStorage.accessToken, fields: "id,name", format: "json" }}).then(function(result) {
+        $scope.profileData = result.data;
+        $scope.monId = result.data.id;
+      }, function(error) {
+        alert("There was a problem getting your profile.  Check the logs for details.");
+        console.log(error);
+      });
+    } else {
+      $location.path("/login");
+    }
+
     //Set messages to chatMessages factory which returns the firebase data
     $scope.messages = chatMessages;
     
@@ -57,17 +70,15 @@ angular.module('starter.controllers', [])
     $scope.message = {};
  
     //Add message to the firebase data
+    $scope.$watch('messages', function (val) {
+      $ionicScrollDelegate.$getByHandle('mainScroll').scrollBottom(true);
+    }, true);
+
     $scope.addMessage = function(message) {
-      $scope.messages.$add({content: message, name:"aan"});
+      $scope.messages.$add({content: message, id:$scope.profileData.id});
       //we reset the text input field to an empty string
       $scope.message.theMessage = "";
-      $ionicScrollDelegate.$getByHandle('mainScroll').scrollBottom(true);
     };
-
-    $scope.$watch('messages', function() {
-      alert('hey, myVar has changed!');
-    });
-
 
 }])
 
