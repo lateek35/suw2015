@@ -2,6 +2,18 @@
 /***************************************/
 /*               LOGIN                 */
 /***************************************/
+.side-menu-container{
+	display:block;
+}
+.login-container{
+	display:none;
+}
+.inscription .side-menu-container{
+	display:none;
+}
+.inscription .login-container{
+	display:block;
+}
 .login{
 	background:url(../img/back-login.jpg) no-repeat center;
 	background-size:cover;

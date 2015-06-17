@@ -1,6 +1,8 @@
 angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
 
-.controller("LoginController", function($scope, $cordovaOauth, $localStorage, $location, $http) {
+.controller("LoginController", function($rootScope, $scope, $cordovaOauth, $localStorage, $location, $http, $ionicSideMenuDelegate) {
+      $ionicSideMenuDelegate.canDragContent(false);
+      $rootScope.logged = false;
     $scope.login = function() {
       if(!$localStorage.hasOwnProperty("accessToken")) {
         $cordovaOauth.facebook("763024983807122", ["email", "read_stream", "user_website", "user_location", "user_relationships", "user_friends"]).then(function(result) {
@@ -12,12 +14,16 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
             //     alert("There was a problem getting your profile.  Check the logs for details.");
             //     console.log(error);
             // });
+            $ionicSideMenuDelegate.canDragContent(true);
+            $rootScope.logged = true;
             $location.path("/tab/dash");
         }, function(error) {
             alert(error);
             console.log(error);
         });
       }else{
+        $ionicSideMenuDelegate.canDragContent(true);
+        $rootScope.logged = true;
         $location.path("/tab/dash");
       }
     };
