@@ -1,5 +1,5 @@
 {
-  "name": "meetNight",
+  "name": "myApp",
   "app_id": "",
   "gulpStartupTasks": [
     "sass",

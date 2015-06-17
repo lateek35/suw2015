@@ -1,13 +1,20 @@
-angular.module('starter.controllers', [])
+angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
 
-.controller("LoginController", function($scope, $cordovaOauth, $localStorage, $location) {
+.controller("LoginController", function($scope, $cordovaOauth, $localStorage, $location, $http) {
     $scope.login = function() {
       if(!$localStorage.hasOwnProperty("accessToken")) {
         $cordovaOauth.facebook("763024983807122", ["email", "read_stream", "user_website", "user_location", "user_relationships", "user_friends"]).then(function(result) {
             $localStorage.accessToken = result.access_token;
+            // $http.get("https://graph.facebook.com/v2.3/me", { params: { access_token: $localStorage.accessToken, fields: "id,gender", format: "json" }}).then(function(result) {
+            //     // $scope.profileData = result.data;
+            //     alert(result.data.gender);
+            // }, function(error) {
+            //     alert("There was a problem getting your profile.  Check the logs for details.");
+            //     console.log(error);
+            // });
             $location.path("/tab/dash");
         }, function(error) {
-            alert("There was a problem signing in!  See the console for logs");
+            alert(error);
             console.log(error);
         });
       }else{
@@ -17,22 +24,7 @@ angular.module('starter.controllers', [])
  
 })
 
-.controller('DashCtrl', function($scope, $resource, Bar, Camera) {
-  if($localStorage.hasOwnProperty("accessToken")) {
-    
-      // $scope.getPhoto = function() {
-      //   Camera.getPicture().then(function(imageURI) {
-      //     console.log(imageURI);
-      //   }, function(err) {
-      //     console.err(err);
-      //   });
-      // };
-
-      $scope.bars = Bar.query();
-  } else {
-      $location.path("/login");
-  }
-})
+.controller('DashCtrl', function($scope) {})
 
 .controller('ChatsCtrl', function($scope, Chats) {
   // With the new view caching in Ionic, Controllers are only called
@@ -49,47 +41,35 @@ angular.module('starter.controllers', [])
   }
 })
 
-.controller('chatController', ["$scope", "$localStorage", "$http", "$location", "chatMessages","$ionicScrollDelegate", function($scope, $localStorage, $http, $location, chatMessages, $ionicScrollDelegate ) {
-    
-    if($localStorage.hasOwnProperty("accessToken")) {
-      $http.get("https://graph.facebook.com/v2.3/me", { params: { access_token: $localStorage.accessToken, fields: "id,name", format: "json" }}).then(function(result) {
-        $scope.profileData = result.data;
-        $scope.monId = result.data.id;
-      }, function(error) {
-        alert("There was a problem getting your profile.  Check the logs for details.");
-        console.log(error);
-      });
-    } else {
-      $location.path("/login");
-    }
+.controller('ChatDetailCtrl', function($scope, $localStorage, $http, $location, chatMessages, $ionicScrollDelegate ) {
 
-    //Set messages to chatMessages factory which returns the firebase data
-    $scope.messages = chatMessages;
-    
-    //Initialize message object
-    $scope.message = {};
- 
-    //Add message to the firebase data
-    $scope.$watch('messages', function (val) {
-      $ionicScrollDelegate.$getByHandle('mainScroll').scrollBottom(true);
-    }, true);
+  if($localStorage.hasOwnProperty("accessToken")) {
+    $http.get("https://graph.facebook.com/v2.3/me", { params: { access_token: $localStorage.accessToken, fields: "id,name", format: "json" }}).then(function(result) {
+      $scope.profileData = result.data;
+      $scope.monId = result.data.id;
+    }, function(error) {
+      alert("There was a problem getting your profile.  Check the logs for details.");
+      console.log(error);
+    });
+  } else {
+    $location.path("/login");
+  }
 
-    $scope.addMessage = function(message) {
-      $scope.messages.$add({content: message, id:$scope.profileData.id});
-      //we reset the text input field to an empty string
-      $scope.message.theMessage = "";
-    };
+  //Set messages to chatMessages factory which returns the firebase data
+  $scope.messages = chatMessages;
+  
+  //Initialize message object
+  $scope.message = {};
 
-}])
+  //Add message to the firebase data
+  $scope.$watch('messages', function (val) {
+    $ionicScrollDelegate.$getByHandle('mainScroll').scrollBottom(true);
+  }, true);
 
-.controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
-  $scope.chat = Chats.get($stateParams.chatId);
-})
-
-.controller('AccountCtrl', function($scope) {
-  $scope.settings = {
-    enableFriends: true
+  $scope.addMessage = function(message) {
+    $scope.messages.$add({content: message, id:$scope.profileData.id});
+    //we reset the text input field to an empty string
+    $scope.message.theMessage = "";
   };
-})
 
-
+});
