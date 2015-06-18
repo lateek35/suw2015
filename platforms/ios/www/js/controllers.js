@@ -86,6 +86,7 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
 .controller('CreateCtrl', function($rootScope, $scope, $ionicHistory, $location, $localStorage, $http) {
     if($localStorage.hasOwnProperty("accessToken")) {
       $scope.inviteFriends = '';
+      $scope.friendsChoose = '';
       $rootScope.title = "Créer une soirée";
       $rootScope.route = "create";
       $rootScope.alreadyPassInCreateForm = true;
@@ -102,6 +103,9 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
 
       $http.get("https://graph.facebook.com/v2.3/me/taggable_friends?limit=1000", { params: { access_token: $localStorage.accessToken, format: "json" }}).then(function(result) {
           $scope.friendsData = result.data.data;
+          $http.get("https://graph.facebook.com/v2.3/me/taggable_friends?limit=1000", { params: { access_token: $localStorage.accessToken, fields: "picture", format: "json" }}).then(function(result) {
+            $scope.friendsData.picture = result.data.data;
+        });
       }, function(error) {
           alert("There was a problem getting your profile.  Check the logs for details.");
           console.log(error);
@@ -116,6 +120,10 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
       $rootScope.route = "create";
     };
     $rootScope.goBack = function(){
+      $('div.friend img').remove();
+      $('div.friend p').remove();
+      $('input[name="friendInvite"]:checked').attr('checked', false);
+      $('input[type="text"]').val('');
       $ionicHistory.goBack();
       $location.path('/tab/soiree');
       $rootScope.init();
@@ -125,11 +133,23 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
     };
     $scope.validateFriends = function(){
       $scope.inviteFriends = '';
+      $('div.friend img').remove();
+      $('div.friend p').remove();
+      console.log($('input[name="friendInvite"]:checked').val());
+      // AaILwC27glK_kfSugI6_TJ6aaGj6HPAAMVUeAzsUXzzLUSY1phX4oZoixem7P2XAx0Mm2mAoriR0odmV0YDczDXaRHcdeEOgTi92eZpK6DJEkA
+      for(var i=0; i<$('input[name="friendInvite"]:checked').length; i++){
+        var pieces = $('input[name="friendInvite"]:checked')[i].value.split("|");
+        $('div.friend-'+i).append("<img src='"+pieces[1]+"'/>");
+        $('div.friend-'+i).append("<p>"+pieces[0]+"</p>");
+      }
     };
-    // // alert('cool');
-
-    // $scope.invitations = Invitations.all();
-    // $scope.showme=true;
+    $scope.createSoiree = function(){
+      var id_fb = $localStorage.profileDatas.id;
+      var boite = $('select[name="boite"]').val();
+      var date = $('input[name="date"]').val();
+      var heure = $('input[name="time"]').val();
+      console.log(heure);
+    };
 })
 
 .controller('SoireeDetailCtrl', function($scope, Masoiree) {

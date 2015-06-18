@@ -1,14 +1,20 @@
 <ion-view title="Creation">
-    <ion-content>
+    <ion-content style="padding-top:40px;">
+    {{friendsData}}
 		<div class="list">
 		  <label class="item item-input item-select">
-		    <select>
-		      	<option ng-repeat="boite in boites">{{boite.nom}}</option>
+		    <select name="boite">
+		      	<option ng-repeat="boite in boites" value="{{boite.nom}}">{{boite.nom}}</option>
 		    </select>
 		  </label>
 		  <label class="item item-input">
-		    <input type="text" placeholder="Date">
-		  </label>
+			  <span class="input-label">Date</span>
+			  <input type="date" name="date">
+			</label>
+			<label class="item item-input">
+			  <span class="input-label">Time</span>
+			  <input type="time" name="time">
+			</label>
 		  <label class="item item-input">
 		    <input type="text" placeholder="Heure">
 		  </label>
@@ -16,7 +22,23 @@
 		    <span class="input-label">invités</span>
 		    <button class="button button-block button-positive activated ion-social-facebook" ng-click="chooseFriends()"></button>
 		  </label>
-		  <button class="button button-block button-positive activated">Submit</button>
+		  <div class="friend friend-0">
+		  	<img src=""/>
+		  	<p></p>
+		  </div>
+		  <div class="friend friend-1">
+		  	<img src=""/>
+		  	<p></p>
+		  </div>
+		  <div class="friend friend-2">
+		  	<img src=""/>
+		  	<p></p>
+		  </div>
+		  <div class="friend friend-3">
+		  	<img src=""/>
+		  	<p></p>
+		  </div>
+		  <button class="button button-block button-positive activated" ng-click="createSoiree()">Créer la soirée</button>
 		</div>
     </ion-content>
 </ion-view>
@@ -25,11 +47,11 @@
 	    <i class="icon ion-ios-search placeholder-icon"></i>
 	    <input type="search" placeholder="Search" ng-model="searchFriend">
 	</label>
-	<ion-scroll zooming="true" direction="xy" style="" class="scroll-view">
+	<ion-scroll zooming="true" direction="xy" style="" class="scroll-view">	
 	  	<ul>
 			<li class="item item-checkbox" ng-repeat="friendData in friendsData  | filter:searchFriend">
 				 <label class="checkbox">
-				   <input type="checkbox">
+				   <input type="checkbox" name="friendInvite" value="{{friendData.name}}|{{friendData.picture.data.url}}|{{friendData.id}}">
 				 </label>
 				 {{friendData.name}}
 			</li>
