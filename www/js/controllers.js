@@ -54,8 +54,14 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
         $location.path("/login");
       }
     }
-        $scope.invitations = Invitations.all();
+    $scope.invitations = Invitations.all();
     $scope.showme=true;
+
+    $scope.activeValue;
+    $scope.clickedPage = function(value){
+      $scope.activeValue = value;
+      // other oeprations
+    };
 })
 
 .controller('SoireeDetailCtrl', function($scope, Masoiree) {

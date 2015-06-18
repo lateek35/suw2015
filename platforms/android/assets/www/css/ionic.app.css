@@ -4197,7 +4197,8 @@ ion-tabs.tabs-color-active-dark .tab-item {
 /* Navigational tab */
 /* Active state for tab */
 .tab-item.tab-item-active, .tab-item.active, .tab-item.activated {
-  opacity: 1; }
+  opacity: 1;
+  color: #8fcdff !important; }
   .tab-item.tab-item-active.tab-item-light, .tab-item.active.tab-item-light, .tab-item.activated.tab-item-light {
     color: #fff; }
   .tab-item.tab-item-active.tab-item-stable, .tab-item.active.tab-item-stable, .tab-item.activated.tab-item-stable {

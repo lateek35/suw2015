@@ -35,18 +35,16 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
     };
 })
 
-.controller('SoireeCtrl', function($rootScope, $scope, $localStorage, $location, $http, $ionicSideMenuDelegate) {
+.controller('SoireeCtrl', function($rootScope, $scope, $localStorage, $location, $http, $ionicSideMenuDelegate, Invitations) {
     $rootScope.init = function(){
       if($localStorage.hasOwnProperty("accessToken")) {
         $rootScope.logged = true;
         $.post('http://8affc41bd7.url-de-test.ws/soirees',
         {
           id_fb: $localStorage.profileDatas.id
-
         },
         function(data,status){
           $scope.soirees = data;
-           console.log($scope.soirees);
           $scope.$apply();
         });
 
@@ -55,10 +53,23 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
         $rootScope.logged = false;
         $location.path("/login");
       }
-
-
     }
+    $scope.invitations = Invitations.all();
+    $scope.showme=true;
+
+    $scope.activeValue;
+    $scope.clickedPage = function(value){
+      $scope.activeValue = value;
+      // other oeprations
+    };
 })
+
+.controller('SoireeDetailCtrl', function($scope, Masoiree) {
+    $scope.ma_soiree = Masoiree.all();
+
+  /*$scope.remove = function(dash) {
+    Soirees.remove(dash);*/
+  })
 
 .controller('ChatsCtrl', function($scope, Chats) {
   // With the new view caching in Ionic, Controllers are only called
