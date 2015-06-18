@@ -48,3 +48,13 @@ h1 span{
 	color:#FFF;
 }
 /***************************************/
+
+/***DetailSoiree***/
+
+.add_girl{
+	background-color:#8fcdff;
+	width: 80% !important;
+	display: block;
+	margin: 0 auto;
+	border: none;
+}

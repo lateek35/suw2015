@@ -48,3 +48,36 @@ h1 span{
 	color:#FFF;
 }
 /***************************************/
+
+/***DetailSoiree***/
+
+.add_girl{
+	background-color:#8fcdff;
+	width: 80% !important;
+	display: block;
+	margin: 0 auto;
+	border: none;
+}
+.contain-fb-friends{
+	display:none;
+}
+.cool.contain-fb-friends{
+	display:block;
+}
+.contain-fb-friends{
+	position:absolute;
+	z-index:1000;
+	top:65px;bottom:0;left:0;right:0;
+}
+.scroll-view{
+	position:absolute;
+	z-index:1000;
+	top:40px;bottom:60px;left:0;right:0;
+}
+.validate-friends-fb{
+	position:absolute;
+	bottom:0;left:0;right:0;height:60px;
+	border:none;
+	background:blue;
+	color:#FFF;
+}

@@ -40,16 +40,17 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
     $rootScope.init = function(){
       if($localStorage.hasOwnProperty("accessToken")) {
         $rootScope.logged = true;
+        $scope.showme = true;
         $rootScope.route = "soirees";
         $rootScope.title = "Mes soirées";
-        $.post('http://8affc41bd7.url-de-test.ws/soirees',
-        {
-          id_fb: $localStorage.profileDatas.id
 
-        },
-        function(data,status){
+        $.post('http://8affc41bd7.url-de-test.ws/soirees',{id_fb: $localStorage.profileDatas.id},function(data,status){
           $scope.soirees = data;
-           console.log($scope.soirees);
+          $scope.$apply();
+        });
+
+        $.post('http://8affc41bd7.url-de-test.ws/invitations_mec',{id_fb: $localStorage.profileDatas.id},function(data,status){
+          $scope.invitations = data;
           $scope.$apply();
         });
 
@@ -59,29 +60,45 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
         $location.path("/login");
       }
     };
+    $rootScope.openSideMenu = function(){
+      $ionicSideMenuDelegate.toggleLeft();
+    };
     $scope.getSoirees = function(){
       $rootScope.title = "Mes soirées";
+      $scope.showme = true;
     };
     $scope.getInvitations = function(){
       $rootScope.title = "Mes invitation";
+      $scope.showme = false;
     };
     $rootScope.create = function(){
       // $rootScope.title = "Créer une soirée";
-      $location.path("/create");
+      $scope.changeState();
     }
+    $scope.changeState = function () {
+        $location.path("/create");
+        if($rootScope.alreadyPassInCreateForm){
+          $rootScope.initCreate();
+        }
+    };
 })
 
-.controller('CreateCtrl', function($rootScope, $ionicHistory, $location, $localStorage) {
+.controller('CreateCtrl', function($rootScope, $scope, $ionicHistory, $location, $localStorage) {
     if($localStorage.hasOwnProperty("accessToken")) {
       $rootScope.title = "Créer une soirée";
       $rootScope.route = "create";
+      $rootScope.alreadyPassInCreateForm = true;
+
+      $.get('http://8affc41bd7.url-de-test.ws/boites',function(data,status){
+        $scope.boites = data;
+        $scope.$apply();
+      });
     }else{
       $ionicSideMenuDelegate.canDragContent(false);
       $rootScope.logged = false;
       $location.path("/login");
     }
     $rootScope.initCreate = function(){
-      alert('test');
       $rootScope.title = "Créer une soirée";
       $rootScope.route = "create";
     };
@@ -89,11 +106,22 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
       $ionicHistory.goBack();
       $location.path('/tab/soiree');
       $rootScope.init();
-      // $rootScope.route = "soirees";
-      // $rootScope.title = "Mes soirées";
     };
-    // alert('cool');
+    $scope.chooseFriends = function(){
+      alert('test');
+    };
+    // // alert('cool');
+
+    // $scope.invitations = Invitations.all();
+    // $scope.showme=true;
 })
+
+.controller('SoireeDetailCtrl', function($scope, Masoiree) {
+    $scope.ma_soiree = Masoiree.all();
+
+  /*$scope.remove = function(dash) {
+    Soirees.remove(dash);*/
+  })
 
 .controller('ChatsCtrl', function($scope, Chats) {
   // With the new view caching in Ionic, Controllers are only called
