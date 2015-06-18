@@ -7675,6 +7675,9 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
+.bar-dark .title {
+  text-align: center; }
+
 .debug-scroll {
   overflow: scroll;
   height: 100%; }
@@ -7844,3 +7847,46 @@ input, textarea, .item-input, .item-input-wrapper {
 
 .loader .ion-loading-c {
   font-size: 64px; }
+
+/******TAB******/
+.tabs-icon-top {
+  color: #8fcdff; }
+
+/***Soiree***/
+.button-bar {
+  border: 1px solid #8fcdff;
+  margin: 12px auto 12px auto;
+  width: 80%; }
+
+.button-bar .button {
+  background-color: #fff;
+  border: none; }
+
+.button-bar .active {
+  background-color: #8fcdff; }
+
+.title_top_soiree {
+  font-size: 14px !important;
+  color: #a3a3a3; }
+
+.infos_soiree {
+  color: #8fcdff;
+  text-transform: uppercase;
+  font-size: 10px; }
+
+.infos_soiree .accept_soiree {
+  color: #4ed765; }
+
+.infos_soiree.stay_soiree {
+  color: gray; }
+
+.infos_soiree.refuse_soiree {
+  color: #f04533; }
+
+/***DetailSoiree***/
+.add_girl {
+  background-color: #8fcdff;
+  width: 80% !important;
+  display: block;
+  margin: 0 auto;
+  border: none; }

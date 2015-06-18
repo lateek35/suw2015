@@ -1,3 +1,5 @@
+
+
 /* Empty. Add your own CSS if you like */
 /***************************************/
 /*               LOGIN                 */
@@ -49,6 +51,30 @@ h1 span{
 }
 /***************************************/
 
+/***Soiree***/
+.title_top_soiree {
+	font-size: 14px !important;
+	color:#a3a3a3;
+}
+
+.infos_soiree{
+	color: #8fcdff;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.infos_soiree .accept_soiree{
+	color: #4ed765;
+}
+
+.infos_soiree.stay_soiree{
+	color: gray;
+}
+
+.infos_soiree.refuse_soiree{
+	color: #f04533;
+}
+
 /***DetailSoiree***/
 
 .add_girl{
@@ -58,6 +84,7 @@ h1 span{
 	margin: 0 auto;
 	border: none;
 }
+
 .contain-fb-friends{
 	display:none;
 }

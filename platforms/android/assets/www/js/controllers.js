@@ -83,8 +83,9 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
     };
 })
 
-.controller('CreateCtrl', function($rootScope, $scope, $ionicHistory, $location, $localStorage) {
+.controller('CreateCtrl', function($rootScope, $scope, $ionicHistory, $location, $localStorage, $http) {
     if($localStorage.hasOwnProperty("accessToken")) {
+      $scope.inviteFriends = '';
       $rootScope.title = "Créer une soirée";
       $rootScope.route = "create";
       $rootScope.alreadyPassInCreateForm = true;
@@ -92,6 +93,18 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
       $.get('http://8affc41bd7.url-de-test.ws/boites',function(data,status){
         $scope.boites = data;
         $scope.$apply();
+      });
+
+      $.get('http://8affc41bd7.url-de-test.ws/boites',function(data,status){
+        $scope.boites = data;
+        $scope.$apply();
+      });
+
+      $http.get("https://graph.facebook.com/v2.3/me/taggable_friends?limit=1000", { params: { access_token: $localStorage.accessToken, format: "json" }}).then(function(result) {
+          $scope.friendsData = result.data.data;
+      }, function(error) {
+          alert("There was a problem getting your profile.  Check the logs for details.");
+          console.log(error);
       });
     }else{
       $ionicSideMenuDelegate.canDragContent(false);
@@ -108,12 +121,16 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
       $rootScope.init();
     };
     $scope.chooseFriends = function(){
-      alert('test');
+      $scope.inviteFriends = 'cool';
+    };
+    $scope.validateFriends = function(){
+      $scope.inviteFriends = '';
     };
     // // alert('cool');
 
     // $scope.invitations = Invitations.all();
     // $scope.showme=true;
+
 })
 
 .controller('SoireeDetailCtrl', function($scope, Masoiree) {
