@@ -9,7 +9,6 @@
     <!-- compiled css output -->
     <link href="css/ionic.app.css" rel="stylesheet">
     <link href="css/fonts.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
 
     <!-- ionic/angularjs js -->
     <script src="lib/ionic/js/ionic.bundle.js"></script>
@@ -35,10 +34,10 @@
   <ion-side-menus>
     <!-- Center content -->
     <ion-side-menu-content>
-      <ion-header-bar class="bar-dark" ng-show="logged">
+      <ion-header-bar class="bar bar-header bar-dark" ng-show="logged">
         <span ng-if="route == 'soirees'" class="ion-navicon" ng-click="openSideMenu()"></span>
         <span ng-if="route == 'create'" class="ion-ios-arrow-back" ng-click="goBack()"></span>
-        <!-- <h1 class="title">{{title}}</h1> -->
+        <h1 class="title" style="text-align: center;">{{title}}</h1>
         <span class="ion-ios-plus-outline" style="bakckground:red;" ng-click="create()"></span>
       </ion-header-bar>
       <ion-nav-view></ion-nav-view>

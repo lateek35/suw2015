@@ -1,27 +1,30 @@
 <ion-view view-title="Dashboard" ng-init="init()">
   <ion-content>
-    <div class="button-bar" style="margin: 62px auto 12px auto ; width: 80%; ">
-      <a class="button" ng-click="getSoirees()">Soirées</a>
-      <a class="button" ng-click="getInvitations()">Invitations</a>
+    <div class="button-bar" style=" ">
+      <a class="button active" ng-click="showme=true">Soirées</a>
+      <a class="button" ng-click="showme=false">Invitations</a>
     </div>
     <ion-list ng-show="showme">
       <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="soiree in soirees" type="item-text-wrap" href="#/tab/soirees/une_soiree">
-        <img ng-src="{{soiree.photo}}">
-        <span><h2>{{soiree.boite}}</h2> <p style="text-align: right;">{{soiree.date}}</p></span>
-        <p style="color: cyan;">{{soiree.nbr_participants}} participants - 
-        <span ng-if="soiree.statut == 0">En attente</span>
-        <span ng-if="soiree.statut == -1">Refusé</span>
-        <span ng-if="soiree.statut == 1">Accepté</span></p>
+
+        <img ng-src="{{soiree.face}}">
+        <p class="title_top_soiree">{{soiree.boite}} {{soiree.date}}</p>
+        <p class="infos_soiree">{{soiree.nbr_participants}} participants - 
+        <span ng-if="soiree.statut == 0" class="stay_soiree">En attente</span>
+        <span ng-if="soiree.statut == -1" class="refuse_soiree">Refusé</span>
+        <span ng-if="soiree.statut == 1" class="accept_soiree">Accepté</span></p>
+
         <ion-option-button class="button-assertive" ng-click="remove(dash)">
           Delete
         </ion-option-button>
       </ion-item>
     </ion-list>
     <ion-list ng-hide="showme">
+
       <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="invitation in invitations" type="item-text-wrap" href="#/tab/dash/{{invitation.id_groupe_fille}}">
         <img ng-src="{{invitation.photo}}">
-          <span><h2>{{invitation.boite1}} {{invitation.boite2}} {{invitation.boite3}}</h2> <p style="text-align: right;">{{invitation.date}}</p></span>
-        <p style="color: cyan;">{{invitation.nbr_personne_groupe_fille}} participantes - 
+          <p class="title_top_soiree">{{invitation.boite1}} {{invitation.boite2}} {{invitation.boite3}}{{invitation.date}}</p>
+        <p class="infos_soiree">{{invitation.nbr_personne_groupe_fille}} participantes - 
           <span ng-if="invitation.statut_accompagnement == 0">En attente</span>
         <span ng-if="invitation.statut_accompagnement == -1">Refusé</span>
         <span ng-if="invitation.statut_accompagnement == 1">Accepté</span></p>

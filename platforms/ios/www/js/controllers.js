@@ -130,6 +130,7 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
 
     // $scope.invitations = Invitations.all();
     // $scope.showme=true;
+
 })
 
 .controller('SoireeDetailCtrl', function($scope, Masoiree) {

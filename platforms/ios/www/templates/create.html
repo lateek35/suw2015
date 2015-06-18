@@ -23,11 +23,11 @@
 <div class="{{inviteFriends}} contain-fb-friends">
 	<label class="item-input-wrapper">
 	    <i class="icon ion-ios-search placeholder-icon"></i>
-	    <input type="search" placeholder="Search">
+	    <input type="search" placeholder="Search" ng-model="searchFriend">
 	</label>
 	<ion-scroll zooming="true" direction="xy" style="" class="scroll-view">
 	  	<ul>
-			<li class="item item-checkbox" ng-repeat="friendData in friendsData">
+			<li class="item item-checkbox" ng-repeat="friendData in friendsData  | filter:searchFriend">
 				 <label class="checkbox">
 				   <input type="checkbox">
 				 </label>
