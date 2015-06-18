@@ -66,10 +66,12 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
     $scope.getSoirees = function(){
       $rootScope.title = "Mes soirées";
       $scope.showme = true;
+      $('.getSoiree, .getInvit').toggleClass('active');
     };
     $scope.getInvitations = function(){
       $rootScope.title = "Mes invitation";
       $scope.showme = false;
+      $('.getSoiree, .getInvit').toggleClass('active');
     };
     $rootScope.create = function(){
       // $rootScope.title = "Créer une soirée";
