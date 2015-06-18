@@ -44,14 +44,30 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','f
 
   // Each tab has its own nav history stack:
 
+  .state('tab.soiree-detail', {
+    url: '/soirees/une_soiree',
+    views: {
+      'tab-soiree': {
+        templateUrl: 'templates/soiree-detail.html',//template
+        controller: 'SoireeDetailCtrl'//controller
+              }
+    }
+  })
+
   .state('tab.soiree', {
     url: '/soiree',
     views: {
       'tab-soiree': {
         controller: 'SoireeCtrl',
         templateUrl: 'templates/tab-soiree.html'
-      }
+              }
     }
+  })
+
+  .state('create', {
+      url: '/create',
+      templateUrl: 'templates/create.html',
+      controller: 'CreateCtrl'
   })
 
   .state('tab.chats', {

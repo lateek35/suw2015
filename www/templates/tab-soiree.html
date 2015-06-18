@@ -20,11 +20,14 @@
       </ion-item>
     </ion-list>
     <ion-list ng-hide="showme">
-      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="invitation in invitations" type="item-text-wrap" href="#/tab/dash/{{invitation.id_invitation}}">
 
-        <img ng-src="{{invitation.face}}">
-          <p class="title_top_soiree">{{invitation.boite}} {{invitation.date}}</p>
-        <p class="infos_soiree">{{invitation.nbr_participants}} participants - {{invitation.statut}}</p>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="invitation in invitations" type="item-text-wrap" href="#/tab/dash/{{invitation.id_groupe_fille}}">
+        <img ng-src="{{invitation.photo}}">
+          <p class="title_top_soiree">{{invitation.boite1}} {{invitation.boite2}} {{invitation.boite3}}{{invitation.date}}</p>
+        <p class="infos_soiree">{{invitation.nbr_personne_groupe_fille}} participantes - 
+          <span ng-if="invitation.statut_accompagnement == 0">En attente</span>
+        <span ng-if="invitation.statut_accompagnement == -1">Refusé</span>
+        <span ng-if="invitation.statut_accompagnement == 1">Accepté</span></p>
 
         <ion-option-button class="button-assertive" ng-click="remove(dash)">
           Delete
