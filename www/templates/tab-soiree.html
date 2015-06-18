@@ -2,8 +2,17 @@
   <ion-content class="padding">
     <!-- <div class="list card" ng-repeat="soiree in soirees">
       <div class="item item-body"> -->
-    <ion-list>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="soiree in soirees" type="item-text-wrap" href="#/tab/soirees/{{soiree.id}}">
+    <button class="button" ng-click="getSoirees()">
+      Soirées
+    </button>
+    <button class="button" ng-click="getInvitations()">
+      Invitations
+    </button>
+    <ion-list class="soirees">
+      <button ng-if="soirees.length == 0" class="button" ng-click="create()">
+        Créer une soirée
+      </button>
+      <ion-item ng-if="soirees.length != 0" class="item-remove-animate item-avatar item-icon-right" ng-repeat="soiree in soirees" type="item-text-wrap" href="#/tab/soirees/{{soiree.id}}">
         <img ng-src="{{soiree.photo}}">
         <h2>Boite : {{soiree.boite}}</h2>
         <p>ID de la soirée : {{soiree.id}}</p>

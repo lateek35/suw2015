@@ -54,6 +54,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','f
     }
   })
 
+  .state('create', {
+      url: '/create',
+      templateUrl: 'templates/create.html',
+      controller: 'CreateCtrl'
+  })
+
   .state('tab.chats', {
       url: '/chats',
       views: {

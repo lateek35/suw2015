@@ -3,6 +3,7 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
 .controller("LoginController", function($rootScope, $scope, $cordovaOauth, $localStorage, $location, $http, $ionicSideMenuDelegate, $state) {
     $ionicSideMenuDelegate.canDragContent(false);
     $rootScope.logged = false;
+    $rootScope.title = "Login";
     $scope.login = function() {
       if(!$localStorage.hasOwnProperty("accessToken")) {
         $cordovaOauth.facebook("763024983807122", ["email", "read_stream", "user_website", "user_location", "user_relationships", "user_friends"]).then(function(result) {
@@ -39,6 +40,8 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
     $rootScope.init = function(){
       if($localStorage.hasOwnProperty("accessToken")) {
         $rootScope.logged = true;
+        $rootScope.route = "soirees";
+        $rootScope.title = "Mes soirées";
         $.post('http://8affc41bd7.url-de-test.ws/soirees',
         {
           id_fb: $localStorage.profileDatas.id
@@ -53,7 +56,41 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
         $rootScope.logged = false;
         $location.path("/login");
       }
+    };
+    $scope.getSoirees = function(){
+      $rootScope.title = "Mes soirées";
+    };
+    $scope.getInvitations = function(){
+      $rootScope.title = "Mes invitation";
+    };
+    $rootScope.create = function(){
+      // $rootScope.title = "Créer une soirée";
+      $location.path("/create");
     }
+})
+
+.controller('CreateCtrl', function($rootScope, $ionicHistory, $location, $localStorage) {
+    if($localStorage.hasOwnProperty("accessToken")) {
+      $rootScope.title = "Créer une soirée";
+      $rootScope.route = "create";
+    }else{
+      $ionicSideMenuDelegate.canDragContent(false);
+      $rootScope.logged = false;
+      $location.path("/login");
+    }
+    $rootScope.initCreate = function(){
+      alert('test');
+      $rootScope.title = "Créer une soirée";
+      $rootScope.route = "create";
+    };
+    $rootScope.goBack = function(){
+      $ionicHistory.goBack();
+      $location.path('/tab/soiree');
+      $rootScope.init();
+      // $rootScope.route = "soirees";
+      // $rootScope.title = "Mes soirées";
+    };
+    // alert('cool');
 })
 
 .controller('ChatsCtrl', function($scope, Chats) {

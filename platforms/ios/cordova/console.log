@@ -33,3 +33,929 @@
 2015-06-18 14:54:12.974 myApp[30933:4398395] Finished load of: http://192.168.0.16:8100/#/tab/soiree
 2015-06-18 14:54:18.825 myApp[30933:4398395] Resetting plugins due to page load.
 2015-06-18 14:54:18.972 myApp[30933:4398395] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 16:30:50.173 myApp[32047:4422341] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 16:30:50.174 myApp[32047:4422341] Multi-tasking -> Device: YES, App: YES
+2015-06-18 16:30:50.176 myApp[32047:4422341] Unlimited access to network resources
+2015-06-18 16:30:50.252 myApp[32047:4422341] [CDVTimer][keyboard] 0.054955ms
+2015-06-18 16:30:50.271 myApp[32047:4422341] [CDVTimer][splashscreen] 19.458055ms
+2015-06-18 16:30:50.271 myApp[32047:4422341] [CDVTimer][TotalPluginStartup] 19.805014ms
+2015-06-18 16:30:50.359 myApp[32047:4422341] Resetting plugins due to page load.
+2015-06-18 16:30:50.822 myApp[32047:4422341] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 16:31:17.210 myApp[32047:4422341] Resetting plugins due to page load.
+2015-06-18 16:31:17.357 myApp[32047:4422341] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 16:36:10.054 myApp[32047:4422341] Resetting plugins due to page load.
+2015-06-18 16:36:10.358 myApp[32047:4422341] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 16:36:33.883 myApp[32047:4422341] Resetting plugins due to page load.
+2015-06-18 16:36:33.977 myApp[32047:4422341] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 16:36:55.703 myApp[32047:4422341] Resetting plugins due to page load.
+2015-06-18 16:36:55.871 myApp[32047:4422341] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 16:37:01.123 myApp[32047:4422341] Resetting plugins due to page load.
+2015-06-18 16:37:01.245 myApp[32047:4422341] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 16:38:39.474 myApp[32047:4422341] Resetting plugins due to page load.
+2015-06-18 16:38:39.689 myApp[32047:4422341] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 16:38:51.539 myApp[32047:4422341] Resetting plugins due to page load.
+2015-06-18 16:38:51.694 myApp[32047:4422341] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 16:41:15.669 myApp[32047:4422341] Resetting plugins due to page load.
+2015-06-18 16:41:15.926 myApp[32047:4422341] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 16:42:59.111 myApp[32047:4422341] Resetting plugins due to page load.
+2015-06-18 16:42:59.401 myApp[32047:4422341] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 16:50:28.319 myApp[32634:4429905] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 16:50:28.320 myApp[32634:4429905] Multi-tasking -> Device: YES, App: YES
+2015-06-18 16:50:28.322 myApp[32634:4429905] Unlimited access to network resources
+2015-06-18 16:50:28.418 myApp[32634:4429905] [CDVTimer][keyboard] 0.088990ms
+2015-06-18 16:50:28.450 myApp[32634:4429905] [CDVTimer][splashscreen] 31.435966ms
+2015-06-18 16:50:28.450 myApp[32634:4429905] [CDVTimer][TotalPluginStartup] 31.906009ms
+2015-06-18 16:50:28.552 myApp[32634:4429905] Resetting plugins due to page load.
+2015-06-18 16:50:29.060 myApp[32634:4429905] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 16:52:02.880 myApp[32634:4429905] Resetting plugins due to page load.
+2015-06-18 16:52:04.048 myApp[32634:4429905] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 16:53:03.540 myApp[33101:4432415] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kevinchapron/Library/Developer/CoreSimulator/Devices/7B44C305-2147-4683-9D56-70FB08CF2915/data/Containers/Data/Application/2857A146-318F-493E-9AF8-261F55263B01/Library/Cookies/Cookies.binarycookies
+2015-06-18 16:53:03.609 myApp[33101:4432415] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 16:53:03.609 myApp[33101:4432415] Multi-tasking -> Device: YES, App: YES
+2015-06-18 16:53:03.612 myApp[33101:4432415] Unlimited access to network resources
+2015-06-18 16:53:03.707 myApp[33101:4432415] [CDVTimer][keyboard] 0.060022ms
+2015-06-18 16:53:03.729 myApp[33101:4432415] [CDVTimer][splashscreen] 21.972954ms
+2015-06-18 16:53:03.729 myApp[33101:4432415] [CDVTimer][TotalPluginStartup] 22.333026ms
+2015-06-18 16:53:04.045 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 16:53:04.710 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/login
+2015-06-18 16:53:10.301 myApp[33101:4432415] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-06-18 16:53:10.308 myApp[33101:4432415] THREAD WARNING: ['InAppBrowser'] took '65.928955' ms. Plugin should use a background thread.
+2015-06-18 16:53:32.952 myApp[33101:4432415] webView:didFailLoadWithError - -1004: Could not connect to the server.
+2015-06-18 16:55:11.148 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 16:55:11.149 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 16:55:11.517 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 16:55:11.549 myApp[33101:4432415] 674004276063649
+2015-06-18 16:55:16.058 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 16:55:16.058 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 16:55:16.230 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 16:56:37.527 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 16:56:37.527 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 16:56:37.833 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 16:57:53.378 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 16:57:53.378 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 16:57:53.629 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 16:57:54.263 myApp[33101:4432415] []
+2015-06-18 16:58:17.497 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 16:58:17.497 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 16:58:17.655 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 16:58:17.729 myApp[33101:4432415] test
+2015-06-18 16:58:17.729 myApp[33101:4432415] []
+2015-06-18 16:58:26.961 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 16:58:26.961 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 16:58:27.062 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 16:58:56.535 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 16:58:56.535 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 16:58:56.707 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:00:40.144 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:00:40.144 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:00:40.431 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:01:05.691 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:01:05.692 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:01:05.932 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:01:48.650 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:01:48.651 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:01:48.862 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:04:23.719 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:04:23.719 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:04:24.082 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:04:34.973 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:04:34.973 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:04:35.149 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:05:11.699 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:05:11.699 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:05:11.999 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:06:32.054 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:06:32.054 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:06:32.388 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:06:40.899 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:06:40.899 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:06:41.050 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:07:03.320 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:07:03.320 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:07:03.444 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:07:09.275 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:07:09.275 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:07:09.708 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:07:48.821 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:07:48.822 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:07:49.112 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:07:59.383 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:07:59.383 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:07:59.481 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:08:13.077 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:08:13.078 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:08:13.178 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:08:21.611 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:08:21.615 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:08:21.798 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:10:18.269 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:10:18.269 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:10:18.553 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:10:55.679 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:10:55.679 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:10:55.918 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:11:03.221 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:11:03.222 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:11:03.382 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:11:43.669 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:11:43.669 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:11:43.989 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:11:55.134 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:11:55.134 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:11:55.288 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:12:15.764 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:12:15.764 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:12:15.913 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:12:38.382 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:12:38.382 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:12:38.540 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:13:00.107 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:13:00.108 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:13:00.313 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:19:42.799 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:19:42.800 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:19:43.101 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:20:04.592 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:20:04.592 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:21:31.202 myApp[33101:4432484] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-06-18 17:21:31.268 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:21:31.291 myApp[33101:4432415] LiveReload protocol error (invalid command 'reload', only valid commands are: hello)) after receiving data: "{"command":"reload","path":"www/js/controllers.js","liveCss":true,"liveJs":true,"liveImg":true}"..
+2015-06-18 17:21:47.562 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:21:47.563 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:21:47.839 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:28:52.750 myApp[33101:4432484] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-06-18 17:29:30.717 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:29:30.717 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:29:30.995 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:31:17.070 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:31:17.070 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:31:17.404 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:31:20.564 myApp[33101:4432415] ERROR: Error: [$rootScope:inprog] $digest already in progress
+http://errors.angularjs.org/1.3.13/$rootScope/inprog?p0=%24digest
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:8762:32
+beginPhase@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23454:31
+$apply@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23198:21
+init@http://192.168.0.16:8100/js/controllers.js:51:22
+$parseFunctionCall@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21044:23
+$eval@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23100:28
+pre@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:31036:20
+invokeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16407:23
+compositeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15656:45
+appendViewElement@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48257:11
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53413:19
+invokeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16428:23
+compositeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15656:45
+tabSelected@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:54795:37
+$digest@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:22942:31
+$apply@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23205:31
+done@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18358:53
+completeRequest@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18548:15
+requestLoaded@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18489:24
+2015-06-18 17:31:39.204 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:31:39.205 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:31:39.292 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:31:48.652 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:31:48.652 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:31:48.752 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:32:11.171 myApp[33101:4432415] Resetting plugins due to page load.
+2015-06-18 17:32:11.173 myApp[33101:4432415] IAB.close() called but it was already closed.
+2015-06-18 17:32:11.274 myApp[33101:4432415] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:39:08.604 myApp[34595:4449649] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 17:39:08.605 myApp[34595:4449649] Multi-tasking -> Device: YES, App: YES
+2015-06-18 17:39:08.607 myApp[34595:4449649] Unlimited access to network resources
+2015-06-18 17:39:08.693 myApp[34595:4449649] [CDVTimer][keyboard] 0.059962ms
+2015-06-18 17:39:08.720 myApp[34595:4449649] [CDVTimer][splashscreen] 27.366042ms
+2015-06-18 17:39:08.720 myApp[34595:4449649] [CDVTimer][TotalPluginStartup] 27.768016ms
+2015-06-18 17:39:08.835 myApp[34595:4449649] Resetting plugins due to page load.
+2015-06-18 17:39:09.295 myApp[34595:4449649] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 17:59:37.291 myApp[35186:4455455] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 17:59:37.292 myApp[35186:4455455] Multi-tasking -> Device: YES, App: YES
+2015-06-18 17:59:37.294 myApp[35186:4455455] Unlimited access to network resources
+2015-06-18 17:59:37.366 myApp[35186:4455455] [CDVTimer][keyboard] 0.055015ms
+2015-06-18 17:59:37.389 myApp[35186:4455455] [CDVTimer][splashscreen] 23.060024ms
+2015-06-18 17:59:37.390 myApp[35186:4455455] [CDVTimer][TotalPluginStartup] 23.391962ms
+2015-06-18 17:59:37.488 myApp[35186:4455455] Resetting plugins due to page load.
+2015-06-18 17:59:37.978 myApp[35186:4455455] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:00:07.853 myApp[35186:4455455] Resetting plugins due to page load.
+2015-06-18 18:00:08.156 myApp[35186:4455455] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:00:30.878 myApp[35186:4455455] Resetting plugins due to page load.
+2015-06-18 18:00:31.042 myApp[35186:4455455] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:00:41.348 myApp[35186:4455455] Resetting plugins due to page load.
+2015-06-18 18:00:41.454 myApp[35186:4455455] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:00:48.286 myApp[35186:4455455] Resetting plugins due to page load.
+2015-06-18 18:00:48.438 myApp[35186:4455455] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:01:11.912 myApp[35186:4455455] Resetting plugins due to page load.
+2015-06-18 18:01:12.057 myApp[35186:4455455] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:01:27.311 myApp[35186:4455455] Resetting plugins due to page load.
+2015-06-18 18:01:27.408 myApp[35186:4455455] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:05:35.319 myApp[35186:4455455] Resetting plugins due to page load.
+2015-06-18 18:05:35.630 myApp[35186:4455455] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:05:58.623 myApp[35186:4455455] Resetting plugins due to page load.
+2015-06-18 18:05:58.819 myApp[35186:4455455] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:06:43.047 myApp[35186:4455455] Resetting plugins due to page load.
+2015-06-18 18:06:43.347 myApp[35186:4455455] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:07:08.092 myApp[35186:4455455] Resetting plugins due to page load.
+2015-06-18 18:07:08.263 myApp[35186:4455455] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:08:25.643 myApp[35186:4455455] Resetting plugins due to page load.
+2015-06-18 18:08:25.959 myApp[35186:4455455] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:08:49.979 myApp[35186:4455455] Resetting plugins due to page load.
+2015-06-18 18:08:50.154 myApp[35186:4455455] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:09:02.852 myApp[35186:4455455] Resetting plugins due to page load.
+2015-06-18 18:09:02.973 myApp[35186:4455455] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:09:14.522 myApp[35186:4455455] Resetting plugins due to page load.
+2015-06-18 18:09:14.688 myApp[35186:4455455] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:10:45.315 myApp[35186:4455455] Resetting plugins due to page load.
+2015-06-18 18:10:45.619 myApp[35186:4455455] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:11:05.129 myApp[35186:4455455] Resetting plugins due to page load.
+2015-06-18 18:11:05.284 myApp[35186:4455455] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:11:23.828 myApp[35186:4455455] Resetting plugins due to page load.
+2015-06-18 18:11:23.916 myApp[35186:4455455] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:13:03.564 myApp[35186:4455455] Resetting plugins due to page load.
+2015-06-18 18:13:03.791 myApp[35186:4455455] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:13:10.201 myApp[35186:4455455] Resetting plugins due to page load.
+2015-06-18 18:13:10.307 myApp[35186:4455455] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:14:23.115 myApp[35186:4455455] Resetting plugins due to page load.
+2015-06-18 18:14:23.333 myApp[35186:4455455] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:15:10.381 myApp[35186:4455455] Resetting plugins due to page load.
+2015-06-18 18:15:10.684 myApp[35186:4455455] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:17:11.035 myApp[35875:4462526] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 18:17:11.036 myApp[35875:4462526] Multi-tasking -> Device: YES, App: YES
+2015-06-18 18:17:11.037 myApp[35875:4462526] Unlimited access to network resources
+2015-06-18 18:17:11.114 myApp[35875:4462526] [CDVTimer][keyboard] 0.070989ms
+2015-06-18 18:17:11.152 myApp[35875:4462526] [CDVTimer][splashscreen] 37.337959ms
+2015-06-18 18:17:11.154 myApp[35875:4462526] [CDVTimer][TotalPluginStartup] 39.305985ms
+2015-06-18 18:17:11.342 myApp[35875:4462526] Resetting plugins due to page load.
+2015-06-18 18:17:12.031 myApp[35875:4462526] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:18:00.888 myApp[35875:4462526] Resetting plugins due to page load.
+2015-06-18 18:18:01.178 myApp[35875:4462526] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:19:25.549 myApp[35875:4462526] Resetting plugins due to page load.
+2015-06-18 18:19:25.813 myApp[35875:4462526] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:19:25.868 myApp[35875:4462526] ERROR: Error: Can't find variable: soiree
+init@http://192.168.0.16:8100/js/controllers.js:43:34
+$parseFunctionCall@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21044:23
+$eval@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23100:28
+pre@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:31036:20
+invokeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16407:23
+compositeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15656:45
+appendViewElement@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48257:11
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53413:19
+invokeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16428:23
+compositeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15656:45
+tabSelected@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:54795:37
+$digest@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:22942:31
+$apply@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23205:31
+done@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18358:53
+completeRequest@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18548:15
+requestLoaded@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18489:24 <ion-view view-title="Dashboard" ng-init="init()" class="pane" nav-view="stage" style="-webkit-transition: 0ms; transition: 0ms; opacity: 1; -webkit-transform: translate3d(0%, 0px, 0px);">
+2015-06-18 18:19:26.349 myApp[35875:4462526] Resetting plugins due to page load.
+2015-06-18 18:19:26.437 myApp[35875:4462526] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:19:26.491 myApp[35875:4462526] ERROR: Error: Can't find variable: soirees
+init@http://192.168.0.16:8100/js/controllers.js:43:35
+$parseFunctionCall@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21044:23
+$eval@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23100:28
+pre@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:31036:20
+invokeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16407:23
+compositeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15656:45
+appendViewElement@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48257:11
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53413:19
+invokeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16428:23
+compositeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15656:45
+tabSelected@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:54795:37
+$digest@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:22942:31
+$apply@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23205:31
+done@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18358:53
+completeRequest@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18548:15
+requestLoaded@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18489:24 <ion-view view-title="Dashboard" ng-init="init()" class="pane" nav-view="stage" style="-webkit-transition: 0ms; transition: 0ms; opacity: 1; -webkit-transform: translate3d(0%, 0px, 0px);">
+2015-06-18 18:19:57.336 myApp[35875:4462526] Resetting plugins due to page load.
+2015-06-18 18:19:57.606 myApp[35875:4462526] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:19:57.659 myApp[35875:4462526] ERROR: Error: Can't find variable: soirees
+init@http://192.168.0.16:8100/js/controllers.js:43:35
+$parseFunctionCall@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21044:23
+$eval@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23100:28
+pre@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:31036:20
+invokeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16407:23
+compositeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15656:45
+appendViewElement@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48257:11
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53413:19
+invokeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16428:23
+compositeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15656:45
+tabSelected@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:54795:37
+$digest@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:22942:31
+$apply@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23205:31
+done@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18358:53
+completeRequest@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18548:15
+requestLoaded@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18489:24 <ion-view view-title="Dashboard" ng-init="init()" class="pane" nav-view="stage" style="-webkit-transition: 0ms; transition: 0ms; opacity: 1; -webkit-transform: translate3d(0%, 0px, 0px);">
+2015-06-18 18:21:17.103 myApp[35875:4462526] Resetting plugins due to page load.
+2015-06-18 18:21:17.474 myApp[35875:4462526] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:21:17.486 myApp[35875:4462526] ERROR: http://errors.angularjs.org/1.3.13/$parse/syntax?p0=<!-- ngIf: {{route == soirees}} -->B&p1=invalid%20key&p2=2&p3=%7B%7Broute%20%3D%3D%20soirees%7D%7D&p4=%7Broute%20%3D%3D%20soirees%7D%7D
+2015-06-18 18:21:17.486 myApp[35875:4462526] ERROR: http://errors.angularjs.org/1.3.13/$parse/syntax?p0=<!-- ngIf: {{route == create}} -->B&p1=invalid%20key&p2=2&p3=%7B%7Broute%20%3D%3D%20create%7D%7D&p4=%7Broute%20%3D%3D%20create%7D%7D
+2015-06-18 18:21:17.517 myApp[35875:4462526] ERROR: Error: Can't find variable: soirees
+init@http://192.168.0.16:8100/js/controllers.js:43:35
+$parseFunctionCall@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21044:23
+$eval@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23100:28
+pre@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:31036:20
+invokeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16407:23
+compositeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15656:45
+appendViewElement@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48257:11
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53413:19
+invokeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16428:23
+compositeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15656:45
+tabSelected@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:54795:37
+$digest@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:22942:31
+$apply@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23205:31
+done@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18358:53
+completeRequest@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18548:15
+requestLoaded@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18489:24 <ion-view view-title="Dashboard" ng-init="init()" class="pane" nav-view="stage" style="-webkit-transition: 0ms; transition: 0ms; opacity: 1; -webkit-transform: translate3d(0%, 0px, 0px);">
+2015-06-18 18:22:18.472 myApp[36316:4465097] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 18:22:18.473 myApp[36316:4465097] Multi-tasking -> Device: YES, App: YES
+2015-06-18 18:22:18.476 myApp[36316:4465097] Unlimited access to network resources
+2015-06-18 18:22:18.551 myApp[36316:4465097] [CDVTimer][keyboard] 0.056028ms
+2015-06-18 18:22:18.577 myApp[36316:4465097] [CDVTimer][splashscreen] 25.712013ms
+2015-06-18 18:22:18.577 myApp[36316:4465097] [CDVTimer][TotalPluginStartup] 26.045978ms
+2015-06-18 18:22:18.665 myApp[36316:4465097] Resetting plugins due to page load.
+2015-06-18 18:22:19.135 myApp[36316:4465097] ERROR: http://errors.angularjs.org/1.3.13/$parse/syntax?p0=<!-- ngIf: {{route == soirees}} -->B&p1=invalid%20key&p2=2&p3=%7B%7Broute%20%3D%3D%20soirees%7D%7D&p4=%7Broute%20%3D%3D%20soirees%7D%7D
+2015-06-18 18:22:19.135 myApp[36316:4465097] ERROR: http://errors.angularjs.org/1.3.13/$parse/syntax?p0=<!-- ngIf: {{route == create}} -->B&p1=invalid%20key&p2=2&p3=%7B%7Broute%20%3D%3D%20create%7D%7D&p4=%7Broute%20%3D%3D%20create%7D%7D
+2015-06-18 18:22:19.211 myApp[36316:4465097] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:22:19.235 myApp[36316:4465097] ERROR: Error: Can't find variable: soirees
+init@http://192.168.0.16:8100/js/controllers.js:43:35
+$parseFunctionCall@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21044:23
+$eval@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23100:28
+pre@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:31036:20
+invokeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16407:23
+compositeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15656:45
+appendViewElement@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48257:11
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53413:19
+invokeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16428:23
+compositeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15656:45
+tabSelected@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:54795:37
+$digest@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:22942:31
+$apply@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23205:31
+done@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18358:53
+completeRequest@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18548:15
+requestLoaded@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18489:24 <ion-view view-title="Dashboard" ng-init="init()" class="pane" nav-view="stage" style="-webkit-transition: 0ms; transition: 0ms; opacity: 1; -webkit-transform: translate3d(0%, 0px, 0px);">
+2015-06-18 18:22:52.202 myApp[36316:4465097] Resetting plugins due to page load.
+2015-06-18 18:22:52.465 myApp[36316:4465097] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:22:52.521 myApp[36316:4465097] ERROR: Error: Can't find variable: soirees
+init@http://192.168.0.16:8100/js/controllers.js:43:35
+$parseFunctionCall@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21044:23
+$eval@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23100:28
+pre@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:31036:20
+invokeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16407:23
+compositeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15656:45
+appendViewElement@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48257:11
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53413:19
+invokeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16428:23
+compositeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15656:45
+tabSelected@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:54795:37
+$digest@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:22942:31
+$apply@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23205:31
+done@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18358:53
+completeRequest@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18548:15
+requestLoaded@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18489:24 <ion-view view-title="Dashboard" ng-init="init()" class="pane" nav-view="stage" style="-webkit-transition: 0ms; transition: 0ms; opacity: 1; -webkit-transform: translate3d(0%, 0px, 0px);">
+2015-06-18 18:23:12.863 myApp[36675:4466180] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 18:23:12.864 myApp[36675:4466180] Multi-tasking -> Device: YES, App: YES
+2015-06-18 18:23:12.866 myApp[36675:4466180] Unlimited access to network resources
+2015-06-18 18:23:12.942 myApp[36675:4466180] [CDVTimer][keyboard] 0.056982ms
+2015-06-18 18:23:12.962 myApp[36675:4466180] [CDVTimer][splashscreen] 20.338953ms
+2015-06-18 18:23:12.962 myApp[36675:4466180] [CDVTimer][TotalPluginStartup] 20.671010ms
+2015-06-18 18:23:13.048 myApp[36675:4466180] Resetting plugins due to page load.
+2015-06-18 18:23:13.663 myApp[36675:4466180] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:23:13.687 myApp[36675:4466180] ERROR: Error: Can't find variable: soirees
+init@http://192.168.0.16:8100/js/controllers.js:43:35
+$parseFunctionCall@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21044:23
+$eval@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23100:28
+pre@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:31036:20
+invokeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16407:23
+compositeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15656:45
+appendViewElement@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48257:11
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53413:19
+invokeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:16428:23
+compositeLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:15656:45
+tabSelected@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:54795:37
+$digest@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:22942:31
+$apply@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23205:31
+done@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18358:53
+completeRequest@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18548:15
+requestLoaded@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18489:24 <ion-view view-title="Dashboard" ng-init="init()" class="pane" nav-view="stage" style="-webkit-transition: 0ms; transition: 0ms; opacity: 1; -webkit-transform: translate3d(0%, 0px, 0px);">
+2015-06-18 18:24:26.800 myApp[36675:4466180] Resetting plugins due to page load.
+2015-06-18 18:24:27.071 myApp[36675:4466180] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:24:49.627 myApp[36675:4466180] Resetting plugins due to page load.
+2015-06-18 18:24:52.505 myApp[36675:4466180] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 18:25:04.929 myApp[37040:4467465] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 18:25:04.930 myApp[37040:4467465] Multi-tasking -> Device: YES, App: YES
+2015-06-18 18:25:04.933 myApp[37040:4467465] Unlimited access to network resources
+2015-06-18 18:25:05.007 myApp[37040:4467465] [CDVTimer][keyboard] 0.057995ms
+2015-06-18 18:25:05.026 myApp[37040:4467465] [CDVTimer][splashscreen] 18.801033ms
+2015-06-18 18:25:05.026 myApp[37040:4467465] [CDVTimer][TotalPluginStartup] 19.134998ms
+2015-06-18 18:25:05.109 myApp[37040:4467465] Resetting plugins due to page load.
+2015-06-18 18:25:05.604 myApp[37040:4467465] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:27:05.758 myApp[37040:4467465] Resetting plugins due to page load.
+2015-06-18 18:27:06.016 myApp[37040:4467465] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 18:27:37.340 myApp[37040:4467475] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-06-18 18:27:55.853 myApp[37454:4469418] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 18:27:55.854 myApp[37454:4469418] Multi-tasking -> Device: YES, App: YES
+2015-06-18 18:27:55.856 myApp[37454:4469418] Unlimited access to network resources
+2015-06-18 18:27:55.931 myApp[37454:4469418] [CDVTimer][keyboard] 0.057995ms
+2015-06-18 18:27:55.955 myApp[37454:4469418] [CDVTimer][splashscreen] 23.529947ms
+2015-06-18 18:27:55.955 myApp[37454:4469418] [CDVTimer][TotalPluginStartup] 23.880005ms
+2015-06-18 18:27:56.042 myApp[37454:4469418] Resetting plugins due to page load.
+2015-06-18 18:27:56.649 myApp[37454:4469418] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:28:05.463 myApp[37454:4469418] ERROR: Error: Can't find variable: $ionicHistory
+goBack@http://192.168.0.16:8100/js/controllers.js:76:20
+$parseFunctionCall@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21044:23
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53458:21
+$eval@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23100:28
+$apply@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23199:28
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53457:19
+eventHandler@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:11713:25
+dispatchEvent@[native code]
+triggerMouseEvent@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2863:20
+tapClick@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2852:20
+tapTouchEnd@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2975:13
+2015-06-18 18:28:48.057 myApp[37454:4469418] Resetting plugins due to page load.
+2015-06-18 18:28:48.388 myApp[37454:4469418] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 18:28:59.310 myApp[37454:4469418] Resetting plugins due to page load.
+2015-06-18 18:28:59.425 myApp[37454:4469418] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 18:29:12.138 myApp[37820:4470851] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 18:29:12.139 myApp[37820:4470851] Multi-tasking -> Device: YES, App: YES
+2015-06-18 18:29:12.141 myApp[37820:4470851] Unlimited access to network resources
+2015-06-18 18:29:12.214 myApp[37820:4470851] [CDVTimer][keyboard] 0.052989ms
+2015-06-18 18:29:12.235 myApp[37820:4470851] [CDVTimer][splashscreen] 20.320952ms
+2015-06-18 18:29:12.235 myApp[37820:4470851] [CDVTimer][TotalPluginStartup] 20.654976ms
+2015-06-18 18:29:12.318 myApp[37820:4470851] Resetting plugins due to page load.
+2015-06-18 18:29:12.801 myApp[37820:4470851] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:30:12.025 myApp[37820:4470851] Resetting plugins due to page load.
+2015-06-18 18:30:12.346 myApp[37820:4470851] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:30:55.194 myApp[37820:4470851] Resetting plugins due to page load.
+2015-06-18 18:30:55.558 myApp[37820:4470851] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:31:41.863 myApp[37820:4470851] Resetting plugins due to page load.
+2015-06-18 18:31:42.100 myApp[37820:4470851] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 18:32:43.297 myApp[37820:4470851] Resetting plugins due to page load.
+2015-06-18 18:32:43.543 myApp[37820:4470851] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 18:33:03.011 myApp[38232:4472985] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 18:33:03.012 myApp[38232:4472985] Multi-tasking -> Device: YES, App: YES
+2015-06-18 18:33:03.014 myApp[38232:4472985] Unlimited access to network resources
+2015-06-18 18:33:03.088 myApp[38232:4472985] [CDVTimer][keyboard] 0.057995ms
+2015-06-18 18:33:03.115 myApp[38232:4472985] [CDVTimer][splashscreen] 26.180983ms
+2015-06-18 18:33:03.115 myApp[38232:4472985] [CDVTimer][TotalPluginStartup] 26.534975ms
+2015-06-18 18:33:03.210 myApp[38232:4472985] Resetting plugins due to page load.
+2015-06-18 18:33:03.840 myApp[38232:4472985] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:33:49.838 myApp[38232:4472985] Resetting plugins due to page load.
+2015-06-18 18:33:50.124 myApp[38232:4472985] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:34:21.036 myApp[38589:4474114] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 18:34:21.037 myApp[38589:4474114] Multi-tasking -> Device: YES, App: YES
+2015-06-18 18:34:21.039 myApp[38589:4474114] Unlimited access to network resources
+2015-06-18 18:34:21.121 myApp[38589:4474114] [CDVTimer][keyboard] 0.057042ms
+2015-06-18 18:34:21.140 myApp[38589:4474114] [CDVTimer][splashscreen] 18.755019ms
+2015-06-18 18:34:21.140 myApp[38589:4474114] [CDVTimer][TotalPluginStartup] 19.098997ms
+2015-06-18 18:34:21.223 myApp[38589:4474114] Resetting plugins due to page load.
+2015-06-18 18:34:21.736 myApp[38589:4474114] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:36:46.137 myApp[38589:4474114] Resetting plugins due to page load.
+2015-06-18 18:36:46.454 myApp[38589:4474114] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 18:37:18.727 myApp[38972:4475749] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 18:37:18.736 myApp[38972:4475749] Multi-tasking -> Device: YES, App: YES
+2015-06-18 18:37:18.737 myApp[38972:4475749] Unlimited access to network resources
+2015-06-18 18:37:18.815 myApp[38972:4475749] [CDVTimer][keyboard] 0.052989ms
+2015-06-18 18:37:18.831 myApp[38972:4475749] [CDVTimer][splashscreen] 15.935957ms
+2015-06-18 18:37:18.831 myApp[38972:4475749] [CDVTimer][TotalPluginStartup] 16.286016ms
+2015-06-18 18:37:18.915 myApp[38972:4475749] Resetting plugins due to page load.
+2015-06-18 18:37:19.584 myApp[38972:4475749] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:37:23.686 myApp[38972:4475749] ERROR: Error: Can't find variable: $location
+goBack@http://192.168.0.16:8100/js/controllers.js:77:16
+$parseFunctionCall@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21044:23
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53458:21
+$eval@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23100:28
+$apply@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23199:28
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53457:19
+eventHandler@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:11713:25
+dispatchEvent@[native code]
+triggerMouseEvent@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2863:20
+tapClick@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2852:20
+tapTouchEnd@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2975:13
+2015-06-18 18:37:31.857 myApp[38972:4475749] Resetting plugins due to page load.
+2015-06-18 18:37:31.965 myApp[38972:4475749] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 18:37:46.210 myApp[39316:4476626] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 18:37:46.211 myApp[39316:4476626] Multi-tasking -> Device: YES, App: YES
+2015-06-18 18:37:46.213 myApp[39316:4476626] Unlimited access to network resources
+2015-06-18 18:37:46.295 myApp[39316:4476626] [CDVTimer][keyboard] 0.056982ms
+2015-06-18 18:37:46.312 myApp[39316:4476626] [CDVTimer][splashscreen] 17.109990ms
+2015-06-18 18:37:46.313 myApp[39316:4476626] [CDVTimer][TotalPluginStartup] 17.458022ms
+2015-06-18 18:37:46.396 myApp[39316:4476626] Resetting plugins due to page load.
+2015-06-18 18:37:46.891 myApp[39316:4476626] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:39:02.136 myApp[39316:4476626] Resetting plugins due to page load.
+2015-06-18 18:39:02.381 myApp[39316:4476626] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 18:39:17.143 myApp[39674:4477988] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 18:39:17.145 myApp[39674:4477988] Multi-tasking -> Device: YES, App: YES
+2015-06-18 18:39:17.155 myApp[39674:4477988] Unlimited access to network resources
+2015-06-18 18:39:17.250 myApp[39674:4477988] [CDVTimer][keyboard] 0.060022ms
+2015-06-18 18:39:17.266 myApp[39674:4477988] [CDVTimer][splashscreen] 15.772998ms
+2015-06-18 18:39:17.266 myApp[39674:4477988] [CDVTimer][TotalPluginStartup] 16.156971ms
+2015-06-18 18:39:17.371 myApp[39674:4477988] Resetting plugins due to page load.
+2015-06-18 18:39:17.912 myApp[39674:4477988] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:40:30.145 myApp[39674:4477988] Resetting plugins due to page load.
+2015-06-18 18:40:30.416 myApp[39674:4477988] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 18:42:05.999 myApp[40061:4479469] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 18:42:06.008 myApp[40061:4479469] Multi-tasking -> Device: YES, App: YES
+2015-06-18 18:42:06.011 myApp[40061:4479469] Unlimited access to network resources
+2015-06-18 18:42:06.103 myApp[40061:4479469] [CDVTimer][keyboard] 0.064015ms
+2015-06-18 18:42:06.120 myApp[40061:4479469] [CDVTimer][splashscreen] 16.625047ms
+2015-06-18 18:42:06.120 myApp[40061:4479469] [CDVTimer][TotalPluginStartup] 16.977966ms
+2015-06-18 18:42:06.210 myApp[40061:4479469] Resetting plugins due to page load.
+2015-06-18 18:42:06.917 myApp[40061:4479469] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:42:30.111 myApp[40061:4479469] Resetting plugins due to page load.
+2015-06-18 18:42:30.222 myApp[40061:4479469] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 18:42:47.493 myApp[40414:4480500] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 18:42:47.494 myApp[40414:4480500] Multi-tasking -> Device: YES, App: YES
+2015-06-18 18:42:47.496 myApp[40414:4480500] Unlimited access to network resources
+2015-06-18 18:42:47.580 myApp[40414:4480500] [CDVTimer][keyboard] 0.054002ms
+2015-06-18 18:42:47.599 myApp[40414:4480500] [CDVTimer][splashscreen] 18.086970ms
+2015-06-18 18:42:47.599 myApp[40414:4480500] [CDVTimer][TotalPluginStartup] 18.429995ms
+2015-06-18 18:42:47.688 myApp[40414:4480500] Resetting plugins due to page load.
+2015-06-18 18:42:48.228 myApp[40414:4480500] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:43:52.024 myApp[40414:4480500] Resetting plugins due to page load.
+2015-06-18 18:43:52.287 myApp[40414:4480500] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 18:45:07.008 myApp[40769:4481849] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 18:45:07.009 myApp[40769:4481849] Multi-tasking -> Device: YES, App: YES
+2015-06-18 18:45:07.011 myApp[40769:4481849] Unlimited access to network resources
+2015-06-18 18:45:07.091 myApp[40769:4481849] [CDVTimer][keyboard] 0.054002ms
+2015-06-18 18:45:07.108 myApp[40769:4481849] [CDVTimer][splashscreen] 17.008007ms
+2015-06-18 18:45:07.108 myApp[40769:4481849] [CDVTimer][TotalPluginStartup] 17.381966ms
+2015-06-18 18:45:07.191 myApp[40769:4481849] Resetting plugins due to page load.
+2015-06-18 18:45:07.695 myApp[40769:4481849] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:45:12.426 myApp[40769:4481849] ERROR: Error: undefined is not a function (evaluating '$rootScope.initCreate()')
+create@http://192.168.0.16:8100/js/controllers.js:69:28
+$parseFunctionCall@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21044:23
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53458:21
+$eval@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23100:28
+$apply@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23199:28
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53457:19
+eventHandler@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:11713:25
+dispatchEvent@[native code]
+triggerMouseEvent@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2863:20
+tapClick@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2852:20
+tapTouchEnd@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2975:13
+2015-06-18 18:45:12.427 myApp[40769:4481849] ERROR: Error: Can't find variable: $routeScope
+http://192.168.0.16:8100/js/controllers.js:74:16
+invoke@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:12884:22
+instantiate@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:12892:33
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:17161:39
+appendViewElement@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48253:35
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53406:21
+$broadcast@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23419:33
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:40889:32
+processQueue@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21888:29
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21904:39
+$eval@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23100:28
+$digest@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:22916:36
+$apply@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23205:31
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53457:19
+eventHandler@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:11713:25
+dispatchEvent@[native code]
+triggerMouseEvent@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2863:20
+tapClick@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2852:20
+tapTouchEnd@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2975:13
+2015-06-18 18:45:45.683 myApp[40769:4481849] Resetting plugins due to page load.
+2015-06-18 18:45:45.981 myApp[40769:4481849] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 18:45:46.020 myApp[40769:4481849] ERROR: Error: Can't find variable: $routeScope
+http://192.168.0.16:8100/js/controllers.js:74:16
+invoke@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:12884:22
+instantiate@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:12892:33
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:17161:39
+appendViewElement@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48253:35
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53406:21
+$broadcast@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23419:33
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:40889:32
+processQueue@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21888:29
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21904:39
+$eval@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23100:28
+$digest@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:22916:36
+$apply@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23205:31
+done@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18358:53
+completeRequest@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18548:15
+requestLoaded@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18489:24
+2015-06-18 18:45:57.672 myApp[41117:4482911] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 18:45:57.673 myApp[41117:4482911] Multi-tasking -> Device: YES, App: YES
+2015-06-18 18:45:57.674 myApp[41117:4482911] Unlimited access to network resources
+2015-06-18 18:45:57.753 myApp[41117:4482911] [CDVTimer][keyboard] 0.051022ms
+2015-06-18 18:45:57.771 myApp[41117:4482911] [CDVTimer][splashscreen] 18.057048ms
+2015-06-18 18:45:57.771 myApp[41117:4482911] [CDVTimer][TotalPluginStartup] 18.418014ms
+2015-06-18 18:45:57.855 myApp[41117:4482911] Resetting plugins due to page load.
+2015-06-18 18:45:58.417 myApp[41117:4482911] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:45:59.650 myApp[41117:4482911] ERROR: Error: undefined is not a function (evaluating '$rootScope.initCreate()')
+create@http://192.168.0.16:8100/js/controllers.js:69:28
+$parseFunctionCall@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21044:23
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53458:21
+$eval@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23100:28
+$apply@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23199:28
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53457:19
+eventHandler@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:11713:25
+dispatchEvent@[native code]
+triggerMouseEvent@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2863:20
+tapClick@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2852:20
+tapTouchEnd@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2975:13
+2015-06-18 18:45:59.651 myApp[41117:4482911] ERROR: Error: Can't find variable: $routeScope
+http://192.168.0.16:8100/js/controllers.js:74:16
+invoke@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:12884:22
+instantiate@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:12892:33
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:17161:39
+appendViewElement@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48253:35
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53406:21
+$broadcast@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23419:33
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:40889:32
+processQueue@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21888:29
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21904:39
+$eval@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23100:28
+$digest@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:22916:36
+$apply@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23205:31
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53457:19
+eventHandler@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:11713:25
+dispatchEvent@[native code]
+triggerMouseEvent@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2863:20
+tapClick@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2852:20
+tapTouchEnd@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2975:13
+2015-06-18 18:48:01.388 myApp[41117:4482911] Resetting plugins due to page load.
+2015-06-18 18:48:01.739 myApp[41117:4482911] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 18:48:14.275 myApp[41483:4484270] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 18:48:14.283 myApp[41483:4484270] Multi-tasking -> Device: YES, App: YES
+2015-06-18 18:48:14.285 myApp[41483:4484270] Unlimited access to network resources
+2015-06-18 18:48:14.367 myApp[41483:4484270] [CDVTimer][keyboard] 0.055015ms
+2015-06-18 18:48:14.384 myApp[41483:4484270] [CDVTimer][splashscreen] 16.968012ms
+2015-06-18 18:48:14.384 myApp[41483:4484270] [CDVTimer][TotalPluginStartup] 17.298043ms
+2015-06-18 18:48:14.465 myApp[41483:4484270] Resetting plugins due to page load.
+2015-06-18 18:48:14.957 myApp[41483:4484270] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:48:16.114 myApp[41483:4484270] ERROR: Error: undefined is not a function (evaluating '$rootScope.initCreate()')
+create@http://192.168.0.16:8100/js/controllers.js:69:28
+$parseFunctionCall@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21044:23
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53458:21
+$eval@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23100:28
+$apply@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23199:28
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53457:19
+eventHandler@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:11713:25
+dispatchEvent@[native code]
+triggerMouseEvent@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2863:20
+tapClick@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2852:20
+tapTouchEnd@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2975:13
+2015-06-18 18:56:20.489 myApp[41483:4484270] Resetting plugins due to page load.
+2015-06-18 18:56:20.780 myApp[41483:4484270] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 18:56:20.808 myApp[41483:4484270] ERROR: Error: Can't find variable: $localStorage
+http://192.168.0.16:8100/js/controllers.js:74:21
+invoke@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:12884:22
+instantiate@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:12892:33
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:17161:39
+appendViewElement@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48253:35
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53406:21
+$broadcast@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23419:33
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:40889:32
+processQueue@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21888:29
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21904:39
+$eval@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23100:28
+$digest@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:22916:36
+$apply@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23205:31
+done@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18358:53
+completeRequest@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18548:15
+requestLoaded@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18489:24
+2015-06-18 18:59:00.642 myApp[41973:4487566] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 18:59:00.650 myApp[41973:4487566] Multi-tasking -> Device: YES, App: YES
+2015-06-18 18:59:00.652 myApp[41973:4487566] Unlimited access to network resources
+2015-06-18 18:59:00.724 myApp[41973:4487566] [CDVTimer][keyboard] 0.056028ms
+2015-06-18 18:59:00.740 myApp[41973:4487566] [CDVTimer][splashscreen] 16.147971ms
+2015-06-18 18:59:00.741 myApp[41973:4487566] [CDVTimer][TotalPluginStartup] 16.497016ms
+2015-06-18 18:59:00.825 myApp[41973:4487566] Resetting plugins due to page load.
+2015-06-18 18:59:01.376 myApp[41973:4487566] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:59:03.581 myApp[41973:4487566] ERROR: Error: Can't find variable: $localStorage
+http://192.168.0.16:8100/js/controllers.js:74:21
+invoke@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:12884:22
+instantiate@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:12892:33
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:17161:39
+appendViewElement@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48253:35
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53406:21
+$broadcast@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23419:33
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:40889:32
+processQueue@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21888:29
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21904:39
+$eval@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23100:28
+$digest@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:22916:36
+$apply@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23205:31
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53457:19
+eventHandler@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:11713:25
+dispatchEvent@[native code]
+triggerMouseEvent@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2863:20
+tapClick@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2852:20
+tapTouchEnd@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2975:13
+2015-06-18 18:59:19.024 myApp[41973:4487566] Resetting plugins due to page load.
+2015-06-18 18:59:19.143 myApp[41973:4487566] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 18:59:33.232 myApp[42318:4488542] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 18:59:33.240 myApp[42318:4488542] Multi-tasking -> Device: YES, App: YES
+2015-06-18 18:59:33.242 myApp[42318:4488542] Unlimited access to network resources
+2015-06-18 18:59:33.318 myApp[42318:4488542] [CDVTimer][keyboard] 0.066996ms
+2015-06-18 18:59:33.335 myApp[42318:4488542] [CDVTimer][splashscreen] 17.561018ms
+2015-06-18 18:59:33.336 myApp[42318:4488542] [CDVTimer][TotalPluginStartup] 17.937005ms
+2015-06-18 18:59:33.419 myApp[42318:4488542] Resetting plugins due to page load.
+2015-06-18 18:59:33.927 myApp[42318:4488542] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 18:59:48.568 myApp[42318:4488542] Resetting plugins due to page load.
+2015-06-18 18:59:48.673 myApp[42318:4488542] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 19:00:14.904 myApp[42318:4488542] Resetting plugins due to page load.
+2015-06-18 19:00:15.008 myApp[42318:4488542] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 19:00:34.826 myApp[42674:4489692] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 19:00:34.828 myApp[42674:4489692] Multi-tasking -> Device: YES, App: YES
+2015-06-18 19:00:34.831 myApp[42674:4489692] Unlimited access to network resources
+2015-06-18 19:00:34.921 myApp[42674:4489692] [CDVTimer][keyboard] 0.132024ms
+2015-06-18 19:00:34.938 myApp[42674:4489692] [CDVTimer][splashscreen] 16.258001ms
+2015-06-18 19:00:34.938 myApp[42674:4489692] [CDVTimer][TotalPluginStartup] 16.716003ms
+2015-06-18 19:00:35.019 myApp[42674:4489692] Resetting plugins due to page load.
+2015-06-18 19:00:35.505 myApp[42674:4489692] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 19:00:38.663 myApp[42674:4489692] ERROR: Error: undefined is not a function (evaluating '$rootScope.initCreate()')
+create@http://192.168.0.16:8100/js/controllers.js:69:28
+$parseFunctionCall@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21044:23
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53458:21
+$eval@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23100:28
+$apply@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23199:28
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53457:19
+eventHandler@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:11713:25
+dispatchEvent@[native code]
+triggerMouseEvent@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2863:20
+tapClick@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2852:20
+tapTouchEnd@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2975:13
+2015-06-18 19:01:55.930 myApp[42674:4489692] Resetting plugins due to page load.
+2015-06-18 19:01:56.150 myApp[42674:4489692] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 19:02:06.892 myApp[42674:4489692] Resetting plugins due to page load.
+2015-06-18 19:02:07.008 myApp[42674:4489692] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 19:02:15.441 myApp[42674:4489692] Resetting plugins due to page load.
+2015-06-18 19:02:15.569 myApp[42674:4489692] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 19:02:19.160 myApp[42674:4489692] Resetting plugins due to page load.
+2015-06-18 19:02:19.264 myApp[42674:4489692] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 19:02:26.497 myApp[42674:4489692] Resetting plugins due to page load.
+2015-06-18 19:02:26.599 myApp[42674:4489692] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 19:03:02.409 myApp[42674:4489692] Resetting plugins due to page load.
+2015-06-18 19:03:02.888 myApp[42674:4489692] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 19:03:17.011 myApp[43032:4491163] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 19:03:17.020 myApp[43032:4491163] Multi-tasking -> Device: YES, App: YES
+2015-06-18 19:03:17.022 myApp[43032:4491163] Unlimited access to network resources
+2015-06-18 19:03:17.105 myApp[43032:4491163] [CDVTimer][keyboard] 0.063002ms
+2015-06-18 19:03:17.122 myApp[43032:4491163] [CDVTimer][splashscreen] 16.550004ms
+2015-06-18 19:03:17.122 myApp[43032:4491163] [CDVTimer][TotalPluginStartup] 16.901016ms
+2015-06-18 19:03:17.208 myApp[43032:4491163] Resetting plugins due to page load.
+2015-06-18 19:03:17.710 myApp[43032:4491163] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 19:03:20.417 myApp[43032:4491163] ERROR: Error: Can't find variable: rootScope
+create@http://192.168.0.16:8100/js/controllers.js:71:19
+$parseFunctionCall@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:21044:23
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53458:21
+$eval@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23100:28
+$apply@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:23199:28
+http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:53457:19
+eventHandler@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:11713:25
+dispatchEvent@[native code]
+triggerMouseEvent@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2863:20
+tapClick@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2852:20
+tapTouchEnd@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:2975:13
+2015-06-18 19:03:31.594 myApp[43032:4491163] Resetting plugins due to page load.
+2015-06-18 19:03:31.708 myApp[43032:4491163] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 19:03:50.660 myApp[43379:4492072] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 19:03:50.661 myApp[43379:4492072] Multi-tasking -> Device: YES, App: YES
+2015-06-18 19:03:50.672 myApp[43379:4492072] Unlimited access to network resources
+2015-06-18 19:03:50.757 myApp[43379:4492072] [CDVTimer][keyboard] 0.057995ms
+2015-06-18 19:03:50.776 myApp[43379:4492072] [CDVTimer][splashscreen] 18.900037ms
+2015-06-18 19:03:50.776 myApp[43379:4492072] [CDVTimer][TotalPluginStartup] 19.263029ms
+2015-06-18 19:03:50.867 myApp[43379:4492072] Resetting plugins due to page load.
+2015-06-18 19:03:51.388 myApp[43379:4492072] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 19:04:14.307 myApp[43379:4492072] Resetting plugins due to page load.
+2015-06-18 19:04:14.444 myApp[43379:4492072] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 19:04:19.834 myApp[43379:4492072] Resetting plugins due to page load.
+2015-06-18 19:04:19.951 myApp[43379:4492072] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 19:04:30.096 myApp[43379:4492072] Resetting plugins due to page load.
+2015-06-18 19:04:30.204 myApp[43379:4492072] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 19:04:41.365 myApp[43379:4492072] Resetting plugins due to page load.
+2015-06-18 19:04:41.458 myApp[43379:4492072] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 19:04:54.380 myApp[43731:4493118] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 19:04:54.389 myApp[43731:4493118] Multi-tasking -> Device: YES, App: YES
+2015-06-18 19:04:54.391 myApp[43731:4493118] Unlimited access to network resources
+2015-06-18 19:04:54.473 myApp[43731:4493118] [CDVTimer][keyboard] 0.056982ms
+2015-06-18 19:04:54.489 myApp[43731:4493118] [CDVTimer][splashscreen] 15.303016ms
+2015-06-18 19:04:54.489 myApp[43731:4493118] [CDVTimer][TotalPluginStartup] 15.641987ms
+2015-06-18 19:04:54.572 myApp[43731:4493118] Resetting plugins due to page load.
+2015-06-18 19:04:55.050 myApp[43731:4493118] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 19:05:13.987 myApp[43731:4493118] Resetting plugins due to page load.
+2015-06-18 19:05:14.099 myApp[43731:4493118] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 19:05:18.408 myApp[43731:4493118] Resetting plugins due to page load.
+2015-06-18 19:05:18.517 myApp[43731:4493118] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 19:05:24.945 myApp[43731:4493118] Resetting plugins due to page load.
+2015-06-18 19:05:25.050 myApp[43731:4493118] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 19:05:35.092 myApp[43731:4493118] Resetting plugins due to page load.
+2015-06-18 19:05:35.207 myApp[43731:4493118] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 19:05:50.284 myApp[44068:4494128] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 19:05:50.286 myApp[44068:4494128] Multi-tasking -> Device: YES, App: YES
+2015-06-18 19:05:50.296 myApp[44068:4494128] Unlimited access to network resources
+2015-06-18 19:05:50.384 myApp[44068:4494128] [CDVTimer][keyboard] 0.062048ms
+2015-06-18 19:05:50.400 myApp[44068:4494128] [CDVTimer][splashscreen] 16.144991ms
+2015-06-18 19:05:50.400 myApp[44068:4494128] [CDVTimer][TotalPluginStartup] 16.497016ms
+2015-06-18 19:05:50.486 myApp[44068:4494128] Resetting plugins due to page load.
+2015-06-18 19:05:50.967 myApp[44068:4494128] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 19:06:08.370 myApp[44068:4494128] Resetting plugins due to page load.
+2015-06-18 19:06:08.492 myApp[44068:4494128] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 19:06:12.593 myApp[44068:4494128] Resetting plugins due to page load.
+2015-06-18 19:06:12.723 myApp[44068:4494128] Finished load of: http://192.168.0.16:8100/#/create
+2015-06-18 19:06:31.334 myApp[44410:4495076] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 19:06:31.343 myApp[44410:4495076] Multi-tasking -> Device: YES, App: YES
+2015-06-18 19:06:31.345 myApp[44410:4495076] Unlimited access to network resources
+2015-06-18 19:06:31.422 myApp[44410:4495076] [CDVTimer][keyboard] 0.054002ms
+2015-06-18 19:06:31.438 myApp[44410:4495076] [CDVTimer][splashscreen] 15.425026ms
+2015-06-18 19:06:31.438 myApp[44410:4495076] [CDVTimer][TotalPluginStartup] 15.781999ms
+2015-06-18 19:06:31.521 myApp[44410:4495076] Resetting plugins due to page load.
+2015-06-18 19:06:32.011 myApp[44410:4495076] Finished load of: http://192.168.0.16:8100/#/tab/soiree

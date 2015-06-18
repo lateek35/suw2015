@@ -36,7 +36,10 @@
     <!-- Center content -->
     <ion-side-menu-content>
       <ion-header-bar class="bar-dark" ng-show="logged">
-        <h1 class="title">Meetnight</h1>
+        <i ng-if="route == 'soirees'" class="ion-navicon"></i>
+        <i ng-if="route == 'create'" class="ion-ios-arrow-back" ng-click="goBack()"></i>
+        <h1 class="title">{{title}}</h1>
+        <i class="ion-ios-plus-outline" ng-click="create()"></i>
       </ion-header-bar>
       <ion-nav-view></ion-nav-view>
     </ion-side-menu-content>
