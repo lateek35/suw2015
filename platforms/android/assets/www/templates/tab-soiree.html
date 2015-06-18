@@ -1,8 +1,10 @@
 <ion-view view-title="Dashboard" ng-init="init()">
-  <ion-content class="padding">
+  <ion-content class="padding" >
     <!-- <div class="list card" ng-repeat="soiree in soirees">
       <div class="item item-body"> -->
-    <ion-list>
+       <!-- <span ng-if="soirees!=NULL" ng-init="data=false"></span>-->
+     
+    <ion-list >
       <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="soiree in soirees" type="item-text-wrap" href="#/tab/soirees/{{soiree.id}}">
         <img ng-src="{{soiree.photo}}">
         <h2>Boite : {{soiree.boite}}</h2>

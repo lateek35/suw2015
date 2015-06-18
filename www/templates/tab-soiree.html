@@ -1,19 +1,33 @@
 <ion-view view-title="Dashboard" ng-init="init()">
-  <ion-content class="padding">
-    <!-- <div class="list card" ng-repeat="soiree in soirees">
-      <div class="item item-body"> -->
-    <ion-list>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="soiree in soirees" type="item-text-wrap" href="#/tab/soirees/{{soiree.id}}">
-        <img ng-src="{{soiree.photo}}">
-        <h2>Boite : {{soiree.boite}}</h2>
-        <p>ID de la soirée : {{soiree.id}}</p>
-        <span>Date : {{soiree.date}}</span><br/>
+  <ion-content>
+    <div class="button-bar" style="margin: 62px auto 12px auto ; width: 80%; ">
+      <a class="button" ng-click="showme=true">Soirées</a>
+      <a class="button" ng-click="showme=false">Invitations</a>
+    </div>
+    <ion-list ng-show="showme">
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="soiree in soirees" type="item-text-wrap" href="#/tab/soirees/une_soiree">
+        <img ng-src="{{soiree.face}}">
+        <span><h2>{{soiree.boite}}</h2> <p style="text-align: right;">{{soiree.date}}</p></span>
+        <p style="color: cyan;">{{soiree.nbr_participants}} participants - 
         <span ng-if="soiree.statut == 0">En attente</span>
         <span ng-if="soiree.statut == -1">Refusé</span>
-        <span ng-if="soiree.statut == 1">Accepté</span>
+        <span ng-if="soiree.statut == 1">Accepté</span></p>
+        <ion-option-button class="button-assertive" ng-click="remove(dash)">
+          Delete
+        </ion-option-button>
       </ion-item>
     </ion-list>
-      <!-- </div>
-    </div> -->
+    <ion-list ng-hide="showme">
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="invitation in invitations" type="item-text-wrap" href="#/tab/dash/{{invitation.id_invitation}}">
+
+        <img ng-src="{{invitation.face}}">
+          <span><h2>{{invitation.boite}}</h2> <p style="text-align: right;">{{invitation.date}}</p></span>
+        <p style="color: cyan;">{{invitation.nbr_participants}} participants - {{invitation.statut}}</p>
+
+        <ion-option-button class="button-assertive" ng-click="remove(dash)">
+          Delete
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
   </ion-content>
 </ion-view>

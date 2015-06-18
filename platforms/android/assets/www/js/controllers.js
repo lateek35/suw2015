@@ -42,9 +42,11 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
         $.post('http://8affc41bd7.url-de-test.ws/soirees',
         {
           id_fb: $localStorage.profileDatas.id
+
         },
         function(data,status){
           $scope.soirees = data;
+           console.log($scope.soirees);
           $scope.$apply();
         });
 
@@ -53,6 +55,8 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
         $rootScope.logged = false;
         $location.path("/login");
       }
+
+
     }
 })
 

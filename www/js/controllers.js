@@ -35,7 +35,7 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
     };
 })
 
-.controller('SoireeCtrl', function($rootScope, $scope, $localStorage, $location, $http, $ionicSideMenuDelegate) {
+.controller('SoireeCtrl', function($rootScope, $scope, $localStorage, $location, $http, $ionicSideMenuDelegate, Invitations) {
     $rootScope.init = function(){
       if($localStorage.hasOwnProperty("accessToken")) {
         $rootScope.logged = true;
@@ -54,7 +54,16 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
         $location.path("/login");
       }
     }
+        $scope.invitations = Invitations.all();
+    $scope.showme=true;
 })
+
+.controller('SoireeDetailCtrl', function($scope, Masoiree) {
+    $scope.ma_soiree = Masoiree.all();
+
+  /*$scope.remove = function(dash) {
+    Soirees.remove(dash);*/
+  })
 
 .controller('ChatsCtrl', function($scope, Chats) {
   // With the new view caching in Ionic, Controllers are only called
