@@ -56,3 +56,11 @@ angular.module('starter.services', [])
   // We limit the results to 10
   return $firebase(ref.limitToLast(100)).$asArray();
 }])
+
+.factory('testEnvoi', ['$resource', function($resource){
+  return $resource('http://8affc41bd7.url-de-test.ws/soirees',
+    {
+      'poster': {method: 'POST'}
+    });
+  }
+]);

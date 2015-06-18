@@ -1,36 +1,60 @@
 angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
 
-.controller("LoginController", function($rootScope, $scope, $cordovaOauth, $localStorage, $location, $http, $ionicSideMenuDelegate) {
-      $ionicSideMenuDelegate.canDragContent(false);
-      $rootScope.logged = false;
+.controller("LoginController", function($rootScope, $scope, $cordovaOauth, $localStorage, $location, $http, $ionicSideMenuDelegate, $state) {
+    $ionicSideMenuDelegate.canDragContent(false);
+    $rootScope.logged = false;
     $scope.login = function() {
       if(!$localStorage.hasOwnProperty("accessToken")) {
         $cordovaOauth.facebook("763024983807122", ["email", "read_stream", "user_website", "user_location", "user_relationships", "user_friends"]).then(function(result) {
             $localStorage.accessToken = result.access_token;
-            // $http.get("https://graph.facebook.com/v2.3/me", { params: { access_token: $localStorage.accessToken, fields: "id,gender", format: "json" }}).then(function(result) {
-            //     // $scope.profileData = result.data;
-            //     alert(result.data.gender);
-            // }, function(error) {
-            //     alert("There was a problem getting your profile.  Check the logs for details.");
-            //     console.log(error);
-            // });
-            $ionicSideMenuDelegate.canDragContent(true);
-            $rootScope.logged = true;
-            $location.path("/tab/dash");
+            $http.get("https://graph.facebook.com/v2.3/me", { params: { access_token: $localStorage.accessToken, fields: "id,first_name,gender,picture,birthday", format: "json" }}).then(function(result) {
+                $localStorage.profileDatas = result.data;
+                $http.get("https://graph.facebook.com/v2.3/me/", { params: { access_token: $localStorage.accessToken, fields: "picture", format: "json" }}).then(function(result) {
+                    $localStorage.picture = result.data.picture.data.url;
+                    $ionicSideMenuDelegate.canDragContent(true);
+                    $rootScope.logged = true;
+                    $scope.changeState();
+                });
+            }, function(error) {
+                alert("There was a problem getting your profile.  Check the logs for details.");
+                console.log(error);
+            });
         }, function(error) {
-            alert(error);
+            alert("There was a problem getting your profile.  Check the logs for details.");
             console.log(error);
         });
       }else{
         $ionicSideMenuDelegate.canDragContent(true);
         $rootScope.logged = true;
-        $location.path("/tab/dash");
+        $scope.changeState();
       }
     };
- 
+    $scope.changeState = function () {
+        $location.path('/tab/soiree');
+        $rootScope.init();
+    };
 })
 
-.controller('DashCtrl', function($scope) {})
+.controller('SoireeCtrl', function($rootScope, $scope, $localStorage, $location, $http, $ionicSideMenuDelegate) {
+    $rootScope.init = function(){
+      if($localStorage.hasOwnProperty("accessToken")) {
+        $rootScope.logged = true;
+        $.post('http://8affc41bd7.url-de-test.ws/soirees',
+        {
+          id_fb: $localStorage.profileDatas.id
+        },
+        function(data,status){
+          $scope.soirees = data;
+          $scope.$apply();
+        });
+
+      }else{
+        $ionicSideMenuDelegate.canDragContent(false);
+        $rootScope.logged = false;
+        $location.path("/login");
+      }
+    }
+})
 
 .controller('ChatsCtrl', function($scope, Chats) {
   // With the new view caching in Ionic, Controllers are only called

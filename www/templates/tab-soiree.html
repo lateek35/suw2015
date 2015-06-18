@@ -1,0 +1,17 @@
+<ion-view view-title="Dashboard" ng-init="init()">
+  <ion-content class="padding">
+    <div class="list card" ng-repeat="soiree in soirees">
+      <div class="item item-body">
+        <div>
+          <h2>Boite : {{soiree.boite}}</h2>
+          <span>ID de la soirée : {{soiree.id}}</span><br/>
+          <span>Date : {{soiree.date}}</span><br/>
+          <span>Url de la photo : {{soiree.photo}}</span><br/>
+          <span ng-if="soiree.statut == 0">En attente</span>
+          <span ng-if="soiree.statut == -1">Refusé</span>
+          <span ng-if="soiree.statut == 1">Accepté</span>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

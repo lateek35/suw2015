@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','firebase'])
+angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','firebase','ngResource'])
 
 .run(function($ionicPlatform, $rootScope) {
   $ionicPlatform.ready(function() {
@@ -44,12 +44,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','f
 
   // Each tab has its own nav history stack:
 
-  .state('tab.dash', {
-    url: '/dash',
+  .state('tab.soiree', {
+    url: '/soiree',
     views: {
-      'tab-dash': {
-        templateUrl: 'templates/tab-dash.html',
-        controller: 'DashCtrl'
+      'tab-soiree': {
+        controller: 'SoireeCtrl',
+        templateUrl: 'templates/tab-soiree.html'
       }
     }
   })
@@ -74,6 +74,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','f
     });
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/login');
+  $urlRouterProvider.otherwise('/tab/soiree');
 
 });
