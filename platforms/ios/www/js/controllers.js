@@ -9,7 +9,6 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
             $localStorage.accessToken = result.access_token;
             $http.get("https://graph.facebook.com/v2.3/me", { params: { access_token: $localStorage.accessToken, fields: "id,first_name,gender,picture,birthday", format: "json" }}).then(function(result) {
                 $localStorage.profileDatas = result.data;
-                // $localStorage.picture = result.picture.data.picture.data.url;
                 $http.get("https://graph.facebook.com/v2.3/me/", { params: { access_token: $localStorage.accessToken, fields: "picture", format: "json" }}).then(function(result) {
                     $localStorage.picture = result.data.picture.data.url;
                     $ionicSideMenuDelegate.canDragContent(true);
@@ -20,7 +19,6 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
                 alert("There was a problem getting your profile.  Check the logs for details.");
                 console.log(error);
             });
-            // alert($localStorage.picture);
         }, function(error) {
             alert("There was a problem getting your profile.  Check the logs for details.");
             console.log(error);
@@ -41,8 +39,6 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
     $rootScope.init = function(){
       if($localStorage.hasOwnProperty("accessToken")) {
         $rootScope.logged = true;
-      alert('good');
-
         $.post('http://8affc41bd7.url-de-test.ws/soirees',
         {
           id_fb: $localStorage.profileDatas.id
@@ -50,7 +46,6 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
         function(data,status){
           $scope.soirees = data;
           $scope.$apply();
-          console.log("data :"+data);
         });
 
       }else{

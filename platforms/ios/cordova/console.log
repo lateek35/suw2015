@@ -19,3 +19,17 @@
 2015-06-18 14:40:52.558 myApp[30414:4391811] Resetting plugins due to page load.
 2015-06-18 14:40:52.558 myApp[30414:4391811] IAB.close() called but it was already closed.
 2015-06-18 14:40:52.654 myApp[30414:4391811] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 14:52:34.189 myApp[30933:4398395] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-18 14:52:34.189 myApp[30933:4398395] Multi-tasking -> Device: YES, App: YES
+2015-06-18 14:52:34.192 myApp[30933:4398395] Unlimited access to network resources
+2015-06-18 14:52:34.262 myApp[30933:4398395] [CDVTimer][keyboard] 0.052989ms
+2015-06-18 14:52:34.281 myApp[30933:4398395] [CDVTimer][splashscreen] 18.622041ms
+2015-06-18 14:52:34.281 myApp[30933:4398395] [CDVTimer][TotalPluginStartup] 18.952012ms
+2015-06-18 14:52:34.369 myApp[30933:4398395] Resetting plugins due to page load.
+2015-06-18 14:52:34.766 myApp[30933:4398395] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 14:53:37.116 myApp[30933:4398395] Resetting plugins due to page load.
+2015-06-18 14:53:37.367 myApp[30933:4398395] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 14:54:12.694 myApp[30933:4398395] Resetting plugins due to page load.
+2015-06-18 14:54:12.974 myApp[30933:4398395] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-18 14:54:18.825 myApp[30933:4398395] Resetting plugins due to page load.
+2015-06-18 14:54:18.972 myApp[30933:4398395] Finished load of: http://192.168.0.16:8100/#/tab/soiree
