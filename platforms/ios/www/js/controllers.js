@@ -4,6 +4,7 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
     $ionicSideMenuDelegate.canDragContent(false);
     $rootScope.logged = false;
     $rootScope.title = "Login";
+    console.log('test');
     $scope.login = function() {
       if(!$localStorage.hasOwnProperty("accessToken")) {
         $cordovaOauth.facebook("763024983807122", ["email", "read_stream", "user_website", "user_location", "user_relationships", "user_friends"]).then(function(result) {
