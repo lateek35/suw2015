@@ -1,22 +1,40 @@
 <ion-view title="Creation">
-    <ion-content>
-		<div class="list">
-		  <label class="item item-input item-select">
-		    <select>
-		      	<option ng-repeat="boite in boites">{{boite.nom}}</option>
+    <ion-content style="padding-top:40px;">
+		<div class="list list-create">
+		  <label class="item item-input item-select item-select-create" id="firs">
+		    <select name="boite">
+		      	<option ng-repeat="boite in boites" value="{{boite.nom}}">{{boite.nom}}</option>
 		    </select>
 		  </label>
 		  <label class="item item-input">
-		    <input type="text" placeholder="Date">
-		  </label>
-		  <label class="item item-input">
-		    <input type="text" placeholder="Heure">
-		  </label>
-		  <label class="item item-input">
+			  <span class="input-label">Date</span>
+			  <input type="date" name="date">
+			</label>
+			<label class="item item-input">
+			  <span class="input-label">Time</span>
+			  <input type="time" name="time"> 
+			</label>
+		  <label class="item item-input" id="fb-btn-create">
 		    <span class="input-label">invités</span>
 		    <button class="button button-block button-positive activated ion-social-facebook" ng-click="chooseFriends()"></button>
 		  </label>
-		  <button class="button button-block button-positive activated">Submit</button>
+		  <div class="friend friend-0">
+		  	<img src=""/>
+		  	<p></p>
+		  </div>
+		  <div class="friend friend-1">
+		  	<img src=""/>
+		  	<p></p>
+		  </div>
+		  <div class="friend friend-2">
+		  	<img src=""/>
+		  	<p></p>
+		  </div>
+		  <div class="friend friend-3">
+		  	<img src=""/>
+		  	<p></p>
+		  </div>
+		  <button class="button button-block button-positive activated" id="create-soiree" ng-click="createSoiree()">Créer la soirée</button>
 		</div>
     </ion-content>
 </ion-view>
@@ -25,11 +43,11 @@
 	    <i class="icon ion-ios-search placeholder-icon"></i>
 	    <input type="search" placeholder="Search" ng-model="searchFriend">
 	</label>
-	<ion-scroll zooming="true" direction="xy" style="" class="scroll-view">
+	<ion-scroll zooming="true" direction="y" style="" class="scroll-view">	
 	  	<ul>
-			<li class="item item-checkbox" ng-repeat="friendData in friendsData  | filter:searchFriend">
+			<li class="item item-checkbox" ng-repeat="friendData in friendsData  | filter:searchFriend | orderBy : 'name'">
 				 <label class="checkbox">
-				   <input type="checkbox">
+				   <input type="checkbox" ng-click="control($event, friendData)" name="friendInvite" value="{{friendData.name}}|{{friendData.picture.data.url}}">
 				 </label>
 				 {{friendData.name}}
 			</li>

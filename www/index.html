@@ -38,14 +38,45 @@
         <span ng-if="route == 'soirees'" class="ion-navicon" ng-click="openSideMenu()"></span>
         <span ng-if="route == 'create'" class="ion-ios-arrow-back" ng-click="goBack()"></span>
         <h1 class="title" style="text-align: center;">{{title}}</h1>
-        <span class="ion-ios-plus-outline" style="bakckground:red;" ng-click="create()"></span>
+        <span class="ion-ios-plus-outline" ng-click="create()"></span>
       </ion-header-bar>
       <ion-nav-view></ion-nav-view>
     </ion-side-menu-content>
 
     <!-- Left menu -->
     <ion-side-menu side="left">
-      
+      <img src="http://www.expert-juridique.fr/images/profile/lawyer/default.gif" alt="">
+      <p class="name">Emmanuel</p>
+      <ul class="dash-perso">
+          <li>
+              <div>
+                  <div class="number">5</div>
+                  <p class="info">Soirée en cours</p>
+              </div>
+          </li><!--
+          --><li>
+              <div>
+                  <div class="number">2</div>
+                  <p class="info">Invitations reçues</p>
+              </div>
+          </li><!--
+          --><li>
+              <div>
+                  <div class="number">10</div>
+                  <p class="info">Soirées effectuées</p>
+              </div>
+          </li>
+      </ul>
+      <div class="tabs-left-menu">
+          <div class="profil tab-left-menu">
+              <i class="ion-person"></i>
+              <p>Mon profil</p>
+          </div>
+          <div class="logout tab-left-menu">
+              <i class="ion-power"></i>
+              <p>Se deconnecter</p>
+          </div>
+      </div>
     </ion-side-menu>
   </ion-side-menus>
 

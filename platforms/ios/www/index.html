@@ -38,14 +38,37 @@
         <span ng-if="route == 'soirees'" class="ion-navicon" ng-click="openSideMenu()"></span>
         <span ng-if="route == 'create'" class="ion-ios-arrow-back" ng-click="goBack()"></span>
         <h1 class="title" style="text-align: center;">{{title}}</h1>
-        <span class="ion-ios-plus-outline" style="bakckground:red;" ng-click="create()"></span>
+        <span class="ion-ios-plus-outline" ng-click="create()"></span>
       </ion-header-bar>
       <ion-nav-view></ion-nav-view>
     </ion-side-menu-content>
 
     <!-- Left menu -->
     <ion-side-menu side="left">
-      
+      <img src="http://a137.idata.over-blog.com/242x300/4/01/85/16/illustration-4/beau-mec-jared7-img.jpg" alt="">
+      <p class="name">Emmanuel</p>
+      <ul class="dash-perso">
+          <li>
+              <div>
+                  <div class="number">5</div>
+                  <p class="info">Soirée en cours</p>
+              </div>
+          </li>
+          <li>
+              <div>
+                  <div class="number">11</div>
+                  <p class="info">Invitations reçues</p>
+              </div>
+          </li>
+          <li>
+              <div>
+                  <div class="number">0</div>
+                  <p class="info">Soirées effectuées</p>
+              </div>
+          </li>
+      </ul>
+      <div class="profil"></div>
+      <div class="logout"></div>
     </ion-side-menu>
   </ion-side-menus>
 

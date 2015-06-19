@@ -211,6 +211,7 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
   if($localStorage.hasOwnProperty("accessToken")) {
     $rootScope.route = "create";
     $.post('http://8affc41bd7.url-de-test.ws/une_soiree',{id_soiree: $stateParams.soireeId},function(data,status){
+        $localStorage.id_soiree=data[0].id_soiree;
         if(data[0].url_img1 != null){
           data[0].url_img1 = data[0].url_img1.replace(/&amp;/g, '&');
         }
@@ -239,9 +240,32 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
       $rootScope.init();
     };
 
+  $scope.invitGirls = function(){
+    console.log($localStorage.id_soiree);
+    $location.path('/invit/'+$localStorage.id_soiree);
+  };
+
   /*$scope.remove = function(dash) {
     Soirees.remove(dash);*/
   })
+
+.controller('InvitCtrl', function($scope, $localStorage, $location, $rootScope, $ionicSideMenuDelegate, $stateParams, $ionicHistory) {
+    $rootScope.init = function(){
+        if($localStorage.hasOwnProperty("accessToken")) {
+          $rootScope.title = "Invitez un groupe";
+          $rootScope.route = "invit";
+        }else{
+          $ionicSideMenuDelegate.canDragContent(false);
+          $rootScope.logged = false;
+          $location.path("/login");
+        }
+    };
+
+    $rootScope.goBack = function(){
+      $ionicHistory.goBack();
+      $location.path('/soirees/'+$stateParams.soireeId);
+    };
+})
 
 .controller('ChatsCtrl', function($scope, Chats) {
   // With the new view caching in Ionic, Controllers are only called
