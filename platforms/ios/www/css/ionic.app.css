@@ -7675,6 +7675,7 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
+<<<<<<< HEAD
 body .ion-ios-plus-outline {
   text-align: right;
   width: 100%;
@@ -7683,6 +7684,14 @@ body .ion-ios-plus-outline {
 body .ion-navicon, body .ion-ios-arrow-back {
   padding-left: 5px;
   font-size: 30px; }
+=======
+body .bar.bar-dark {
+  background-color: #000; }
+body .tabs-background-dark .tabs, body .tabs-background-dark > .tabs {
+  background-color: #000; }
+body ion-tabs.tabs-color-active-positive .tab-item {
+  color: white; }
+>>>>>>> 56930f5808b38fadafd4440db75051490369b930
 body .single-soiree .container-photo {
   height: 180px;
   overflow: hidden; }
