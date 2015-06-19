@@ -1127,4 +1127,15 @@ tapTouchEnd@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2975:13
 2015-06-19 05:24:37.215 myApp[22528:3082564] [CDVTimer][TotalPluginStartup] 10.185003ms
 2015-06-19 05:24:37.332 myApp[22528:3082564] Resetting plugins due to page load.
 2015-06-19 05:24:37.621 myApp[22528:3082564] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+<<<<<<< HEAD
 >>>>>>> 56930f5808b38fadafd4440db75051490369b930
+=======
+2015-06-19 05:33:44.975 myApp[22978:3192136] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 05:33:44.976 myApp[22978:3192136] Multi-tasking -> Device: YES, App: YES
+2015-06-19 05:33:44.978 myApp[22978:3192136] Unlimited access to network resources
+2015-06-19 05:33:45.039 myApp[22978:3192136] [CDVTimer][keyboard] 0.054002ms
+2015-06-19 05:33:45.049 myApp[22978:3192136] [CDVTimer][splashscreen] 9.994030ms
+2015-06-19 05:33:45.049 myApp[22978:3192136] [CDVTimer][TotalPluginStartup] 10.304034ms
+2015-06-19 05:33:45.110 myApp[22978:3192136] Resetting plugins due to page load.
+2015-06-19 05:33:45.401 myApp[22978:3192136] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+>>>>>>> dc871a9e430b4a1d6edee66667a45bfa3b853ee3
