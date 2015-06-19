@@ -15,9 +15,6 @@
 			  <input type="time" name="time">
 			</label>
 		  <label class="item item-input">
-		    <input type="text" placeholder="Heure">
-		  </label>
-		  <label class="item item-input">
 		    <span class="input-label">invités</span>
 		    <button class="button button-block button-positive activated ion-social-facebook" ng-click="chooseFriends()"></button>
 		  </label>
@@ -50,7 +47,7 @@
 	  	<ul>
 			<li class="item item-checkbox" ng-repeat="friendData in friendsData  | filter:searchFriend">
 				 <label class="checkbox">
-				   <input type="checkbox" name="friendInvite" value="{{friendData.name}}|{{friendData.picture.data.url}}|{{friendData.id}}">
+				   <input type="checkbox" name="friendInvite" value="{{friendData.name}}|{{friendData.picture.data.url}}">
 				 </label>
 				 {{friendData.name}}
 			</li>
@@ -58,4 +55,3 @@
 	</ion-scroll>
 	<button class="validate-friends-fb" ng-click="validateFriends()">Valider les invités</button>
 </div>
-<div class="test"></div>
