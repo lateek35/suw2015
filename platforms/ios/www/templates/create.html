@@ -47,7 +47,7 @@
 	  	<ul>
 			<li class="item item-checkbox" ng-repeat="friendData in friendsData  | filter:searchFriend">
 				 <label class="checkbox">
-				   <input type="checkbox" name="friendInvite" value="{{friendData.name}}|{{friendData.picture.data.url}}|{{friendData.id}}">
+				   <input type="checkbox" name="friendInvite" value="{{friendData.name}}|{{friendData.picture.data.url}}">
 				 </label>
 				 {{friendData.name}}
 			</li>

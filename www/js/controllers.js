@@ -137,7 +137,7 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
       $scope.inviteFriends = '';
       $('div.friend img').remove();
       $('div.friend p').remove();
-      console.log($('input[name="friendInvite"]:checked').val());
+      // console.log($('input[name="friendInvite"]:checked').val());
       for(var i=0; i<$('input[name="friendInvite"]:checked').length; i++){
         var pieces = $('input[name="friendInvite"]:checked')[i].value.split("|");
         $('div.friend-'+i).append("<img src='"+pieces[1]+"'/>");
@@ -145,11 +145,58 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
       }
     };
     $scope.createSoiree = function(){
-      var id_fb = $localStorage.profileDatas.id;
-      var boite = $('select[name="boite"]').val();
-      var date = $('input[name="date"]').val();
-      var heure = $('input[name="time"]').val();
-      console.log(heure);
+      var boite, date, heure, id_fb1, id_fb2, id_fb3, id_fb4, url_img1, url_img2, url_img3, url_img4 = '';
+      boite = $('select[name="boite"]').val();
+      date = $('input[name="date"]').val();
+      heure = $('input[name="time"]').val();
+      id_fb1 = $('div.friend-0 p').html();
+      url_img1 = $('div.friend-0 img').attr('src');
+      if($('div.friend-1 p')){   
+        id_fb2 = $('div.friend-1 p').html();
+      }
+      if($('div.friend-1 img')){   
+        url_img2 = $('div.friend-1 img').attr('src');
+      }else{
+        url_img2 = null;
+      }
+      if($('div.friend-2 p')){   
+        id_fb3 = $('div.friend-2 p').html();
+      }
+      if($('div.friend-2 img')){   
+        url_img3 = $('div.friend-2 img').attr('src');
+      }else{
+        url_img3 = null;
+      }
+      if($('div.friend-3 p')){   
+        id_fb4 = $('div.friend-3 p').html();
+      }
+      if($('div.friend-3 img')){   
+        url_img4 = $('div.friend-3 img').attr('src');
+      }else{
+        url_img4 = null;
+      }
+      $.post('http://8affc41bd7.url-de-test.ws/create_soiree',
+        {
+          id_fb: $localStorage.profileDatas.id,
+          boite: boite,
+          date: date,
+          heure: heure,
+          id_fb1: id_fb1,
+          url_img1: url_img1,
+          id_fb2:id_fb2,
+          url_img2:url_img2,
+          id_fb3:id_fb3,
+          url_img3:url_img3,
+          id_fb4:id_fb4,
+          url_img4:url_img4
+        },
+        function(data,status){
+          if(data=='OK'){
+            console.log(data);
+            $location.path('/tab/soiree');
+            $rootScope.init();
+          }
+      });
     };
 })
 
