@@ -5,7 +5,7 @@
       <a class="button getInvit" ng-click="getInvitations()">Invitations</a>
     </div>
     <ion-list ng-show="showme">
-      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="soiree in soirees" type="item-text-wrap" href="#/tab/soirees/une_soiree">
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="soiree in soirees" type="item-text-wrap" href="#/tab/soirees/{{soiree.id_soiree}}">
 
         <img ng-src="{{soiree.photo}}">
         <p class="title_top_soiree">{{soiree.boite}} {{soiree.date}}</p>

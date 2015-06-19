@@ -200,8 +200,25 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
     };
 })
 
-.controller('SoireeDetailCtrl', function($scope, Masoiree) {
-    $scope.ma_soiree = Masoiree.all();
+.controller('SoireeDetailCtrl', function($scope, $localStorage, $location, $rootScope, $ionicSideMenuDelegate, $stateParams, $ionicHistory) {
+  if($localStorage.hasOwnProperty("accessToken")) {
+    $rootScope.route = "create";
+    $.post('http://8affc41bd7.url-de-test.ws/une_soiree',{id_soiree: $stateParams.soireeId},function(data,status){
+        $scope.datasSoiree = data[0];
+        $rootScope.title = "Soirée du "+data[0].date;
+        $scope.$apply();
+      });
+  }else{
+    $ionicSideMenuDelegate.canDragContent(false);
+    $rootScope.logged = false;
+    $location.path("/login");
+  }
+
+  $rootScope.goBack = function(){
+      $ionicHistory.goBack();
+      $location.path('/tab/soiree');
+      $rootScope.init();
+    };
 
   /*$scope.remove = function(dash) {
     Soirees.remove(dash);*/
