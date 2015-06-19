@@ -212,17 +212,16 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
     $rootScope.route = "create";
     $.post('http://8affc41bd7.url-de-test.ws/une_soiree',{id_soiree: $stateParams.soireeId},function(data,status){
         if(data[0].url_img1 != null){
-          data[0].url_img1 = data[0].url_img1.replace("&amp;", "&");
-          console.log(data[0].url_img1);
+          data[0].url_img1 = data[0].url_img1.replace(/&amp;/g, '&');
         }
         if(data[0].url_img2 != null){
-          data[0].url_img2 = data[0].url_img2.replace("&amp;", "&");
+          data[0].url_img2 = data[0].url_img2.replace(/&amp;/g, '&');
         }
         if(data[0].url_img3 != null){
-          data[0].url_img3 = data[0].url_img3.replace("&amp;", "&");
+          data[0].url_img3 = data[0].url_img3.replace(/&amp;/g, '&');
         }
         if(data[0].url_img4 != null){
-          data[0].url_img4 = data[0].url_img4.replace("&amp;", "&");
+          data[0].url_img4 = data[0].url_img4.replace(/&amp;/g, '&');
         }
         $scope.datasSoiree = data[0];
         $rootScope.title = "Soirée du "+data[0].date;
