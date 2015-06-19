@@ -12,6 +12,7 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
                 $localStorage.profileDatas = result.data;
                 $http.get("https://graph.facebook.com/v2.3/me/", { params: { access_token: $localStorage.accessToken, fields: "picture", format: "json" }}).then(function(result) {
                     $localStorage.picture = result.data.picture.data.url;
+                    $rootScope.imgduprofil = $localStorage.picture;
                     $ionicSideMenuDelegate.canDragContent(true);
                     $rootScope.logged = true;
                     $scope.changeState();
@@ -25,6 +26,8 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
             console.log(error);
         });
       }else{
+        console.log('test');
+        $rootScope.imgduprofil = $localStorage.picture;
         $ionicSideMenuDelegate.canDragContent(true);
         $rootScope.logged = true;
         $scope.changeState();
@@ -55,6 +58,8 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
         });
 
       }else{
+        console.log('test1');
+
         $ionicSideMenuDelegate.canDragContent(false);
         $rootScope.logged = false;
         $location.path("/login");
@@ -113,6 +118,8 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
           console.log(error);
       });
     }else{
+        console.log('test2');
+
       $ionicSideMenuDelegate.canDragContent(false);
       $rootScope.logged = false;
       $location.path("/login");
@@ -229,6 +236,8 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
         $scope.$apply();
       });
   }else{
+        console.log('test3');
+
     $ionicSideMenuDelegate.canDragContent(false);
     $rootScope.logged = false;
     $location.path("/login");
@@ -293,6 +302,8 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
       console.log(error);
     });
   } else {
+        console.log('test4');
+
     $location.path("/login");
   }
 

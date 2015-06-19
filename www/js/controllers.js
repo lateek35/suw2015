@@ -12,6 +12,7 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
                 $localStorage.profileDatas = result.data;
                 $http.get("https://graph.facebook.com/v2.3/me/", { params: { access_token: $localStorage.accessToken, fields: "picture", format: "json" }}).then(function(result) {
                     $localStorage.picture = result.data.picture.data.url;
+                    $rootScope.imgduprofil = $localStorage.picture;
                     $ionicSideMenuDelegate.canDragContent(true);
                     $rootScope.logged = true;
                     $scope.changeState();
@@ -25,6 +26,7 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
             console.log(error);
         });
       }else{
+        $rootScope.imgduprofil = $localStorage.picture;
         $ionicSideMenuDelegate.canDragContent(true);
         $rootScope.logged = true;
         $scope.changeState();
@@ -40,6 +42,8 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
     $rootScope.init = function(){
       if($localStorage.hasOwnProperty("accessToken")) {
         $rootScope.logged = true;
+        $rootScope.profilepicture = $localStorage.picture;
+        $rootScope.profiledata = $localStorage.profileDatas;
         $scope.showme = true;
         $rootScope.route = "soirees";
         $rootScope.title = "Mes soirées";
