@@ -1,6 +1,6 @@
 <ion-view title="Creation">
     <ion-content style="padding-top:40px;">
-		<div class="list">
+		<div class="list list-create">
 		  <label class="item item-input item-select item-select-create" id="firs">
 		    <select name="boite">
 		      	<option ng-repeat="boite in boites" value="{{boite.nom}}">{{boite.nom}}</option>
@@ -14,7 +14,7 @@
 			  <span class="input-label">Time</span>
 			  <input type="time" name="time"> 
 			</label>
-		  <label class="item item-input">
+		  <label class="item item-input" id="fb-btn-create">
 		    <span class="input-label">invités</span>
 		    <button class="button button-block button-positive activated ion-social-facebook" ng-click="chooseFriends()"></button>
 		  </label>
@@ -34,7 +34,7 @@
 		  	<img src=""/>
 		  	<p></p>
 		  </div>
-		  <button class="button button-block button-positive activated" ng-click="createSoiree()">Créer la soirée</button>
+		  <button class="button button-block button-positive activated" id="create-soiree" ng-click="createSoiree()">Créer la soirée</button>
 		</div>
     </ion-content>
 </ion-view>
@@ -45,7 +45,7 @@
 	</label>
 	<ion-scroll zooming="true" direction="y" style="" class="scroll-view">	
 	  	<ul>
-			<li class="item item-checkbox" ng-repeat="friendData in friendsData  | filter:searchFriend">
+			<li class="item item-checkbox" ng-repeat="friendData in friendsData  | filter:searchFriend | orderBy : 'name'">
 				 <label class="checkbox">
 				   <input type="checkbox" name="friendInvite" value="{{friendData.name}}|{{friendData.picture.data.url}}">
 				 </label>

@@ -226,3 +226,134 @@ requestLoaded@http://192.168.0.16:8100/lib/ionic/js/ionic.bundle.js:18489:24
 2015-06-19 02:42:58.602 myApp[74315:4703858] Finished load of: http://192.168.0.16:8100/#/tab/soiree
 2015-06-19 02:43:58.438 myApp[74315:4703858] OK
 >>>>>>> cfd389d0062a935482abafded787e1e2492f69b7
+2015-06-19 02:46:30.086 myApp[18570:1159391] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 02:46:30.087 myApp[18570:1159391] Multi-tasking -> Device: YES, App: YES
+2015-06-19 02:46:30.088 myApp[18570:1159391] Unlimited access to network resources
+2015-06-19 02:46:30.150 myApp[18570:1159391] [CDVTimer][keyboard] 0.051022ms
+2015-06-19 02:46:30.159 myApp[18570:1159391] [CDVTimer][splashscreen] 9.397984ms
+2015-06-19 02:46:30.159 myApp[18570:1159391] [CDVTimer][TotalPluginStartup] 9.711981ms
+2015-06-19 02:46:30.272 myApp[18570:1159391] Resetting plugins due to page load.
+2015-06-19 02:46:30.541 myApp[18570:1159391] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 02:47:34.938 myApp[18570:1159391] OK
+2015-06-19 03:23:25.493 myApp[18570:1159391] Resetting plugins due to page load.
+2015-06-19 03:23:26.133 myApp[18570:1159391] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 03:23:55.395 myApp[18570:1159391] Resetting plugins due to page load.
+2015-06-19 03:23:56.059 myApp[18570:1159391] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 03:31:37.785 myApp[18570:1159391] Resetting plugins due to page load.
+2015-06-19 03:31:38.356 myApp[18570:1159391] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 03:41:55.911 myApp[18570:1159391] Resetting plugins due to page load.
+2015-06-19 03:41:56.588 myApp[18570:1159391] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 03:42:07.697 myApp[18570:1159391] Resetting plugins due to page load.
+2015-06-19 03:42:08.305 myApp[18570:1159391] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 03:52:03.798 myApp[18570:1159391] Resetting plugins due to page load.
+2015-06-19 03:52:04.422 myApp[18570:1159391] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 03:52:17.074 myApp[18570:1159391] Resetting plugins due to page load.
+2015-06-19 03:52:17.733 myApp[18570:1159391] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 03:52:55.508 myApp[18570:1159391] Resetting plugins due to page load.
+2015-06-19 03:52:56.160 myApp[18570:1159391] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 03:53:10.398 myApp[18570:1159391] Resetting plugins due to page load.
+2015-06-19 03:53:11.024 myApp[18570:1159391] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 03:55:18.827 myApp[19446:1968319] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 03:55:18.828 myApp[19446:1968319] Multi-tasking -> Device: YES, App: YES
+2015-06-19 03:55:18.829 myApp[19446:1968319] Unlimited access to network resources
+2015-06-19 03:55:18.891 myApp[19446:1968319] [CDVTimer][keyboard] 0.056028ms
+2015-06-19 03:55:18.903 myApp[19446:1968319] [CDVTimer][splashscreen] 11.609018ms
+2015-06-19 03:55:18.903 myApp[19446:1968319] [CDVTimer][TotalPluginStartup] 11.936009ms
+2015-06-19 03:55:18.972 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 03:55:19.374 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 03:58:55.334 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 03:58:55.814 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 03:59:40.537 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 03:59:40.857 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 03:59:58.738 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 03:59:59.218 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:00:24.909 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:00:25.251 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:00:31.958 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:00:32.537 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:01:39.794 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:01:40.389 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:01:53.978 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:01:54.587 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:02:07.258 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:02:07.862 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:02:22.653 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:02:23.258 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:02:55.158 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:02:55.649 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:03:01.393 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:03:02.054 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:03:14.874 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:03:15.471 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:03:40.948 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:03:41.585 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:03:43.763 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:03:44.406 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:03:53.622 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:03:54.255 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:03:57.382 myApp[19446:1968319] {"id":"AaLGN925M0mAbd50xC_4RKpQi1w9YTduEJnInmfsybqdu2cLi_BSyDs7BYE_TRg800wKHIsPMxNoRxiIcFM2RIljAt4u0-g07cKMmrYMDbIRfw","name":"Adrien Buchoul","picture":{"data":{"is_silhouette":false,"url":"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpt1/v/t1.0-1/p50x50/11167793_10206490008746794_4015803165796751698_n.jpg?oh=f7b4954fc05b2b37fe19969587d5184e&oe=5630047F&__gda__=1442224386_408543ae87fbc32c289dc2774680d736"}},"$$hashKey":"object:26"}
+2015-06-19 04:03:58.584 myApp[19446:1968319] {"id":"AaLVKDLVzqW7ZUMXiYX3lceLrDlCLNm_qVQo5BM8X0UGdGwvcEXEsEg8jFxH6Hfz5jGUKaX8V_xBHhDWPcnwioea0R4UBW0H_Pk8yiuw6rJb6w","name":"Adélie Fournier","picture":{"data":{"is_silhouette":false,"url":"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xtf1/v/t1.0-1/p50x50/250292_10203131960235755_6178540576065494717_n.jpg?oh=fc8d2e56f900256f7f4f3b44f639efee&oe=55E6CF07&__gda__=1441501249_98187fd94d7366c8adb5cdaa3493c90b"}},"$$hashKey":"object:27"}
+2015-06-19 04:04:15.574 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:04:16.030 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:04:46.353 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:04:46.905 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:04:50.141 myApp[19446:1968319] ERROR: Error: undefined is not a function (evaluating '$(obj).checked()')
+control@http://192.168.0.14:8100/js/controllers.js:123:33
+$parseFunctionCall@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:21044:23
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53458:21
+$eval@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23100:28
+$apply@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23199:28
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53457:19
+eventHandler@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:11713:25
+dispatchEvent@[native code]
+triggerMouseEvent@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2863:20
+tapClick@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2852:20
+tapTouchEnd@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2975:13
+2015-06-19 04:04:55.510 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:04:56.158 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:05:05.169 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:05:05.778 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:05:24.695 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:05:25.028 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:05:29.011 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:05:29.612 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:06:54.674 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:06:55.118 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:07:17.913 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:07:18.519 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:07:57.264 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:07:57.892 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:08:01.086 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:08:01.705 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:08:51.303 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:08:51.782 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:09:01.836 myApp[19446:1968319] ERROR: Error: undefined is not an object (evaluating '$event.preventDefault')
+control@http://192.168.0.14:8100/js/controllers.js:124:15
+$parseFunctionCall@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:21044:23
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53458:21
+$eval@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23100:28
+$apply@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23199:28
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53457:19
+eventHandler@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:11713:25
+dispatchEvent@[native code]
+triggerMouseEvent@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2863:20
+tapClick@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2852:20
+tapTouchEnd@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2975:13
+2015-06-19 04:09:17.373 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:09:17.934 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:09:24.618 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:09:25.333 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:10:30.016 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:10:30.674 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:10:49.941 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:10:50.549 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:11:08.050 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:11:08.689 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:11:27.790 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:11:28.509 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:11:42.484 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:11:43.079 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:11:44.732 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:11:45.326 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
+2015-06-19 04:11:59.699 myApp[19446:1968319] Resetting plugins due to page load.
+2015-06-19 04:12:00.204 myApp[19446:1968319] Finished load of: http://192.168.0.14:8100/#/create
