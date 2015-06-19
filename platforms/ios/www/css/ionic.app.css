@@ -7675,6 +7675,30 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
+body .single-soiree .container-photo {
+  height: 180px;
+  overflow: hidden; }
+  body .single-soiree .container-photo img {
+    height: auto;
+    width: auto; }
+body .single-soiree i {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+  display: block;
+  padding: 20px 0; }
+body .single-soiree h2 {
+  text-align: center;
+  font-family: helvetica;
+  font-size: 20px;
+  padding: 0;
+  margin: 0; }
+body .single-soiree .info {
+  text-align: center;
+  color: #CCC;
+  padding: 0;
+  margin: 0; }
 body .list-create .item.item-input {
   background-color: white; }
 body .list-create .button-block#create-soiree {
@@ -7685,7 +7709,9 @@ body .list-create .button-block#create-soiree {
   margin: 0 auto; }
 body .list-create .friend {
   display: inline-block;
-  padding: 40px 0; }
+  padding: 40px 0;
+  width: 24%;
+  vertical-align: top; }
   body .list-create .friend img {
     border-radius: 50%;
     margin: 0 auto;
