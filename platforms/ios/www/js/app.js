@@ -65,9 +65,15 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','f
   })
 
   .state('create', {
-      url: '/create',
+      url: '/create/',
       templateUrl: 'templates/create.html',
       controller: 'CreateCtrl'
+  })
+
+  .state('invit', {
+      url: '/invit/:soireeId',
+      templateUrl: 'templates/invit.html',
+      controller: 'InvitCtrl'
   })
 
   .state('tab.chats', {

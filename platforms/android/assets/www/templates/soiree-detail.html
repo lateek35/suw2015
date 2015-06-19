@@ -1,15 +1,31 @@
-<ion-view view-title="Soirée du.{{ma_soiree.date}}">
+<ion-view view-title="Soirée du {{datasSoiree.date}}" class="single-soiree">
  <ion-content name="maSoiree">
- <img ng-src="{{ma_soiree.img_soiree}}">
- 	<h2>{{ma_soiree.boite}}</h2> 
-	<p>{{ma_soiree.date}}</p> 
-	<p>{{ma_soiree.heure}}</p> 
-<i class="ion-ios-people"></i>
-	<p>{{ma_soiree.id_fb}}</p> 
-	<p>{{ma_soiree.id_fb1}}</p>
-	<p>{{ma_soiree.id_fb2}}</p>
-	<p>{{ma_soiree.id_fb3}}</p>
-	<p>{{ma_soiree.id_fb4}}</p> 
-<button ng-click="login()" class="button add_girl button-block">Inviter des filles</button>
+ <div class="container-photo">
+ 	<img ng-src="{{datasSoiree.photo}}">
+ </div>
+ <i class="ion-ios-wineglass-outline"></i>
+ 	<h2>{{datasSoiree.boite}}</h2> 
+	<p class="info">{{datasSoiree.date}}</p> 
+	<p class="info">{{datasSoiree.heure}}</p> 
+	<i class="ion-ios-people"></i>
+	<div class="list-create">
+		<div class="friend" ng-if="datasSoiree.id_fb1 != null">
+			<img src="{{datasSoiree.url_img1}}">
+			<p>{{datasSoiree.id_fb1}}</p>
+		</div>
+		<div class="friend" ng-if="datasSoiree.id_fb2 != null">
+			<img src="{{datasSoiree.url_img2}}">
+			<p>{{datasSoiree.id_fb2}}</p>
+		</div>
+		<div class="friend" ng-if="datasSoiree.id_fb3 != null">
+			<img src="{{datasSoiree.url_img3}}">
+			<p>{{datasSoiree.id_fb3}}</p>
+		</div>
+		<div class="friend" ng-if="datasSoiree.id_fb4 != null">
+			<img src="{{datasSoiree.url_img4}}">
+			<p>{{datasSoiree.id_fb4}}</p>
+		</div>
+	</div>
+	<button ng-if="datasSoiree.statut==0" ng-click="invitGirls()" class="button add_girl button-block">Inviter des filles</button>
  </ion-content>
 </ion-view>

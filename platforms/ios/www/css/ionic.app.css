@@ -7675,6 +7675,14 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
+body .ion-ios-plus-outline {
+  text-align: right;
+  width: 100%;
+  font-size: 30px;
+  padding-right: 5px; }
+body .ion-navicon, body .ion-ios-arrow-back {
+  padding-left: 5px;
+  font-size: 30px; }
 body .single-soiree .container-photo {
   height: 180px;
   overflow: hidden; }
@@ -7715,7 +7723,9 @@ body .list-create .friend {
   body .list-create .friend img {
     border-radius: 50%;
     margin: 0 auto;
-    display: block; }
+    display: block;
+    width: 40px;
+    height: 40px; }
   body .list-create .friend p {
     padding-top: 20px;
     width: 90%;
