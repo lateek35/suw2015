@@ -66,10 +66,12 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
     $scope.getSoirees = function(){
       $rootScope.title = "Mes soirées";
       $scope.showme = true;
+      $('.getSoiree, .getInvit').toggleClass('active');
     };
     $scope.getInvitations = function(){
       $rootScope.title = "Mes invitation";
       $scope.showme = false;
+      $('.getSoiree, .getInvit').toggleClass('active');
     };
     $rootScope.create = function(){
       // $rootScope.title = "Créer une soirée";
@@ -101,22 +103,15 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
         $scope.$apply();
       });
 
-      $http.get("https://graph.facebook.com/v2.3/me/friends?limit=1000", { params: { access_token: $localStorage.accessToken, format: "json" }}).then(function(result) {
-          $scope.friendsData = result;
+      $http.get("https://graph.facebook.com/v2.3/me/taggable_friends?limit=1000", { params: { access_token: $localStorage.accessToken, format: "json" }}).then(function(result) {
+          $scope.friendsData = result.data.data;
+          $http.get("https://graph.facebook.com/v2.3/me/taggable_friends?limit=1000", { params: { access_token: $localStorage.accessToken, fields: "picture", format: "json" }}).then(function(result) {
+            $scope.friendsData.picture = result.data.data;
+        });
       }, function(error) {
           alert("There was a problem getting your profile.  Check the logs for details.");
           console.log(error);
       });
-
-      // $http.get("https://graph.facebook.com/v2.3/me/taggable_friends?limit=1000", { params: { access_token: $localStorage.accessToken, format: "json" }}).then(function(result) {
-      //     $scope.friendsData = result.data.data;
-      //     $http.get("https://graph.facebook.com/v2.3/me/taggable_friends?limit=1000", { params: { access_token: $localStorage.accessToken, fields: "picture", format: "json" }}).then(function(result) {
-      //       $scope.friendsData.picture = result.data.data;
-      //   });
-      // }, function(error) {
-      //     alert("There was a problem getting your profile.  Check the logs for details.");
-      //     console.log(error);
-      // });
     }else{
       $ionicSideMenuDelegate.canDragContent(false);
       $rootScope.logged = false;
@@ -143,8 +138,6 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
       $('div.friend img').remove();
       $('div.friend p').remove();
       console.log($('input[name="friendInvite"]:checked').val());
-      // AaILwC27glK_kfSugI6_TJ6aaGj6HPAAMVUeAzsUXzzLUSY1phX4oZoixem7P2XAx0Mm2mAoriR0odmV0YDczDXaRHcdeEOgTi92eZpK6DJEkA
-      // AaLyq6XwO0cb_c35t09t0f-dy-KA__yfqlEzojFEP2oQOr07QrXTKgRr5STwQisferKtW36Sxl9DeMcYwYn0YSMGKiqVo1A0c_foopGpz2BjLw
       for(var i=0; i<$('input[name="friendInvite"]:checked').length; i++){
         var pieces = $('input[name="friendInvite"]:checked')[i].value.split("|");
         $('div.friend-'+i).append("<img src='"+pieces[1]+"'/>");

@@ -7,7 +7,7 @@
     <ion-list ng-show="showme">
       <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="soiree in soirees" type="item-text-wrap" href="#/tab/soirees/une_soiree">
 
-        <img ng-src="{{soiree.face}}">
+        <img ng-src="{{soiree.photo}}">
         <p class="title_top_soiree">{{soiree.boite}} {{soiree.date}}</p>
         <p class="infos_soiree">{{soiree.nbr_participants}} participants - 
         <span ng-if="soiree.statut == 0" class="stay_soiree">En attente</span>
