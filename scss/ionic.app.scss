@@ -20,10 +20,16 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
+body{
+  .item-select-create::after {
+    display: inherit;
+    position: initial;
+  }
+}
 
 
 .bar-dark .title{
-  text-align: center;
+  text-align: center;  
 }
 
 .debug-scroll {

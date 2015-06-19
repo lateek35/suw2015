@@ -1,7 +1,7 @@
 <ion-view title="Creation">
     <ion-content style="padding-top:40px;">
 		<div class="list">
-		  <label class="item item-input item-select">
+		  <label class="item item-input item-select item-select-create" id="firs">
 		    <select name="boite">
 		      	<option ng-repeat="boite in boites" value="{{boite.nom}}">{{boite.nom}}</option>
 		    </select>
@@ -12,7 +12,7 @@
 			</label>
 			<label class="item item-input">
 			  <span class="input-label">Time</span>
-			  <input type="time" name="time">
+			  <input type="time" name="time"> 
 			</label>
 		  <label class="item item-input">
 		    <span class="input-label">invités</span>
