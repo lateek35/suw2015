@@ -37,6 +37,8 @@
       <ion-header-bar class="bar bar-header bar-dark" ng-show="logged">
         <span ng-if="route == 'soirees'" class="ion-navicon" ng-click="openSideMenu()"></span>
         <span ng-if="route == 'create'" class="ion-ios-arrow-back" ng-click="goBack()"></span>
+        <span ng-if="route == 'detail'" class="ion-ios-arrow-back" ng-click="goBackDetail()"></span>
+        <span ng-if="route == 'invit'" class="ion-ios-arrow-back" ng-click="goBackInvit()"></span>
         <h1 class="title" style="text-align: center;">{{title}}</h1>
         <span class="ion-ios-plus-outline" ng-click="create()"></span>
       </ion-header-bar>

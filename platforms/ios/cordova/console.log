@@ -1,4 +1,171 @@
 <<<<<<< HEAD
+2015-06-19 05:58:21.011 myApp[93046:4825762] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kevinchapron/Library/Developer/CoreSimulator/Devices/7B44C305-2147-4683-9D56-70FB08CF2915/data/Containers/Data/Application/21570128-383C-488C-A2FE-674DFB1286B8/Library/Cookies/Cookies.binarycookies
+2015-06-19 05:58:21.083 myApp[93046:4825762] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 05:58:21.084 myApp[93046:4825762] Multi-tasking -> Device: YES, App: YES
+2015-06-19 05:58:21.086 myApp[93046:4825762] Unlimited access to network resources
+2015-06-19 05:58:21.172 myApp[93046:4825762] [CDVTimer][keyboard] 0.081003ms
+2015-06-19 05:58:21.188 myApp[93046:4825762] [CDVTimer][splashscreen] 16.150951ms
+2015-06-19 05:58:21.188 myApp[93046:4825762] [CDVTimer][TotalPluginStartup] 16.521990ms
+2015-06-19 05:58:21.533 myApp[93046:4825762] Resetting plugins due to page load.
+2015-06-19 05:58:22.128 myApp[93046:4825762] Finished load of: http://192.168.0.16:8100/#/login
+2015-06-19 05:58:23.538 myApp[93046:4825762] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-06-19 05:58:23.566 myApp[93046:4825762] THREAD WARNING: ['InAppBrowser'] took '156.639893' ms. Plugin should use a background thread.
+2015-06-19 06:00:02.571 myApp[93046:4825762] Resetting plugins due to page load.
+2015-06-19 06:00:02.571 myApp[93046:4825762] IAB.close() called but it was already closed.
+2015-06-19 06:00:02.881 myApp[93046:4825762] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:00:08.605 myApp[93046:4825762] Resetting plugins due to page load.
+2015-06-19 06:00:08.606 myApp[93046:4825762] IAB.close() called but it was already closed.
+2015-06-19 06:00:08.765 myApp[93046:4825762] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:00:25.963 myApp[93410:4827209] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 06:00:25.964 myApp[93410:4827209] Multi-tasking -> Device: YES, App: YES
+2015-06-19 06:00:25.965 myApp[93410:4827209] Unlimited access to network resources
+2015-06-19 06:00:26.042 myApp[93410:4827209] [CDVTimer][keyboard] 0.054002ms
+2015-06-19 06:00:26.061 myApp[93410:4827209] [CDVTimer][splashscreen] 18.932045ms
+2015-06-19 06:00:26.061 myApp[93410:4827209] [CDVTimer][TotalPluginStartup] 19.277990ms
+2015-06-19 06:00:26.146 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:00:26.562 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:01:44.559 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:01:44.858 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:02:08.039 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:02:08.209 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:02:17.986 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:02:18.165 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:02:28.963 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:02:29.122 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:02:53.435 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:02:53.558 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:03:07.837 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:03:08.013 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:04:33.655 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:04:33.887 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:04:48.766 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:04:48.942 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:05:28.587 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:05:28.794 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:05:32.611 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:05:32.796 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:06:21.860 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:06:22.101 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:06:30.716 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:06:30.895 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:07:02.839 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:07:03.086 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:07:07.165 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:07:07.351 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:07:11.999 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:07:12.249 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:08:09.538 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:08:09.771 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:09:03.429 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:09:03.678 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:09:18.422 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:09:18.595 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:09:49.447 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:09:49.659 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:09:58.189 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:09:58.307 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:10:40.939 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:10:41.195 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:11:47.888 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:11:48.216 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:12:46.836 myApp[93410:4827209] Resetting plugins due to page load.
+2015-06-19 06:12:47.055 myApp[93410:4827209] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:16:26.478 myApp[94123:4832630] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 06:16:26.479 myApp[94123:4832630] Multi-tasking -> Device: YES, App: YES
+2015-06-19 06:16:26.481 myApp[94123:4832630] Unlimited access to network resources
+2015-06-19 06:16:26.549 myApp[94123:4832630] [CDVTimer][keyboard] 0.056982ms
+2015-06-19 06:16:26.569 myApp[94123:4832630] [CDVTimer][splashscreen] 18.986046ms
+2015-06-19 06:16:26.569 myApp[94123:4832630] [CDVTimer][TotalPluginStartup] 19.316971ms
+2015-06-19 06:16:26.652 myApp[94123:4832630] Resetting plugins due to page load.
+2015-06-19 06:16:27.046 myApp[94123:4832630] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:17:10.664 myApp[94123:4832630] Resetting plugins due to page load.
+2015-06-19 06:17:10.926 myApp[94123:4832630] Finished load of: http://192.168.0.16:8100/#/invit/37
+2015-06-19 06:17:28.508 myApp[94482:4833649] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 06:17:28.510 myApp[94482:4833649] Multi-tasking -> Device: YES, App: YES
+2015-06-19 06:17:28.520 myApp[94482:4833649] Unlimited access to network resources
+2015-06-19 06:17:28.619 myApp[94482:4833649] [CDVTimer][keyboard] 0.072956ms
+2015-06-19 06:17:28.636 myApp[94482:4833649] [CDVTimer][splashscreen] 16.394019ms
+2015-06-19 06:17:28.636 myApp[94482:4833649] [CDVTimer][TotalPluginStartup] 16.772032ms
+2015-06-19 06:17:28.720 myApp[94482:4833649] Resetting plugins due to page load.
+2015-06-19 06:17:29.091 myApp[94482:4833649] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:18:42.388 myApp[94482:4833649] Resetting plugins due to page load.
+2015-06-19 06:18:42.653 myApp[94482:4833649] Finished load of: http://192.168.0.16:8100/#/invit/37
+2015-06-19 06:18:52.677 myApp[94836:4834627] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 06:18:52.677 myApp[94836:4834627] Multi-tasking -> Device: YES, App: YES
+2015-06-19 06:18:52.688 myApp[94836:4834627] Unlimited access to network resources
+2015-06-19 06:18:52.785 myApp[94836:4834627] [CDVTimer][keyboard] 0.061989ms
+2015-06-19 06:18:52.801 myApp[94836:4834627] [CDVTimer][splashscreen] 16.271055ms
+2015-06-19 06:18:52.801 myApp[94836:4834627] [CDVTimer][TotalPluginStartup] 16.732991ms
+2015-06-19 06:18:52.890 myApp[94836:4834627] Resetting plugins due to page load.
+2015-06-19 06:18:53.293 myApp[94836:4834627] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:20:36.359 myApp[94836:4834627] Resetting plugins due to page load.
+2015-06-19 06:20:36.647 myApp[94836:4834627] Finished load of: http://192.168.0.16:8100/#/tab/soirees/37
+2015-06-19 06:20:46.742 myApp[94836:4834627] Resetting plugins due to page load.
+2015-06-19 06:20:46.858 myApp[94836:4834627] Finished load of: http://192.168.0.16:8100/#/tab/soirees/37
+2015-06-19 06:21:00.752 myApp[94836:4834627] Resetting plugins due to page load.
+2015-06-19 06:21:00.871 myApp[94836:4834627] Finished load of: http://192.168.0.16:8100/#/tab/soirees/37
+2015-06-19 06:21:13.635 myApp[94836:4834627] Resetting plugins due to page load.
+2015-06-19 06:21:13.761 myApp[94836:4834627] Finished load of: http://192.168.0.16:8100/#/tab/soirees/37
+2015-06-19 06:21:19.884 myApp[94836:4834627] Resetting plugins due to page load.
+2015-06-19 06:21:19.984 myApp[94836:4834627] Finished load of: http://192.168.0.16:8100/#/tab/soirees/37
+2015-06-19 06:21:30.604 myApp[95194:4835875] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 06:21:30.605 myApp[95194:4835875] Multi-tasking -> Device: YES, App: YES
+2015-06-19 06:21:30.615 myApp[95194:4835875] Unlimited access to network resources
+2015-06-19 06:21:30.712 myApp[95194:4835875] [CDVTimer][keyboard] 0.061989ms
+2015-06-19 06:21:30.727 myApp[95194:4835875] [CDVTimer][splashscreen] 15.652001ms
+2015-06-19 06:21:30.727 myApp[95194:4835875] [CDVTimer][TotalPluginStartup] 16.030967ms
+2015-06-19 06:21:30.866 myApp[95194:4835875] Resetting plugins due to page load.
+2015-06-19 06:21:31.260 myApp[95194:4835875] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:22:10.621 myApp[95194:4835875] Resetting plugins due to page load.
+2015-06-19 06:22:10.894 myApp[95194:4835875] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:23:35.987 myApp[95194:4835875] Resetting plugins due to page load.
+2015-06-19 06:23:36.279 myApp[95194:4835875] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:23:50.387 myApp[95194:4835875] Resetting plugins due to page load.
+2015-06-19 06:23:50.637 myApp[95194:4835875] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:26:34.482 myApp[95194:4835875] Resetting plugins due to page load.
+2015-06-19 06:26:34.705 myApp[95194:4835875] Finished load of: http://192.168.0.16:8100/#/invit/36
+2015-06-19 06:26:41.429 myApp[95194:4835875] Resetting plugins due to page load.
+2015-06-19 06:26:41.599 myApp[95194:4835875] Finished load of: http://192.168.0.16:8100/#/invit/36
+2015-06-19 06:27:29.111 myApp[95194:4835875] Resetting plugins due to page load.
+2015-06-19 06:27:29.311 myApp[95194:4835875] Finished load of: http://192.168.0.16:8100/#/invit/36
+2015-06-19 06:29:03.997 myApp[95194:4835875] Resetting plugins due to page load.
+2015-06-19 06:29:04.229 myApp[95194:4835875] Finished load of: http://192.168.0.16:8100/#/invit/36
+2015-06-19 06:29:21.638 myApp[95194:4835875] Resetting plugins due to page load.
+2015-06-19 06:29:21.746 myApp[95194:4835875] Finished load of: http://192.168.0.16:8100/#/invit/36
+2015-06-19 06:29:35.172 myApp[95668:4838892] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 06:29:35.173 myApp[95668:4838892] Multi-tasking -> Device: YES, App: YES
+2015-06-19 06:29:35.175 myApp[95668:4838892] Unlimited access to network resources
+2015-06-19 06:29:35.246 myApp[95668:4838892] [CDVTimer][keyboard] 0.055015ms
+2015-06-19 06:29:35.265 myApp[95668:4838892] [CDVTimer][splashscreen] 18.856049ms
+2015-06-19 06:29:35.265 myApp[95668:4838892] [CDVTimer][TotalPluginStartup] 19.209981ms
+2015-06-19 06:29:35.357 myApp[95668:4838892] Resetting plugins due to page load.
+2015-06-19 06:29:35.751 myApp[95668:4838892] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:30:40.853 myApp[95668:4838892] Resetting plugins due to page load.
+2015-06-19 06:30:41.109 myApp[95668:4838892] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:30:52.337 myApp[95668:4838892] Resetting plugins due to page load.
+2015-06-19 06:30:52.525 myApp[95668:4838892] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:30:59.082 myApp[95668:4838892] Resetting plugins due to page load.
+2015-06-19 06:30:59.187 myApp[95668:4838892] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:34:58.703 myApp[96132:4840958] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 06:34:58.704 myApp[96132:4840958] Multi-tasking -> Device: YES, App: YES
+2015-06-19 06:34:58.706 myApp[96132:4840958] Unlimited access to network resources
+2015-06-19 06:34:58.777 myApp[96132:4840958] [CDVTimer][keyboard] 0.055015ms
+2015-06-19 06:34:58.799 myApp[96132:4840958] [CDVTimer][splashscreen] 22.605002ms
+2015-06-19 06:34:58.799 myApp[96132:4840958] [CDVTimer][TotalPluginStartup] 22.947967ms
+2015-06-19 06:34:58.892 myApp[96132:4840958] Resetting plugins due to page load.
+2015-06-19 06:34:59.280 myApp[96132:4840958] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:37:30.049 myApp[96132:4840958] Resetting plugins due to page load.
+2015-06-19 06:37:30.294 myApp[96132:4840958] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 06:40:41.796 myApp[96621:4843558] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 06:40:41.797 myApp[96621:4843558] Multi-tasking -> Device: YES, App: YES
+2015-06-19 06:40:41.799 myApp[96621:4843558] Unlimited access to network resources
+2015-06-19 06:40:41.878 myApp[96621:4843558] [CDVTimer][keyboard] 0.055969ms
+2015-06-19 06:40:41.898 myApp[96621:4843558] [CDVTimer][splashscreen] 19.454002ms
+2015-06-19 06:40:41.898 myApp[96621:4843558] [CDVTimer][TotalPluginStartup] 19.793987ms
+2015-06-19 06:40:41.982 myApp[96621:4843558] Resetting plugins due to page load.
+2015-06-19 06:40:42.385 myApp[96621:4843558] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+=======
+<<<<<<< HEAD
 2015-06-19 02:08:23.627 myApp[12635:674385] Apache Cordova native platform version 3.8.0 is starting.
 2015-06-19 02:08:23.627 myApp[12635:674385] Multi-tasking -> Device: YES, App: YES
 2015-06-19 02:08:23.629 myApp[12635:674385] Unlimited access to network resources
@@ -1254,6 +1421,7 @@ tapTouchEnd@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2975:13
 2015-06-19 06:29:47.292 myApp[25842:3690584] Finished load of: http://192.168.0.14:8100/#/tab/soiree
 2015-06-19 06:30:57.338 myApp[25842:3690584] Resetting plugins due to page load.
 2015-06-19 06:30:57.526 myApp[25842:3690584] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+<<<<<<< HEAD
 2015-06-19 06:44:24.638 myApp[26484:4080456] Apache Cordova native platform version 3.8.0 is starting.
 2015-06-19 06:44:24.639 myApp[26484:4080456] Multi-tasking -> Device: YES, App: YES
 2015-06-19 06:44:24.640 myApp[26484:4080456] Unlimited access to network resources
@@ -1384,3 +1552,6 @@ tapTouchEnd@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2975:13
 2015-06-19 07:03:50.400 myApp[29300:4197468] Finished load of: http://192.168.0.14:8100/#/tab/soiree
 2015-06-19 07:04:08.316 myApp[29300:4197468] Resetting plugins due to page load.
 2015-06-19 07:04:08.394 myApp[29300:4197468] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+=======
+>>>>>>> 2f87e47d90bc7f29f012f554aea551d48c192c62
+>>>>>>> 473ffdc2d663d907ab3704ea081be13676bb10fe
