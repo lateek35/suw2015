@@ -26,6 +26,6 @@
 			<p>{{datasSoiree.id_fb4}}</p>
 		</div>
 	</div>
-<button ng-click="login()" class="button add_girl button-block">Inviter des filles</button>
+	<button ng-if="datasSoiree.statut==0"ng-click="login()" class="button add_girl button-block">Inviter des filles</button>
  </ion-content>
 </ion-view>
