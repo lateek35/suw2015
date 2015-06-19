@@ -7,7 +7,7 @@
 
 
 <ion-view view-title="<i class='icon ion-chatbubble user-messages-top-icon'></i> <div class='msg-header-username'>{{chat.name}}</div>">
-  <ion-content class="padding">
+  <ion-content>
     <ion-scroll delegate-handle="mainScroll" overflow-scroll="true" direction="y" height="100%" class="debug-scroll">
       <div class="chatbox-container">
         <p ng-bind="msg.content" ng-repeat="msg in messages" ng-class="msg.id == monId ? 'to' : 'from'" class="message"></p>

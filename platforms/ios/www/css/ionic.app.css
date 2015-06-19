@@ -7719,6 +7719,7 @@ body {
     body .menu-left .tabs-left-menu {
       margin-top: 50px; }
     body .menu-left .tab-left-menu {
+      display: block;
       width: 100%;
       height: 50px;
       line-height: 50px; }
@@ -7832,9 +7833,11 @@ body {
 .bar-dark .title {
   text-align: center; }
 
-.debug-scroll {
+.debug-scroll.scroll-view {
   overflow: scroll;
-  height: 100%; }
+  height: 100%;
+  top: 0;
+  bottom: 0; }
 
 .scroll {
   height: 100%; }

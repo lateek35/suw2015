@@ -1793,3 +1793,423 @@ requestLoaded@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18489:24
 =======
 >>>>>>> e20e7969a6b6727abb00d4b195024f2fd45bac11
 >>>>>>> 842b06194b7b5ec52d5c2ab71df2239ff6c487c0
+2015-06-19 07:40:09.550 myApp[32992:4780082] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 07:40:09.550 myApp[32992:4780082] Multi-tasking -> Device: YES, App: YES
+2015-06-19 07:40:09.552 myApp[32992:4780082] Unlimited access to network resources
+2015-06-19 07:40:09.613 myApp[32992:4780082] [CDVTimer][keyboard] 0.054002ms
+2015-06-19 07:40:09.623 myApp[32992:4780082] [CDVTimer][splashscreen] 9.346008ms
+2015-06-19 07:40:09.623 myApp[32992:4780082] [CDVTimer][TotalPluginStartup] 9.666979ms
+2015-06-19 07:40:09.684 myApp[32992:4780082] Resetting plugins due to page load.
+2015-06-19 07:40:10.025 myApp[32992:4780082] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:40:20.423 myApp[32992:4780082] Resetting plugins due to page load.
+2015-06-19 07:40:20.670 myApp[32992:4780082] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:40:26.761 myApp[32992:4780082] Resetting plugins due to page load.
+2015-06-19 07:40:26.857 myApp[32992:4780082] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:42:39.854 myApp[32992:4780082] Resetting plugins due to page load.
+2015-06-19 07:42:40.113 myApp[32992:4780082] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:42:58.550 myApp[32992:4780082] Resetting plugins due to page load.
+2015-06-19 07:42:58.642 myApp[32992:4780082] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:43:00.954 myApp[32992:4780082] Resetting plugins due to page load.
+2015-06-19 07:43:01.038 myApp[32992:4780082] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:43:07.302 myApp[32992:4780082] Resetting plugins due to page load.
+2015-06-19 07:43:07.390 myApp[32992:4780082] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:43:37.290 myApp[32992:4780082] Resetting plugins due to page load.
+2015-06-19 07:43:37.372 myApp[32992:4780082] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:43:47.363 myApp[32992:4780082] Resetting plugins due to page load.
+2015-06-19 07:43:47.446 myApp[32992:4780082] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:46:12.987 myApp[32992:4780082] Resetting plugins due to page load.
+2015-06-19 07:46:13.256 myApp[32992:4780082] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:46:47.215 myApp[32992:4780082] Resetting plugins due to page load.
+2015-06-19 07:46:47.230 myApp[32992:4780082] Finished load of: http://192.168.0.14:8100/profil
+2015-06-19 07:47:46.445 myApp[33483:4877535] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 07:47:46.445 myApp[33483:4877535] Multi-tasking -> Device: YES, App: YES
+2015-06-19 07:47:46.447 myApp[33483:4877535] Unlimited access to network resources
+2015-06-19 07:47:46.507 myApp[33483:4877535] [CDVTimer][keyboard] 0.053048ms
+2015-06-19 07:47:46.520 myApp[33483:4877535] [CDVTimer][splashscreen] 12.273014ms
+2015-06-19 07:47:46.520 myApp[33483:4877535] [CDVTimer][TotalPluginStartup] 12.583017ms
+2015-06-19 07:47:46.587 myApp[33483:4877535] Resetting plugins due to page load.
+2015-06-19 07:47:46.929 myApp[33483:4877535] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:47:51.105 myApp[33483:4877535] Resetting plugins due to page load.
+2015-06-19 07:47:51.117 myApp[33483:4877535] Finished load of: http://192.168.0.14:8100/profil
+2015-06-19 07:49:27.082 myApp[33842:4898810] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 07:49:27.083 myApp[33842:4898810] Multi-tasking -> Device: YES, App: YES
+2015-06-19 07:49:27.085 myApp[33842:4898810] Unlimited access to network resources
+2015-06-19 07:49:27.147 myApp[33842:4898810] [CDVTimer][keyboard] 0.048995ms
+2015-06-19 07:49:27.157 myApp[33842:4898810] [CDVTimer][splashscreen] 9.899974ms
+2015-06-19 07:49:27.157 myApp[33842:4898810] [CDVTimer][TotalPluginStartup] 10.208964ms
+2015-06-19 07:49:27.279 myApp[33842:4898810] Resetting plugins due to page load.
+2015-06-19 07:49:28.646 myApp[33842:4898810] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:49:30.828 myApp[33842:4898810] Resetting plugins due to page load.
+2015-06-19 07:49:30.840 myApp[33842:4898810] Finished load of: http://192.168.0.14:8100/profil
+2015-06-19 07:51:14.391 myApp[34205:4921810] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 07:51:14.391 myApp[34205:4921810] Multi-tasking -> Device: YES, App: YES
+2015-06-19 07:51:14.393 myApp[34205:4921810] Unlimited access to network resources
+2015-06-19 07:51:14.455 myApp[34205:4921810] [CDVTimer][keyboard] 0.054002ms
+2015-06-19 07:51:14.468 myApp[34205:4921810] [CDVTimer][splashscreen] 12.763977ms
+2015-06-19 07:51:14.468 myApp[34205:4921810] [CDVTimer][TotalPluginStartup] 13.179004ms
+2015-06-19 07:51:14.535 myApp[34205:4921810] Resetting plugins due to page load.
+2015-06-19 07:51:14.877 myApp[34205:4921810] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:51:17.181 myApp[34205:4921810] Resetting plugins due to page load.
+2015-06-19 07:51:17.193 myApp[34205:4921810] Finished load of: http://192.168.0.14:8100/profil
+2015-06-19 08:18:37.586 myApp[35333:5258923] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 08:18:37.587 myApp[35333:5258923] Multi-tasking -> Device: YES, App: YES
+2015-06-19 08:18:37.588 myApp[35333:5258923] Unlimited access to network resources
+2015-06-19 08:18:37.649 myApp[35333:5258923] [CDVTimer][keyboard] 0.052989ms
+2015-06-19 08:18:37.663 myApp[35333:5258923] [CDVTimer][splashscreen] 13.705015ms
+2015-06-19 08:18:37.663 myApp[35333:5258923] [CDVTimer][TotalPluginStartup] 14.017999ms
+2015-06-19 08:18:37.735 myApp[35333:5258923] Resetting plugins due to page load.
+2015-06-19 08:18:38.100 myApp[35333:5258923] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 08:18:40.798 myApp[35333:5258923] ERROR: Error: [$injector:undef] Provider 'dernier' must return a value from $get factory method.
+http://errors.angularjs.org/1.3.13/$injector/undef?p0=dernier
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:8762:32
+enforcedReturnValue@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12739:30
+invoke@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12884:22
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12702:43
+getService@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12843:46
+invoke@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12875:23
+instantiate@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12892:33
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:17161:39
+appendViewElement@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48253:35
+render@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53406:21
+$broadcast@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23419:33
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:40889:32
+processQueue@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:21888:29
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:21904:39
+$eval@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23100:28
+$digest@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:22916:36
+$apply@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23205:31
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:54879:24
+eventHandler@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:11713:25
+dispatchEvent@[native code]
+triggerMouseEvent@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2863:20
+tapClick@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2852:20
+tapTouchEnd@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2975:13
+2015-06-19 08:19:07.805 myApp[35333:5258923] Resetting plugins due to page load.
+2015-06-19 08:19:07.900 myApp[35333:5258923] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:19:07.960 myApp[35333:5258923] ERROR: http://errors.angularjs.org/1.3.13/$injector/unpr?p0=dernierProvider<ion-nav-view name="tab-chats" class="view-container tab-content disable-user-behavior" nav-view="active" nav-view-transition="ios">0%3C-%20dernier%20%3C-%20ChatsCtrl
+2015-06-19 08:19:45.058 myApp[35333:5258923] Resetting plugins due to page load.
+2015-06-19 08:19:45.328 myApp[35333:5258923] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:20:00.460 myApp[35333:5258923] Resetting plugins due to page load.
+2015-06-19 08:20:00.555 myApp[35333:5258923] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:21:19.650 myApp[35333:5258923] Resetting plugins due to page load.
+2015-06-19 08:21:19.858 myApp[35333:5258923] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:21:19.897 myApp[35333:5258923] ERROR: Error: undefined is not an object (evaluating 'chatMessages[chatMessages.length].content')
+http://192.168.0.14:8100/js/controllers.js:325:50
+invoke@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12884:22
+instantiate@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12892:33
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:17161:39
+appendViewElement@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48253:35
+render@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53413:19
+invokeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:16428:23
+compositeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:15656:45
+tabSelected@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:54795:37
+$digest@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:22942:31
+$apply@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23205:31
+done@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18358:53
+completeRequest@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18548:15
+requestLoaded@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18489:24 <ion-nav-view name="tab-chats" class="view-container tab-content disable-user-behavior" nav-view="active" nav-view-transition="ios">
+2015-06-19 08:21:43.116 myApp[35333:5258923] Resetting plugins due to page load.
+2015-06-19 08:21:43.238 myApp[35333:5258923] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:21:53.088 myApp[35698:5299290] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 08:21:53.088 myApp[35698:5299290] Multi-tasking -> Device: YES, App: YES
+2015-06-19 08:21:53.090 myApp[35698:5299290] Unlimited access to network resources
+2015-06-19 08:21:53.151 myApp[35698:5299290] [CDVTimer][keyboard] 0.050008ms
+2015-06-19 08:21:53.161 myApp[35698:5299290] [CDVTimer][splashscreen] 9.405971ms
+2015-06-19 08:21:53.161 myApp[35698:5299290] [CDVTimer][TotalPluginStartup] 9.711981ms
+2015-06-19 08:21:53.264 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:21:53.608 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 08:21:54.935 myApp[35698:5299290] ERROR: Error: undefined is not an object (evaluating 'chatMessages[chatMessages.length].content')
+http://192.168.0.14:8100/js/controllers.js:325:50
+invoke@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12884:22
+instantiate@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12892:33
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:17161:39
+appendViewElement@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48253:35
+render@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53406:21
+$broadcast@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23419:33
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:40889:32
+processQueue@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:21888:29
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:21904:39
+$eval@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23100:28
+$digest@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:22916:36
+$apply@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23205:31
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:54879:24
+eventHandler@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:11713:25
+dispatchEvent@[native code]
+triggerMouseEvent@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2863:20
+tapClick@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2852:20
+tapTouchEnd@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2975:13
+2015-06-19 08:22:33.765 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:22:34.023 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:22:34.065 myApp[35698:5299290] ERROR: Error: undefined is not an object (evaluating 'chatMessages[0].content')
+http://192.168.0.14:8100/js/controllers.js:325:32
+invoke@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12884:22
+instantiate@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12892:33
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:17161:39
+appendViewElement@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48253:35
+render@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53413:19
+invokeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:16428:23
+compositeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:15656:45
+tabSelected@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:54795:37
+$digest@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:22942:31
+$apply@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23205:31
+done@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18358:53
+completeRequest@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18548:15
+requestLoaded@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18489:24 <ion-nav-view name="tab-chats" class="view-container tab-content disable-user-behavior" nav-view="active" nav-view-transition="ios">
+2015-06-19 08:22:37.188 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:22:37.393 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:22:37.441 myApp[35698:5299290] ERROR: Error: undefined is not an object (evaluating 'chatMessages[0].content')
+http://192.168.0.14:8100/js/controllers.js:325:32
+invoke@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12884:22
+instantiate@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12892:33
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:17161:39
+appendViewElement@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48253:35
+render@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53413:19
+invokeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:16428:23
+compositeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:15656:45
+tabSelected@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:54795:37
+$digest@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:22942:31
+$apply@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23205:31
+done@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18358:53
+completeRequest@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18548:15
+requestLoaded@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18489:24 <ion-nav-view name="tab-chats" class="view-container tab-content disable-user-behavior" nav-view="active" nav-view-transition="ios">
+2015-06-19 08:22:46.260 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:22:47.029 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:23:54.422 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:23:54.713 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:24:07.409 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:24:07.494 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:24:07.543 myApp[35698:5299290] ERROR: Error: undefined is not an object (evaluating 'chatMessages[0].content')
+http://192.168.0.14:8100/js/controllers.js:325:30
+invoke@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12884:22
+instantiate@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12892:33
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:17161:39
+appendViewElement@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48253:35
+render@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53413:19
+invokeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:16428:23
+compositeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:15656:45
+tabSelected@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:54795:37
+$digest@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:22942:31
+$apply@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23205:31
+done@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18358:53
+completeRequest@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18548:15
+requestLoaded@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18489:24 <ion-nav-view name="tab-chats" class="view-container tab-content disable-user-behavior" nav-view="active" nav-view-transition="ios">
+2015-06-19 08:24:45.294 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:24:45.507 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:24:45.550 myApp[35698:5299290] ERROR: Error: undefined is not an object (evaluating 'test.content')
+http://192.168.0.14:8100/js/controllers.js:326:19
+invoke@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12884:22
+instantiate@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12892:33
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:17161:39
+appendViewElement@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48253:35
+render@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53413:19
+invokeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:16428:23
+compositeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:15656:45
+tabSelected@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:54795:37
+$digest@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:22942:31
+$apply@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23205:31
+done@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18358:53
+completeRequest@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18548:15
+requestLoaded@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18489:24 <ion-nav-view name="tab-chats" class="view-container tab-content disable-user-behavior" nav-view="active" nav-view-transition="ios">
+2015-06-19 08:25:00.696 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:25:01.109 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:25:01.151 myApp[35698:5299290] ERROR: Error: undefined is not an object (evaluating 'test.id')
+http://192.168.0.14:8100/js/controllers.js:326:19
+invoke@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12884:22
+instantiate@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12892:33
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:17161:39
+appendViewElement@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48253:35
+render@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53413:19
+invokeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:16428:23
+compositeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:15656:45
+tabSelected@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:54795:37
+$digest@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:22942:31
+$apply@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23205:31
+done@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18358:53
+completeRequest@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18548:15
+requestLoaded@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18489:24 <ion-nav-view name="tab-chats" class="view-container tab-content disable-user-behavior" nav-view="active" nav-view-transition="ios">
+2015-06-19 08:25:15.907 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:25:16.332 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:25:16.380 myApp[35698:5299290] ERROR: Error: undefined is not an object (evaluating 'test.content')
+http://192.168.0.14:8100/js/controllers.js:326:19
+invoke@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12884:22
+instantiate@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12892:33
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:17161:39
+appendViewElement@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48253:35
+render@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53413:19
+invokeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:16428:23
+compositeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:15656:45
+tabSelected@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:54795:37
+$digest@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:22942:31
+$apply@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23205:31
+done@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18358:53
+completeRequest@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18548:15
+requestLoaded@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18489:24 <ion-nav-view name="tab-chats" class="view-container tab-content disable-user-behavior" nav-view="active" nav-view-transition="ios">
+2015-06-19 08:26:38.257 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:26:38.700 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:26:54.969 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:26:55.078 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:27:05.036 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:27:05.174 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:27:05.232 myApp[35698:5299290] ERROR: Error: undefined is not an object (evaluating 'chatMessages.pop()[0]')
+http://192.168.0.14:8100/js/controllers.js:325:33
+invoke@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12884:22
+instantiate@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12892:33
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:17161:39
+appendViewElement@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48253:35
+render@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53413:19
+invokeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:16428:23
+compositeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:15656:45
+tabSelected@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:54795:37
+$digest@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:22942:31
+$apply@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23205:31
+done@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18358:53
+completeRequest@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18548:15
+requestLoaded@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18489:24 <ion-nav-view name="tab-chats" class="view-container tab-content disable-user-behavior" nav-view="active" nav-view-transition="ios">
+2015-06-19 08:27:29.911 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:27:30.058 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:27:37.565 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:27:37.659 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:27:56.599 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:27:56.843 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:28:41.623 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:28:41.849 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:28:51.595 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:28:51.748 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:28:53.908 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:28:54.062 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:28:55.718 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:28:55.814 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:28:55.864 myApp[35698:5299290] ERROR: Error: undefined is not an object (evaluating 'chatMessages[0][0]')
+http://192.168.0.14:8100/js/controllers.js:325:30
+invoke@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12884:22
+instantiate@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:12892:33
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:17161:39
+appendViewElement@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48253:35
+render@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:46450:58
+init@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:46370:26
+render@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48113:18
+register@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:48071:16
+updateView@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53429:31
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53413:19
+invokeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:16918:15
+nodeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:16428:23
+compositeLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:15777:23
+publicLinkFn@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:15656:45
+tabSelected@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:54795:37
+$digest@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:22942:31
+$apply@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23205:31
+done@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18358:53
+completeRequest@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18548:15
+requestLoaded@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18489:24 <ion-nav-view name="tab-chats" class="view-container tab-content disable-user-behavior" nav-view="active" nav-view-transition="ios">
+2015-06-19 08:28:58.033 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:28:58.126 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:29:02.264 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:29:02.354 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:29:04.687 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:29:04.795 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:29:04.855 myApp[35698:5299290] []
+2015-06-19 08:29:06.898 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:29:06.978 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:29:07.022 myApp[35698:5299290] []
+2015-06-19 08:30:08.624 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:30:08.913 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats/0
+2015-06-19 08:30:11.850 myApp[35698:5299290] Resetting plugins due to page load.
+2015-06-19 08:30:11.955 myApp[35698:5299290] Finished load of: http://192.168.0.14:8100/#/tab/chats/0
+2015-06-19 08:30:31.952 myApp[36117:5406110] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 08:30:31.953 myApp[36117:5406110] Multi-tasking -> Device: YES, App: YES
+2015-06-19 08:30:31.954 myApp[36117:5406110] Unlimited access to network resources
+2015-06-19 08:30:32.015 myApp[36117:5406110] [CDVTimer][keyboard] 0.051022ms
+2015-06-19 08:30:32.027 myApp[36117:5406110] [CDVTimer][splashscreen] 11.667967ms
+2015-06-19 08:30:32.027 myApp[36117:5406110] [CDVTimer][TotalPluginStartup] 11.967957ms
+2015-06-19 08:30:32.090 myApp[36117:5406110] Resetting plugins due to page load.
+2015-06-19 08:30:32.478 myApp[36117:5406110] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 08:32:59.304 myApp[36117:5406110] Resetting plugins due to page load.
+2015-06-19 08:32:59.599 myApp[36117:5406110] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:34:17.932 myApp[36117:5406110] Resetting plugins due to page load.
+2015-06-19 08:34:18.185 myApp[36117:5406110] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:37:25.192 myApp[36117:5406110] Resetting plugins due to page load.
+2015-06-19 08:37:25.507 myApp[36117:5406110] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:37:28.007 myApp[36117:5406110] Resetting plugins due to page load.
+2015-06-19 08:37:28.143 myApp[36117:5406110] Finished load of: http://192.168.0.14:8100/#/tab/chats
+2015-06-19 08:40:14.884 myApp[37421:5529338] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 08:40:14.884 myApp[37421:5529338] Multi-tasking -> Device: YES, App: YES
+2015-06-19 08:40:14.886 myApp[37421:5529338] Unlimited access to network resources
+2015-06-19 08:40:14.948 myApp[37421:5529338] [CDVTimer][keyboard] 0.051022ms
+2015-06-19 08:40:14.960 myApp[37421:5529338] [CDVTimer][splashscreen] 12.180030ms
+2015-06-19 08:40:14.960 myApp[37421:5529338] [CDVTimer][TotalPluginStartup] 12.469947ms
+2015-06-19 08:40:15.026 myApp[37421:5529338] Resetting plugins due to page load.
+2015-06-19 08:40:15.494 myApp[37421:5529338] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 08:45:14.540 myApp[38669:5592150] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 08:45:14.541 myApp[38669:5592150] Multi-tasking -> Device: YES, App: YES
+2015-06-19 08:45:14.543 myApp[38669:5592150] Unlimited access to network resources
+2015-06-19 08:45:14.606 myApp[38669:5592150] [CDVTimer][keyboard] 0.050008ms
+2015-06-19 08:45:14.619 myApp[38669:5592150] [CDVTimer][splashscreen] 12.765050ms
+2015-06-19 08:45:14.619 myApp[38669:5592150] [CDVTimer][TotalPluginStartup] 13.220012ms
+2015-06-19 08:45:14.684 myApp[38669:5592150] Resetting plugins due to page load.
+2015-06-19 08:45:15.051 myApp[38669:5592150] Finished load of: http://192.168.0.14:8100/#/tab/soiree
