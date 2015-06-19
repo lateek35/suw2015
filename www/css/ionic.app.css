@@ -7675,9 +7675,16 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
+body .bar.bar-dark {
+  background-color: #000; }
+body .tabs-background-dark .tabs, body .tabs-background-dark > .tabs {
+  background-color: #000; }
+body ion-tabs.tabs-color-active-positive .tab-item {
+  color: white; }
 body .ion-ios-plus-outline {
+  position: absolute;
+  right: 5px;
   text-align: right;
-  width: 100%;
   font-size: 30px;
   padding-right: 5px; }
 body .ion-navicon, body .ion-ios-arrow-back {
@@ -7723,7 +7730,9 @@ body .list-create .friend {
   body .list-create .friend img {
     border-radius: 50%;
     margin: 0 auto;
-    display: block; }
+    display: block;
+    width: 40px;
+    height: 40px; }
   body .list-create .friend p {
     padding-top: 20px;
     width: 90%;

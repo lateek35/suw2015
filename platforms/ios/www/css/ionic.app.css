@@ -7675,6 +7675,12 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
+body .bar.bar-dark {
+  background-color: #000; }
+body .tabs-background-dark .tabs, body .tabs-background-dark > .tabs {
+  background-color: #000; }
+body ion-tabs.tabs-color-active-positive .tab-item {
+  color: white; }
 body .single-soiree .container-photo {
   height: 180px;
   overflow: hidden; }
@@ -7715,7 +7721,9 @@ body .list-create .friend {
   body .list-create .friend img {
     border-radius: 50%;
     margin: 0 auto;
-    display: block; }
+    display: block;
+    width: 40px;
+    height: 40px; }
   body .list-create .friend p {
     padding-top: 20px;
     width: 90%;
