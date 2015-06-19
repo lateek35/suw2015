@@ -1555,3 +1555,227 @@ tapTouchEnd@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2975:13
 =======
 >>>>>>> 2f87e47d90bc7f29f012f554aea551d48c192c62
 >>>>>>> 473ffdc2d663d907ab3704ea081be13676bb10fe
+2015-06-19 07:18:02.903 myApp[29979:4500124] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 07:18:02.903 myApp[29979:4500124] Multi-tasking -> Device: YES, App: YES
+2015-06-19 07:18:02.905 myApp[29979:4500124] Unlimited access to network resources
+2015-06-19 07:18:02.972 myApp[29979:4500124] [CDVTimer][keyboard] 0.054002ms
+2015-06-19 07:18:02.986 myApp[29979:4500124] [CDVTimer][splashscreen] 14.063001ms
+2015-06-19 07:18:02.987 myApp[29979:4500124] [CDVTimer][TotalPluginStartup] 14.815986ms
+2015-06-19 07:18:03.055 myApp[29979:4500124] Resetting plugins due to page load.
+2015-06-19 07:18:03.352 myApp[29979:4500124] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:19:32.180 myApp[29979:4500124] Resetting plugins due to page load.
+2015-06-19 07:19:32.410 myApp[29979:4500124] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:19:42.346 myApp[30340:4522236] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 07:19:42.347 myApp[30340:4522236] Multi-tasking -> Device: YES, App: YES
+2015-06-19 07:19:42.349 myApp[30340:4522236] Unlimited access to network resources
+2015-06-19 07:19:42.409 myApp[30340:4522236] [CDVTimer][keyboard] 0.050008ms
+2015-06-19 07:19:42.419 myApp[30340:4522236] [CDVTimer][splashscreen] 9.444952ms
+2015-06-19 07:19:42.419 myApp[30340:4522236] [CDVTimer][TotalPluginStartup] 9.749949ms
+2015-06-19 07:19:42.515 myApp[30340:4522236] Resetting plugins due to page load.
+2015-06-19 07:19:42.798 myApp[30340:4522236] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:19:58.280 myApp[30340:4522236] Resetting plugins due to page load.
+2015-06-19 07:19:58.526 myApp[30340:4522236] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:20:04.969 myApp[30340:4522236] ERROR: Error: undefined is not an object (evaluating '$localStorage.clear')
+logOut@http://192.168.0.14:8100/js/app.js:24:18
+$parseFunctionCall@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:21044:23
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53458:21
+$eval@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23100:28
+$apply@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23199:28
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53457:19
+eventHandler@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:11713:25
+dispatchEvent@[native code]
+triggerMouseEvent@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2863:20
+tapClick@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2852:20
+tapTouchEnd@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2975:13
+2015-06-19 07:23:28.027 myApp[30340:4522236] Resetting plugins due to page load.
+2015-06-19 07:23:28.222 myApp[30340:4522236] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:23:29.940 myApp[30340:4522236] Resetting plugins due to page load.
+2015-06-19 07:23:30.346 myApp[30340:4522236] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:24:06.794 myApp[30340:4522236] Resetting plugins due to page load.
+2015-06-19 07:24:07.019 myApp[30340:4522236] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:24:09.009 myApp[30340:4522236] Resetting plugins due to page load.
+2015-06-19 07:24:09.081 myApp[30340:4522236] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:24:26.631 myApp[30725:4582168] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 07:24:26.632 myApp[30725:4582168] Multi-tasking -> Device: YES, App: YES
+2015-06-19 07:24:26.634 myApp[30725:4582168] Unlimited access to network resources
+2015-06-19 07:24:26.694 myApp[30725:4582168] [CDVTimer][keyboard] 0.051022ms
+2015-06-19 07:24:26.704 myApp[30725:4582168] [CDVTimer][splashscreen] 9.732008ms
+2015-06-19 07:24:26.704 myApp[30725:4582168] [CDVTimer][TotalPluginStartup] 10.041952ms
+2015-06-19 07:24:26.819 myApp[30725:4582168] Resetting plugins due to page load.
+2015-06-19 07:24:27.104 myApp[30725:4582168] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:24:42.995 myApp[30725:4582168] Resetting plugins due to page load.
+2015-06-19 07:24:43.238 myApp[30725:4582168] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:25:06.667 myApp[30725:4582168] Resetting plugins due to page load.
+2015-06-19 07:25:06.751 myApp[30725:4582168] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:25:08.073 myApp[30725:4582168] Resetting plugins due to page load.
+2015-06-19 07:25:08.475 myApp[30725:4582168] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:25:16.309 myApp[31074:4592996] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 07:25:16.310 myApp[31074:4592996] Multi-tasking -> Device: YES, App: YES
+2015-06-19 07:25:16.312 myApp[31074:4592996] Unlimited access to network resources
+2015-06-19 07:25:16.372 myApp[31074:4592996] [CDVTimer][keyboard] 0.050008ms
+2015-06-19 07:25:16.382 myApp[31074:4592996] [CDVTimer][splashscreen] 9.712040ms
+2015-06-19 07:25:16.382 myApp[31074:4592996] [CDVTimer][TotalPluginStartup] 10.010004ms
+2015-06-19 07:25:16.490 myApp[31074:4592996] Resetting plugins due to page load.
+2015-06-19 07:25:16.782 myApp[31074:4592996] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:26:28.350 myApp[31074:4592996] Resetting plugins due to page load.
+2015-06-19 07:26:28.604 myApp[31074:4592996] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:26:34.580 myApp[31074:4592996] ERROR: Error: undefined is not a function (evaluating '$localStorage.clear()')
+logOut@http://192.168.0.14:8100/js/app.js:23:24
+$parseFunctionCall@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:21044:23
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53458:21
+$eval@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23100:28
+$apply@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23199:28
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53457:19
+eventHandler@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:11713:25
+dispatchEvent@[native code]
+triggerMouseEvent@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2863:20
+tapClick@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2852:20
+tapTouchEnd@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2975:13
+2015-06-19 07:26:37.800 myApp[31074:4592996] ERROR: Error: undefined is not a function (evaluating '$localStorage.clear()')
+logOut@http://192.168.0.14:8100/js/app.js:23:24
+$parseFunctionCall@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:21044:23
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53458:21
+$eval@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23100:28
+$apply@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23199:28
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53457:19
+eventHandler@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:11713:25
+dispatchEvent@[native code]
+triggerMouseEvent@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2863:20
+tapClick@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2852:20
+tapTouchEnd@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2975:13
+2015-06-19 07:26:38.280 myApp[31074:4592996] ERROR: Error: undefined is not a function (evaluating '$localStorage.clear()')
+logOut@http://192.168.0.14:8100/js/app.js:23:24
+$parseFunctionCall@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:21044:23
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53458:21
+$eval@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23100:28
+$apply@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23199:28
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53457:19
+eventHandler@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:11713:25
+dispatchEvent@[native code]
+triggerMouseEvent@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2863:20
+tapClick@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2852:20
+tapTouchEnd@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2975:13
+2015-06-19 07:26:45.447 myApp[31433:4612566] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 07:26:45.448 myApp[31433:4612566] Multi-tasking -> Device: YES, App: YES
+2015-06-19 07:26:45.450 myApp[31433:4612566] Unlimited access to network resources
+2015-06-19 07:26:45.512 myApp[31433:4612566] [CDVTimer][keyboard] 0.050962ms
+2015-06-19 07:26:45.522 myApp[31433:4612566] [CDVTimer][splashscreen] 9.292006ms
+2015-06-19 07:26:45.522 myApp[31433:4612566] [CDVTimer][TotalPluginStartup] 9.597003ms
+2015-06-19 07:26:45.615 myApp[31433:4612566] Resetting plugins due to page load.
+2015-06-19 07:26:45.901 myApp[31433:4612566] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:27:07.900 myApp[31433:4612566] Resetting plugins due to page load.
+2015-06-19 07:27:08.150 myApp[31433:4612566] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:27:11.824 myApp[31433:4612566] Resetting plugins due to page load.
+2015-06-19 07:27:11.881 myApp[31433:4612566] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:27:14.141 myApp[31433:4612566] Resetting plugins due to page load.
+2015-06-19 07:27:14.561 myApp[31433:4612566] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:27:32.873 myApp[31433:4612566] Resetting plugins due to page load.
+2015-06-19 07:27:32.963 myApp[31433:4612566] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:27:45.140 myApp[31433:4612566] Resetting plugins due to page load.
+2015-06-19 07:27:45.231 myApp[31433:4612566] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:27:54.478 myApp[31784:4627395] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 07:27:54.479 myApp[31784:4627395] Multi-tasking -> Device: YES, App: YES
+2015-06-19 07:27:54.481 myApp[31784:4627395] Unlimited access to network resources
+2015-06-19 07:27:54.541 myApp[31784:4627395] [CDVTimer][keyboard] 0.051022ms
+2015-06-19 07:27:54.551 myApp[31784:4627395] [CDVTimer][splashscreen] 9.447992ms
+2015-06-19 07:27:54.551 myApp[31784:4627395] [CDVTimer][TotalPluginStartup] 9.764016ms
+2015-06-19 07:27:54.643 myApp[31784:4627395] Resetting plugins due to page load.
+2015-06-19 07:27:54.937 myApp[31784:4627395] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:28:09.334 myApp[31784:4627395] Resetting plugins due to page load.
+2015-06-19 07:28:09.605 myApp[31784:4627395] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:29:15.382 myApp[31784:4627395] Resetting plugins due to page load.
+2015-06-19 07:29:15.557 myApp[31784:4627395] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:29:23.518 myApp[32145:4646139] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 07:29:23.519 myApp[32145:4646139] Multi-tasking -> Device: YES, App: YES
+2015-06-19 07:29:23.520 myApp[32145:4646139] Unlimited access to network resources
+2015-06-19 07:29:23.589 myApp[32145:4646139] [CDVTimer][keyboard] 0.052035ms
+2015-06-19 07:29:23.600 myApp[32145:4646139] [CDVTimer][splashscreen] 10.774970ms
+2015-06-19 07:29:23.600 myApp[32145:4646139] [CDVTimer][TotalPluginStartup] 11.090994ms
+2015-06-19 07:29:23.784 myApp[32145:4646139] Resetting plugins due to page load.
+2015-06-19 07:29:23.974 myApp[32145:4646139] Finished load of: http://192.168.0.14:8100/
+2015-06-19 07:29:35.888 myApp[32145:4646139] Resetting plugins due to page load.
+2015-06-19 07:29:36.126 myApp[32145:4646139] Finished load of: http://192.168.0.14:8100/
+2015-06-19 07:29:37.397 myApp[32145:4646139] Resetting plugins due to page load.
+2015-06-19 07:29:37.470 myApp[32145:4646139] Finished load of: http://192.168.0.14:8100/
+2015-06-19 07:29:40.319 myApp[32145:4646139] Resetting plugins due to page load.
+2015-06-19 07:29:40.377 myApp[32145:4646139] Finished load of: http://192.168.0.14:8100/
+2015-06-19 07:29:44.846 myApp[32145:4646139] Resetting plugins due to page load.
+2015-06-19 07:29:44.915 myApp[32145:4646139] Finished load of: http://192.168.0.14:8100/
+2015-06-19 07:30:01.822 myApp[32493:4654700] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 07:30:01.823 myApp[32493:4654700] Multi-tasking -> Device: YES, App: YES
+2015-06-19 07:30:01.824 myApp[32493:4654700] Unlimited access to network resources
+2015-06-19 07:30:01.888 myApp[32493:4654700] [CDVTimer][keyboard] 0.063002ms
+2015-06-19 07:30:01.897 myApp[32493:4654700] [CDVTimer][splashscreen] 9.350002ms
+2015-06-19 07:30:01.898 myApp[32493:4654700] [CDVTimer][TotalPluginStartup] 9.683013ms
+2015-06-19 07:30:02.000 myApp[32493:4654700] Resetting plugins due to page load.
+2015-06-19 07:30:02.199 myApp[32493:4654700] Finished load of: http://192.168.0.14:8100/
+2015-06-19 07:30:15.699 myApp[32493:4654700] Resetting plugins due to page load.
+2015-06-19 07:30:16.104 myApp[32493:4654700] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:30:36.630 myApp[32493:4654700] Resetting plugins due to page load.
+2015-06-19 07:30:36.943 myApp[32493:4654700] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:30:37.836 myApp[32493:4654700] Resetting plugins due to page load.
+2015-06-19 07:30:37.985 myApp[32493:4654700] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:31:14.783 myApp[32493:4654700] Resetting plugins due to page load.
+2015-06-19 07:31:15.024 myApp[32493:4654700] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:31:18.660 myApp[32493:4654700] ERROR: Error: undefined is not a function (evaluating '$localStorage.removeItem('accessToken')')
+logOut@http://192.168.0.14:8100/js/controllers.js:97:31
+$parseFunctionCall@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:21044:23
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53458:21
+$eval@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23100:28
+$apply@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23199:28
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53457:19
+eventHandler@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:11713:25
+dispatchEvent@[native code]
+triggerMouseEvent@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2863:20
+tapClick@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2852:20
+tapTouchEnd@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2975:13
+2015-06-19 07:31:48.501 myApp[32493:4654700] Resetting plugins due to page load.
+2015-06-19 07:31:48.778 myApp[32493:4654700] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:31:55.118 myApp[32493:4654700] ERROR: Error: undefined is not a function (evaluating '$localStorage.accessToken.clear()')
+logOut@http://192.168.0.14:8100/js/controllers.js:97:38
+$parseFunctionCall@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:21044:23
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53458:21
+$eval@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23100:28
+$apply@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23199:28
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:53457:19
+eventHandler@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:11713:25
+dispatchEvent@[native code]
+triggerMouseEvent@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2863:20
+tapClick@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2852:20
+tapTouchEnd@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:2975:13
+2015-06-19 07:32:03.397 myApp[32493:4654700] Resetting plugins due to page load.
+2015-06-19 07:32:03.867 myApp[32493:4654700] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:32:07.894 myApp[32493:4654700] test
+2015-06-19 07:33:50.307 myApp[32493:4654700] Resetting plugins due to page load.
+2015-06-19 07:33:50.596 myApp[32493:4654700] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:33:57.231 myApp[32493:4654700] test
+2015-06-19 07:34:01.485 myApp[32493:4654700] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-06-19 07:34:01.491 myApp[32493:4654700] THREAD WARNING: ['InAppBrowser'] took '58.116943' ms. Plugin should use a background thread.
+2015-06-19 07:34:16.310 myApp[32493:4654700] webView:didFailLoadWithError - -1004: Could not connect to the server.
+2015-06-19 07:35:29.812 myApp[32493:4654700] Resetting plugins due to page load.
+2015-06-19 07:35:29.812 myApp[32493:4654700] IAB.close() called but it was already closed.
+2015-06-19 07:35:30.069 myApp[32493:4654700] Finished load of: http://192.168.0.14:8100/#/tab/soiree
+2015-06-19 07:35:39.643 myApp[32493:4654700] test
+2015-06-19 07:35:42.007 myApp[32493:4654700] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-06-19 07:35:42.009 myApp[32493:4654700] THREAD WARNING: ['InAppBrowser'] took '43.701904' ms. Plugin should use a background thread.
+2015-06-19 07:35:50.232 myApp[32493:4654700] Resetting plugins due to page load.
+2015-06-19 07:35:55.384 myApp[32493:4654700] The sign in flow was canceled
+2015-06-19 07:35:55.487 myApp[32493:4654700] Finished load of: http://192.168.0.14:8100/#/login
+2015-06-19 07:35:55.504 myApp[32493:4654700] test
+2015-06-19 07:35:56.546 myApp[32493:4654700] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-06-19 07:35:56.548 myApp[32493:4654700] THREAD WARNING: ['InAppBrowser'] took '43.491211' ms. Plugin should use a background thread.
+2015-06-19 07:36:07.703 myApp[32493:4654700] webView:didFailLoadWithError - -1004: Could not connect to the server.
+2015-06-19 07:36:08.145 myApp[32493:4654700] ERROR: Error: undefined is not a function (evaluating '$rootScope.init()')
+changeState@http://192.168.0.14:8100/js/controllers.js:38:24
+http://192.168.0.14:8100/js/controllers.js:19:39
+processQueue@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:21888:29
+http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:21904:39
+$eval@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23100:28
+$digest@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:22916:36
+$apply@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:23205:31
+done@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18358:53
+completeRequest@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18548:15
+requestLoaded@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18489:24
+2015-06-19 07:36:11.587 myApp[32493:4654700] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-06-19 07:36:11.589 myApp[32493:4654700] THREAD WARNING: ['InAppBrowser'] took '45.017822' ms. Plugin should use a background thread.
+2015-06-19 07:36:23.999 myApp[32493:4654700] webView:didFailLoadWithError - -1004: Could not connect to the server.

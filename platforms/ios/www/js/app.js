@@ -7,7 +7,7 @@
 // 'starter.controllers' is found in controllers.js
 angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','firebase','ngResource'])
 
-.run(function($ionicPlatform, $rootScope) {
+.run(function($ionicPlatform, $rootScope, $localStorage) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -21,12 +21,21 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','f
   });
 })
 
-.config(function($stateProvider, $urlRouterProvider) {
+.config(function($stateProvider, $urlRouterProvider,$rootScope,$localStorage ) {
 
   // Ionic uses AngularUI Router which uses the concept of states
   // Learn more here: https://github.com/angular-ui/ui-router
   // Set up the various states which the app can be in.
   // Each state's controller can be found in controllers.js
+
+    $rootScope.logOut = function() {
+      $localStorage.clear();
+      $ionicSideMenuDelegate.canDragContent(false);
+      $rootScope.logged = false;
+      $location.path("/login");
+    };
+
+
   $stateProvider
 
   .state('login', {

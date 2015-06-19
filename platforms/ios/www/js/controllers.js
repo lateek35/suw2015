@@ -4,6 +4,7 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
     $ionicSideMenuDelegate.canDragContent(false);
     $rootScope.logged = false;
     $rootScope.title = "Login";
+    console.log('test');
     $scope.login = function() {
       if(!$localStorage.hasOwnProperty("accessToken")) {
         $cordovaOauth.facebook("763024983807122", ["email", "read_stream", "user_website", "user_location", "user_relationships", "user_friends"]).then(function(result) {
@@ -26,7 +27,6 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
             console.log(error);
         });
       }else{
-        console.log('test');
         $rootScope.imgduprofil = $localStorage.picture;
         $ionicSideMenuDelegate.canDragContent(true);
         $rootScope.logged = true;
@@ -43,6 +43,8 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
     $rootScope.init = function(){
       if($localStorage.hasOwnProperty("accessToken")) {
         $rootScope.logged = true;
+        $rootScope.profilepicture = $localStorage.picture;
+        $rootScope.profiledata = $localStorage.profileDatas;
         $scope.showme = true;
         $rootScope.route = "soirees";
         $rootScope.title = "Mes soirées";
@@ -62,8 +64,6 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
         });
 
       }else{
-        console.log('test1');
-
         $ionicSideMenuDelegate.canDragContent(false);
         $rootScope.logged = false;
         $location.path("/login");
@@ -123,8 +123,6 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
           console.log(error);
       });
     }else{
-        console.log('test2');
-
       $ionicSideMenuDelegate.canDragContent(false);
       $rootScope.logged = false;
       $location.path("/login");
@@ -240,8 +238,6 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
         $scope.$apply();
       });
   }else{
-        console.log('test3');
-
     $ionicSideMenuDelegate.canDragContent(false);
     $rootScope.logged = false;
     $location.path("/login");
@@ -332,8 +328,6 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
       console.log(error);
     });
   } else {
-        console.log('test4');
-
     $location.path("/login");
   }
 
