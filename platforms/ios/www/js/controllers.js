@@ -215,13 +215,13 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
           data[0].url_img1 = data[0].url_img1.replace(/&amp;/g, '&');
         }
         if(data[0].url_img2 != null){
-          $scope.img2 = data[0].url_img2.replace(/&amp;/g, '&');
+          data[0].url_img2 = data[0].url_img2.replace(/&amp;/g, '&');
         }
         if(data[0].url_img3 != null){
-          $scope.img3 = data[0].url_img3.replace(/&amp;/g, '&');
+          data[0].url_img3 = data[0].url_img3.replace(/&amp;/g, '&');
         }
         if(data[0].url_img4 != null){
-          $scope.img4 = data[0].url_img4.replace(/&amp;/g, '&');
+          data[0].url_img4 = data[0].url_img4.replace(/&amp;/g, '&');
         }
         $scope.datasSoiree = data[0];
         $rootScope.title = "Soirée du "+data[0].date;
