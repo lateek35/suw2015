@@ -7675,6 +7675,8 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
+body .menu-left {
+  background-color: black; }
 body .bar.bar-dark {
   background-color: #000; }
   body .bar.bar-dark .title {
@@ -8021,7 +8023,8 @@ h1 span {
 .button {
   border-radius: 50px;
   font-size: 15px;
-  margin: 0; }
+  margin: 0;
+  line-height: 47px; }
 
 .button i {
   position: absolute;

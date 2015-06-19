@@ -24,6 +24,9 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 $garcon-bleu : #8fcdfe;
 $facebook : #36559c;
 body{
+  .menu-left {
+    background-color: black;
+  }
   .bar.bar-dark {
     background-color: #000;
     .title{
@@ -449,6 +452,7 @@ h1 span{
     border-radius:50px;
     font-size:15px;
     margin:0;
+    line-height: 47px;
 }
 .button i{
     position:absolute;
