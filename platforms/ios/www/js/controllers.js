@@ -26,7 +26,6 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
             console.log(error);
         });
       }else{
-        console.log('test');
         $rootScope.imgduprofil = $localStorage.picture;
         $ionicSideMenuDelegate.canDragContent(true);
         $rootScope.logged = true;
@@ -43,6 +42,8 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
     $rootScope.init = function(){
       if($localStorage.hasOwnProperty("accessToken")) {
         $rootScope.logged = true;
+        $rootScope.profilepicture = $localStorage.picture;
+        $rootScope.profiledata = $localStorage.profileDatas;
         $scope.showme = true;
         $rootScope.route = "soirees";
         $rootScope.title = "Mes soirées";
@@ -62,8 +63,6 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
         });
 
       }else{
-        console.log('test1');
-
         $ionicSideMenuDelegate.canDragContent(false);
         $rootScope.logged = false;
         $location.path("/login");
@@ -123,8 +122,6 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
           console.log(error);
       });
     }else{
-        console.log('test2');
-
       $ionicSideMenuDelegate.canDragContent(false);
       $rootScope.logged = false;
       $location.path("/login");
@@ -240,8 +237,6 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
         $scope.$apply();
       });
   }else{
-        console.log('test3');
-
     $ionicSideMenuDelegate.canDragContent(false);
     $rootScope.logged = false;
     $location.path("/login");
@@ -293,6 +288,24 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
     if($localStorage.hasOwnProperty("accessToken")) {
       $rootScope.title = "Invitez un groupe";
       $rootScope.route = "invit";
+
+      var jour, boite;
+
+      $.post('http://8affc41bd7.url-de-test.ws/une_soiree',{id_soiree: $stateParams.soireeId},function(data,status){
+          jour = data[0].jour;
+          boite = data[0].boite;
+          $.post('http://8affc41bd7.url-de-test.ws/matching_groupe_fille',{jour: jour, boite: boite},function(data,status){
+              $scope.pictures = data[0].url_img.replace(/&amp;/g, '&');
+              // console.log(data[0].url_img);
+              $scope.datas = data;
+              $scope.$apply();
+
+              // $.post('http://8affc41bd7.url-de-test.ws/un_groupe_fille',{id_groupe_fille: groupeId},function(data,status){
+              //   $scope.datas = data;
+              //   $scope.$apply();
+              // });
+            });
+        });
     }else{
       $ionicSideMenuDelegate.canDragContent(false);
       $rootScope.logged = false;
@@ -332,8 +345,6 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
       console.log(error);
     });
   } else {
-        console.log('test4');
-
     $location.path("/login");
   }
 

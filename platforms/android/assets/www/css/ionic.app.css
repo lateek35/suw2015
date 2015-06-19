@@ -7675,89 +7675,159 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
-body .ion-ios-plus-outline {
-  text-align: right;
-  width: 100%;
-  font-size: 30px;
-  padding-right: 5px; }
-body .ion-navicon, body .ion-ios-arrow-back {
-  padding-left: 5px;
-  font-size: 30px; }
-body .single-soiree .container-photo {
-  height: 180px;
-  overflow: hidden; }
-  body .single-soiree .container-photo img {
-    height: auto;
-    width: auto; }
-body .single-soiree i {
-  margin: 0 auto;
-  text-align: center;
-  width: 100%;
-  font-size: 30px;
-  display: block;
-  padding: 20px 0; }
-body .single-soiree h2 {
-  text-align: center;
-  font-family: helvetica;
-  font-size: 20px;
-  padding: 0;
-  margin: 0; }
-body .single-soiree .info {
-  text-align: center;
-  color: #CCC;
-  padding: 0;
-  margin: 0; }
-body .list-create .item.item-input {
-  background-color: white; }
-body .list-create .button-block#create-soiree {
-  width: 80%;
-  color: black;
-  background-color: #8fcdfe;
-  border-color: #8fcdfe;
-  margin: 0 auto; }
-body .list-create .friend {
-  display: inline-block;
-  padding: 40px 0;
-  width: 24%;
-  vertical-align: top; }
-  body .list-create .friend img {
-    border-radius: 50%;
-    margin: 0 auto;
-    display: block;
-    width: 40px;
-    height: 40px; }
-  body .list-create .friend p {
-    padding-top: 20px;
-    width: 90%;
-    text-align: center;
-    margin: 0 auto; }
-body .item-select-create {
-  height: 50px; }
-  body .item-select-create select {
-    width: 100%;
-    max-width: 100%;
-    padding: 0;
-    text-align: right;
-    float: left;
-    display: inline-block;
-    direction: ltr;
-    padding-left: 16px;
-    font-size: 15px;
-    background-color: white !important; }
-body #fb-btn-create {
-  height: 50px;
-  padding-top: 0;
-  position: relative; }
-  body #fb-btn-create .ion-social-facebook {
-    background-color: #36559c;
-    border-color: #36559c;
+body {
+  font-family: helvetica; }
+  body .menu-left {
+    background-color: black;
+    padding-top: 70px; }
+    body .menu-left img {
+      display: block;
+      margin: 0 auto;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%; }
+    body .menu-left .name {
+      font-size: 16px;
+      margin-top: 10px;
+      color: white;
+      text-align: center; }
+    body .menu-left .dash-perso {
+      color: white;
+      margin-top: 50px; }
+      body .menu-left .dash-perso li {
+        display: inline-block;
+        width: 33.33%;
+        text-align: center; }
+        body .menu-left .dash-perso li .info {
+          margin-top: 15px;
+          color: #8fcdfe;
+          text-transform: uppercase;
+          font-size: 11px;
+          line-height: 14px;
+          position: relative; }
+          body .menu-left .dash-perso li .info:after {
+            content: "";
+            position: absolute;
+            right: 0;
+            top: -15px;
+            display: block;
+            height: 24px;
+            border-right: 1px solid #014173; }
+        body .menu-left .dash-perso li .number {
+          font-size: 35px;
+          font-weight: 600; }
+    body .menu-left .tabs-left-menu {
+      margin-top: 50px; }
+    body .menu-left .tab-left-menu {
+      width: 100%;
+      height: 50px;
+      line-height: 50px; }
+      body .menu-left .tab-left-menu:hover, body .menu-left .tab-left-menu:active {
+        background-color: #8fcdfe; }
+        body .menu-left .tab-left-menu:hover i, body .menu-left .tab-left-menu:hover p, body .menu-left .tab-left-menu:active i, body .menu-left .tab-left-menu:active p {
+          color: black; }
+      body .menu-left .tab-left-menu i, body .menu-left .tab-left-menu p {
+        margin-left: 20px;
+        color: white;
+        display: inline-block; }
+  body .bar.bar-dark {
+    background-color: #000; }
+    body .bar.bar-dark .title {
+      color: #8fcdfe;
+      font-family: helvetica;
+      font-variant: normal;
+      text-transform: none;
+      font-weight: 400; }
+  body ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, body ion-tabs.tabs-color-active-positive .tab-item.active, body ion-tabs.tabs-color-active-positive .tab-item.activated {
+    color: #8fcdfe; }
+  body .tabs-background-dark .tabs, body .tabs-background-dark > .tabs {
+    background-color: #000; }
+  body ion-tabs.tabs-color-active-positive .tab-item {
+    color: white; }
+  body .ion-ios-plus-outline {
     position: absolute;
+    right: 5px;
+    text-align: right;
+    font-size: 30px;
+    padding-right: 5px; }
+  body .ion-navicon, body .ion-ios-arrow-back {
+    padding-left: 5px;
+    font-size: 30px; }
+  body .single-soiree .container-photo {
+    height: 180px;
+    overflow: hidden; }
+    body .single-soiree .container-photo img {
+      height: auto;
+      width: auto; }
+  body .single-soiree i {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    display: block;
+    padding: 20px 0; }
+  body .single-soiree h2 {
+    text-align: center;
+    font-family: helvetica;
+    font-size: 20px;
+    padding: 0;
+    margin: 0; }
+  body .single-soiree .info {
+    text-align: center;
+    color: #CCC;
+    padding: 0;
+    margin: 0; }
+  body .list-create .item.item-input {
+    background-color: white; }
+  body .list-create .button-block#create-soiree {
+    width: 80%;
+    color: black;
+    background-color: #8fcdfe;
+    border-color: #8fcdfe;
+    margin: 0 auto; }
+  body .list-create .friend {
+    display: inline-block;
+    padding: 40px 0;
+    width: 24%;
+    vertical-align: top; }
+    body .list-create .friend img {
+      border-radius: 50%;
+      margin: 0 auto;
+      display: block;
+      width: 40px;
+      height: 40px; }
+    body .list-create .friend p {
+      padding-top: 20px;
+      width: 90%;
+      text-align: center;
+      margin: 0 auto; }
+  body .item-select-create {
+    height: 50px; }
+    body .item-select-create select {
+      width: 100%;
+      max-width: 100%;
+      padding: 0;
+      text-align: right;
+      float: left;
+      display: inline-block;
+      direction: ltr;
+      padding-left: 16px;
+      font-size: 15px;
+      background-color: white !important; }
+  body #fb-btn-create {
     height: 50px;
-    border-radius: 0;
-    margin-top: 15px;
-    width: 20px;
-    right: 0;
-    top: -15px; }
+    padding-top: 0;
+    position: relative; }
+    body #fb-btn-create .ion-social-facebook {
+      background-color: #36559c;
+      border-color: #36559c;
+      position: absolute;
+      height: 50px;
+      border-radius: 0;
+      margin-top: 15px;
+      width: 20px;
+      right: 0;
+      top: -15px; }
 
 .bar-dark .title {
   text-align: center; }
@@ -7965,7 +8035,7 @@ input, textarea, .item-input, .item-input-wrapper {
   color: gray; }
 
 .infos_soiree.refuse_soiree {
-  color: #f04533; }
+  color: #ef473a; }
 
 /* Empty. Add your own CSS if you like */
 /***************************************/
@@ -8006,7 +8076,8 @@ h1 span {
 .button {
   border-radius: 50px;
   font-size: 15px;
-  margin: 0; }
+  margin: 0;
+  line-height: 47px; }
 
 .button i {
   position: absolute;
@@ -8036,7 +8107,7 @@ h1 span {
   color: gray; }
 
 .infos_soiree.refuse_soiree {
-  color: #f04533; }
+  color: #ef473a; }
 
 /***DetailSoiree***/
 .add_girl {
