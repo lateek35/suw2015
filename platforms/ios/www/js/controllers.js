@@ -93,6 +93,13 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
           $rootScope.initCreate();
         }
     };
+    $rootScope.logOut = function() {
+      $localStorage.$reset();
+      $ionicSideMenuDelegate.canDragContent(false);
+      $rootScope.logged = false;
+      $ionicSideMenuDelegate.toggleLeft();
+      $location.path("/login");
+    };
 })
 
 .controller('CreateCtrl', function($rootScope, $scope, $ionicHistory, $location, $localStorage, $http) {

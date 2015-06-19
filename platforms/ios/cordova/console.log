@@ -1980,3 +1980,28 @@ requestLoaded@http://192.168.0.14:8100/lib/ionic/js/ionic.bundle.js:18489:24
 =======
 >>>>>>> 842b06194b7b5ec52d5c2ab71df2239ff6c487c0
 >>>>>>> 56ed2cd54e7056f2fa156dee391b67726c93c858
+2015-06-19 08:40:49.316 myApp[4726:4892805] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 08:40:49.317 myApp[4726:4892805] Multi-tasking -> Device: YES, App: YES
+2015-06-19 08:40:49.319 myApp[4726:4892805] Unlimited access to network resources
+2015-06-19 08:40:49.388 myApp[4726:4892805] [CDVTimer][keyboard] 0.055015ms
+2015-06-19 08:40:49.406 myApp[4726:4892805] [CDVTimer][splashscreen] 18.415987ms
+2015-06-19 08:40:49.406 myApp[4726:4892805] [CDVTimer][TotalPluginStartup] 18.768966ms
+2015-06-19 08:40:49.496 myApp[4726:4892805] Resetting plugins due to page load.
+2015-06-19 08:40:49.935 myApp[4726:4892805] Finished load of: http://192.168.0.16:8100/#/tab/soiree
+2015-06-19 08:40:52.547 myApp[4726:4892805] test
+2015-06-19 08:40:54.463 myApp[4726:4892805] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-06-19 08:40:54.468 myApp[4726:4892805] THREAD WARNING: ['InAppBrowser'] took '108.639893' ms. Plugin should use a background thread.
+2015-06-19 08:42:16.869 myApp[4726:4892805] Resetting plugins due to page load.
+2015-06-19 08:42:16.869 myApp[4726:4892805] IAB.close() called but it was already closed.
+2015-06-19 08:42:17.156 myApp[4726:4892805] Finished load of: http://192.168.0.16:8100/#/invit/40
+2015-06-19 08:42:55.073 myApp[4726:4892805] Resetting plugins due to page load.
+2015-06-19 08:42:55.073 myApp[4726:4892805] IAB.close() called but it was already closed.
+2015-06-19 08:42:55.336 myApp[4726:4892805] Finished load of: http://192.168.0.16:8100/#/invit/40
+2015-06-19 08:43:23.947 myApp[5096:4894293] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-19 08:43:23.947 myApp[5096:4894293] Multi-tasking -> Device: YES, App: YES
+2015-06-19 08:43:23.950 myApp[5096:4894293] Unlimited access to network resources
+2015-06-19 08:43:24.020 myApp[5096:4894293] [CDVTimer][keyboard] 0.055015ms
+2015-06-19 08:43:24.036 myApp[5096:4894293] [CDVTimer][splashscreen] 15.282989ms
+2015-06-19 08:43:24.036 myApp[5096:4894293] [CDVTimer][TotalPluginStartup] 15.613019ms
+2015-06-19 08:43:24.123 myApp[5096:4894293] Resetting plugins due to page load.
+2015-06-19 08:43:24.538 myApp[5096:4894293] Finished load of: http://192.168.0.16:8100/#/tab/soiree

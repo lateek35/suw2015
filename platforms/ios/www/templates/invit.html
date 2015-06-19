@@ -1,15 +1,14 @@
 <ion-view view-title="Inviter">
 	<ion-content>
 		<ion-list>
-
 	      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="data in datas" type="item-text-wrap" href="#/tab/soirees/{{data.id_groupe_fille}}">
 
 	        <img ng-src="{{pictures}}">
-	        <p class="title_top_soiree">{{data.name}} + {{data.nbr_participants}} amies</p>
-	        <p class="infos_soiree">{{date.boite1}} {{date.boite2}} {{date.boite3}}</p>
+	        <p class="title_top_soiree">{{data.name}} + {{data.nbr_personne_groupe_fille}} amies</p>
+	        <p class="infos_soiree" style="color:#e691ff;">{{data.boite1}} - {{data.boite2}} - {{data.boite3}}</p>
 
 	      </ion-item>
 	    </ion-list>
-	    
+
 	</ion-content>
 </ion-view>
