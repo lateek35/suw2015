@@ -26,6 +26,16 @@ $facebook : #36559c;
 body{
   .bar.bar-dark {
     background-color: #000;
+    .title{
+      color:$garcon-bleu;
+      font-family: helvetica;
+      font-variant: normal;
+      text-transform: none;
+      font-weight: 400;
+    }
+  }
+  ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-color-active-positive .tab-item.active, ion-tabs.tabs-color-active-positive .tab-item.activated {
+    color:$garcon-bleu;
   }
   .tabs-background-dark .tabs, .tabs-background-dark > .tabs {
     background-color: #000;

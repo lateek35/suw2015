@@ -7681,6 +7681,15 @@ body .tabs-background-dark .tabs, body .tabs-background-dark > .tabs {
   background-color: #000; }
 body ion-tabs.tabs-color-active-positive .tab-item {
   color: white; }
+body .ion-ios-plus-outline {
+  position: absolute;
+  right: 5px;
+  text-align: right;
+  font-size: 30px;
+  padding-right: 5px; }
+body .ion-navicon, body .ion-ios-arrow-back {
+  padding-left: 5px;
+  font-size: 30px; }
 body .single-soiree .container-photo {
   height: 180px;
   overflow: hidden; }
