@@ -37,6 +37,8 @@
       <ion-header-bar class="bar bar-header bar-dark" ng-show="logged">
         <span ng-if="route == 'soirees'" class="ion-navicon" ng-click="openSideMenu()"></span>
         <span ng-if="route == 'create'" class="ion-ios-arrow-back" ng-click="goBack()"></span>
+        <span ng-if="route == 'detail'" class="ion-ios-arrow-back" ng-click="goBackDetail()"></span>
+        <span ng-if="route == 'invit'" class="ion-ios-arrow-back" ng-click="goBackInvit()"></span>
         <h1 class="title" style="text-align: center;">{{title}}</h1>
         <span class="ion-ios-plus-outline" ng-click="create()"></span>
       </ion-header-bar>
@@ -45,7 +47,38 @@
 
     <!-- Left menu -->
     <ion-side-menu side="left">
-      
+      <img ng-src="{{profilepicture}}" alt="image du profil">
+      <p class="name">{{profiledata.first_name}}</p>
+      <ul class="dash-perso">
+          <li>
+              <div>
+                  <div class="number">0</div>
+                  <p class="info">Soirée en cours</p>
+              </div>
+          </li><!--
+          --><li>
+              <div>
+                  <div class="number">0</div>
+                  <p class="info">Invitations reçues</p>
+              </div>
+          </li><!--
+          --><li>
+              <div>
+                  <div class="number">0</div>
+                  <p class="info">Soirées effectuées</p>
+              </div>
+          </li>
+      </ul>
+      <div class="tabs-left-menu">
+          <div class="profil tab-left-menu">
+              <i class="ion-person"></i>
+              <p>Mon profil</p>
+          </div>
+          <div class="logout tab-left-menu">
+              <i class="ion-power"></i>
+              <p>Se deconnecter</p>
+          </div>
+      </div>
     </ion-side-menu>
   </ion-side-menus>
 

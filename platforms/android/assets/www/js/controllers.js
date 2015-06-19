@@ -12,6 +12,7 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
                 $localStorage.profileDatas = result.data;
                 $http.get("https://graph.facebook.com/v2.3/me/", { params: { access_token: $localStorage.accessToken, fields: "picture", format: "json" }}).then(function(result) {
                     $localStorage.picture = result.data.picture.data.url;
+                    $rootScope.imgduprofil = $localStorage.picture;
                     $ionicSideMenuDelegate.canDragContent(true);
                     $rootScope.logged = true;
                     $scope.changeState();
@@ -25,6 +26,7 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
             console.log(error);
         });
       }else{
+        $rootScope.imgduprofil = $localStorage.picture;
         $ionicSideMenuDelegate.canDragContent(true);
         $rootScope.logged = true;
         $scope.changeState();
@@ -40,9 +42,15 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
     $rootScope.init = function(){
       if($localStorage.hasOwnProperty("accessToken")) {
         $rootScope.logged = true;
+        $rootScope.profilepicture = $localStorage.picture;
+        $rootScope.profiledata = $localStorage.profileDatas;
         $scope.showme = true;
         $rootScope.route = "soirees";
         $rootScope.title = "Mes soirées";
+
+        $http.get("https://graph.facebook.com/v2.3/me/", { params: { access_token: $localStorage.accessToken, fields: "picture", format: "json" }}).then(function(result) {
+            $scope.thepicture = result.data.picture.data.url;
+        });
 
         $.post('http://8affc41bd7.url-de-test.ws/soirees',{id_fb: $localStorage.profileDatas.id},function(data,status){
           $scope.soirees = data;
@@ -78,6 +86,7 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
       $scope.changeState();
     }
     $scope.changeState = function () {
+
         $location.path("/create");
         if($rootScope.alreadyPassInCreateForm){
           $rootScope.initCreate();
@@ -133,7 +142,7 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
       $('div.friend p').remove();
       $('input[name="friendInvite"]:checked').attr('checked', false);
       $('input[type="text"]').val('');
-      $ionicHistory.goBack();
+      // $ionicHistory.goBack();
       $location.path('/tab/soiree');
       $rootScope.init();
     };
@@ -144,7 +153,6 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
       $scope.inviteFriends = '';
       $('div.friend img').remove();
       $('div.friend p').remove();
-      // console.log($('input[name="friendInvite"]:checked').val());
       for(var i=0; i<$('input[name="friendInvite"]:checked').length; i++){
         var pieces = $('input[name="friendInvite"]:checked')[i].value.split("|");
         $('div.friend-'+i).append("<img src='"+pieces[1]+"'/>");
@@ -211,6 +219,7 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
   if($localStorage.hasOwnProperty("accessToken")) {
     $rootScope.route = "create";
     $.post('http://8affc41bd7.url-de-test.ws/une_soiree',{id_soiree: $stateParams.soireeId},function(data,status){
+        $localStorage.id_soiree=data[0].id_soiree;
         if(data[0].url_img1 != null){
           data[0].url_img1 = data[0].url_img1.replace(/&amp;/g, '&');
         }
@@ -233,15 +242,64 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
     $location.path("/login");
   }
 
-  $rootScope.goBack = function(){
-      $ionicHistory.goBack();
+  $rootScope.initSoireeDetail = function(){
+      if($localStorage.hasOwnProperty("accessToken")) {
+        $rootScope.route = "detail";
+        $.post('http://8affc41bd7.url-de-test.ws/une_soiree',{id_soiree: $stateParams.soireeId},function(data,status){
+            $localStorage.id_soiree=data[0].id_soiree;
+            if(data[0].url_img1 != null){
+              data[0].url_img1 = data[0].url_img1.replace(/&amp;/g, '&');
+            }
+            if(data[0].url_img2 != null){
+              data[0].url_img2 = data[0].url_img2.replace(/&amp;/g, '&');
+            }
+            if(data[0].url_img3 != null){
+              data[0].url_img3 = data[0].url_img3.replace(/&amp;/g, '&');
+            }
+            if(data[0].url_img4 != null){
+              data[0].url_img4 = data[0].url_img4.replace(/&amp;/g, '&');
+            }
+            $scope.datasSoiree = data[0];
+            $rootScope.title = "Soirée du "+data[0].date;
+            $scope.$apply();
+          });
+      }else{
+        $ionicSideMenuDelegate.canDragContent(false);
+        $rootScope.logged = false;
+        $location.path("/login");
+      }
+  };
+
+  $rootScope.goBackDetail = function(){
+      // $ionicHistory.goBack();
       $location.path('/tab/soiree');
       $rootScope.init();
     };
 
+  $scope.invitGirls = function(){
+    $location.path('/invit/'+$localStorage.id_soiree);
+  };
+
   /*$scope.remove = function(dash) {
     Soirees.remove(dash);*/
   })
+
+.controller('InvitCtrl', function($scope, $localStorage, $location, $rootScope, $ionicSideMenuDelegate, $stateParams, $ionicHistory) {
+    if($localStorage.hasOwnProperty("accessToken")) {
+      $rootScope.title = "Invitez un groupe";
+      $rootScope.route = "invit";
+    }else{
+      $ionicSideMenuDelegate.canDragContent(false);
+      $rootScope.logged = false;
+      $location.path("/login");
+    }
+
+    $rootScope.goBackInvit = function(){
+      // $ionicHistory.goBack();
+      $location.path('/tab/soirees/'+$stateParams.soireeId);
+      $rootScope.initSoireeDetail();
+    };
+})
 
 .controller('ChatsCtrl', function($scope, Chats) {
   // With the new view caching in Ionic, Controllers are only called

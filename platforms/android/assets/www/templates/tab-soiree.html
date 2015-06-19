@@ -7,11 +7,11 @@
     <ion-list ng-show="showme">
       <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="soiree in soirees" type="item-text-wrap" href="#/tab/soirees/{{soiree.id_soiree}}">
 
-        <img ng-src="{{soiree.photo}}">
-        <p class="title_top_soiree">{{soiree.boite}} {{soiree.date}}</p>
+        <img ng-src="{{thepicture}}">
+        <p class="title_top_soiree">{{soiree.boite}} <span style="float:right;">{{soiree.date}}</span></p>
         <p class="infos_soiree">{{soiree.nbr_participants}} participants - 
         <span ng-if="soiree.statut == 0" class="stay_soiree">En attente</span>
-        <span ng-if="soiree.statut == -1" class="refuse_soiree">Refusé</span>
+        <span ng-if="soiree.statut == -1" class="refuse_soiree" style="color:#ef473a;">Refusé</span>
         <span ng-if="soiree.statut == 1" class="accept_soiree">Accepté</span></p>
 
         <ion-option-button class="button-assertive" ng-click="remove(dash)">
@@ -22,7 +22,7 @@
     <ion-list ng-hide="showme">
       <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="invitation in invitations" type="item-text-wrap" href="#/tab/dash/{{invitation.id_groupe_fille}}">
         <img ng-src="{{invitation.photo}}">
-          <p class="title_top_soiree">{{invitation.boite1}} {{invitation.boite2}} {{invitation.boite3}} {{invitation.date}}</p>
+          <p class="title_top_soiree">{{invitation.boite1}} {{invitation.date}}</p>
         <p class="infos_soiree">{{invitation.nbr_personne_groupe_fille}} participantes - 
           <span ng-if="invitation.statut_proposition == 0" class="stay_soiree">En attente</span>
         <span ng-if="invitation.statut_proposition == -1" class="refuse_soiree">Refusé</span>

@@ -71,7 +71,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','f
   })
 
   .state('invit', {
-      url: '/invit',
+      url: '/invit/:soireeId',
       templateUrl: 'templates/invit.html',
       controller: 'InvitCtrl'
   })

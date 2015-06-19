@@ -1,19 +1,14 @@
 <ion-view view-title="Inviter">
 	<ion-content>
-		<ion-list ng-show="showme">
-	      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="groupe in groupes" type="item-text-wrap" href="#/tab/soirees/{{groupe.id_soiree}}">
+		<ion-list>
+	      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="data in datas" type="item-text-wrap" href="#/tab/soirees/{{data.id_groupe_fille}}">
 
-	        <img ng-src="{{groupe.photo}}">
-	        <p class="title_top_soiree">{{groupe.boite}} {{groupe.date}}</p>
-	        <p class="infos_soiree">{{groupe.nbr_participants}} participants - 
-	        <span ng-if="groupe.statut == 0" class="stay_soiree">En attente</span>
-	        <span ng-if="groupe.statut == -1" class="refuse_soiree">Refusé</span>
-	        <span ng-if="groupe.statut == 1" class="accept_soiree">Accepté</span></p>
+	        <img ng-src="{{pictures}}">
+	        <p class="title_top_soiree">{{data.name}} + {{data.nbr_personne_groupe_fille}} amies</p>
+	        <p class="infos_soiree" style="color:#e691ff;">{{data.boite1}} - {{data.boite2}} - {{data.boite3}}</p>
 
-	        <ion-option-button class="button-assertive" ng-click="remove(dash)">
-	          Delete
-	        </ion-option-button>
 	      </ion-item>
 	    </ion-list>
+
 	</ion-content>
 </ion-view>

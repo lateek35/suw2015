@@ -7859,30 +7859,13 @@ body {
   float: right;
   color: #fff;
   background-color: #0099ff;
-  padding: 10px 10px 10px 15px;
-  /*&::after {
-    content: '';
-    border: solid 20px;
-    border-color: transparent transparent red;
-    position: relative;
-    float: right;
-    top: 13px;
-    left: 0px;
-  }*/ }
+  padding: 10px 10px 10px 15px; }
 
 .message.from {
   float: left;
   background-color: #ececec;
   padding: 10px 10px 10px 15px;
-  /* &::before{
-    content: '';
-    border: solid 20px;
-    border-color: transparent transparent red;
-    position: relative;
-    z-index: 1;
-    top: 13px;
-    left: -25px;
-  }*/ }
+  color: black !important; }
 
 .bar-footer {
   overflow: visible !important; }
