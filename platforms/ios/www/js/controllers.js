@@ -117,6 +117,13 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
       $rootScope.logged = false;
       $location.path("/login");
     }
+    $scope.test=0;
+
+    $scope.control = function($event,friendData){
+      if($('input[name="friendInvite"]:checked').length > 4){
+        $event.preventDefault();
+      }
+    }
     $rootScope.initCreate = function(){
       $rootScope.title = "Créer une soirée";
       $rootScope.route = "create";
@@ -204,6 +211,19 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
   if($localStorage.hasOwnProperty("accessToken")) {
     $rootScope.route = "create";
     $.post('http://8affc41bd7.url-de-test.ws/une_soiree',{id_soiree: $stateParams.soireeId},function(data,status){
+        if(data[0].url_img1 != null){
+          data[0].url_img1 = data[0].url_img1.replace("&amp;", "&");
+          console.log(data[0].url_img1);
+        }
+        if(data[0].url_img2 != null){
+          data[0].url_img2 = data[0].url_img2.replace("&amp;", "&");
+        }
+        if(data[0].url_img3 != null){
+          data[0].url_img3 = data[0].url_img3.replace("&amp;", "&");
+        }
+        if(data[0].url_img4 != null){
+          data[0].url_img4 = data[0].url_img4.replace("&amp;", "&");
+        }
         $scope.datasSoiree = data[0];
         $rootScope.title = "Soirée du "+data[0].date;
         $scope.$apply();

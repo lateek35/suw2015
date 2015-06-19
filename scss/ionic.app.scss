@@ -24,6 +24,37 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 $garcon-bleu : #8fcdfe;
 $facebook : #36559c;
 body{
+  .single-soiree{
+    .container-photo{
+      height: 180px;
+      overflow: hidden;
+      img{
+        height: auto;
+        width: auto;
+      }
+    }
+    i{
+      margin: 0 auto;
+      text-align: center;
+      width: 100%;
+      font-size: 30px;
+      display: block;
+      padding: 20px 0;
+    }
+    h2{
+      text-align: center;
+      font-family: helvetica;
+      font-size: 20px;
+      padding: 0;
+      margin: 0;
+    }
+    .info{
+      text-align: center;
+      color:#CCC;
+      padding: 0;
+      margin: 0;
+    }
+  }
   .list-create{
     .item.item-input{
       background-color: white;
@@ -38,6 +69,8 @@ body{
     .friend{
       display: inline-block;
       padding: 40px 0;
+      width: 24%;
+      vertical-align: top;
       img{
         border-radius: 50%;
         margin: 0 auto;
