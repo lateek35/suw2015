@@ -21,9 +21,72 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 
+$garcon-bleu : #8fcdfe;
+$facebook : #36559c;
+body{
+  .list-create{
+    .item.item-input{
+      background-color: white;
+    }
+    .button-block#create-soiree {
+      width: 80%; 
+      color: black;
+      background-color: $garcon-bleu; 
+      border-color: $garcon-bleu;
+      margin: 0 auto;
+    }
+    .friend{
+      display: inline-block;
+      padding: 40px 0;
+      img{
+        border-radius: 50%;
+        margin: 0 auto;
+        display: block;
+      }
+      p {
+        padding-top: 20px;
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+      }
+    }
+  }
+  .item-select-create{
+    height: 50px; 
+    select{
+      width: 100%;
+      max-width: 100%;
+      padding: 0;
+      text-align: right;
+      float: left;
+      display: inline-block;
+      direction: ltr;
+      padding-left: 16px;
+      font-size: 15px;
+      background-color: white !important;
+    }
+  }
+  #fb-btn-create{
+    height: 50px;
+    padding-top: 0;
+    position: relative;
+    .ion-social-facebook{
+      background-color: $facebook; 
+      border-color: $facebook;
+      position: absolute;
+      height: 50px;
+      border-radius: 0;
+      margin-top: 15px;
+      width: 20px;
+      right: 0;
+      top: -15px;
+    }
+  }
+}
+
 
 .bar-dark .title{
-  text-align: center;
+  text-align: center;  
 }
 
 .debug-scroll {
@@ -183,7 +246,7 @@ img.profile-pic {
 }
 
 input, textarea, .item-input, .item-input-wrapper {
-  background-color: #f4f4f4 !important;
+  background-color: #f4f4f4;
 } 
 
 .bold {
@@ -389,6 +452,6 @@ h1 span{
     position:absolute;
     bottom:0;left:0;right:0;height:60px;
     border:none;
-    background:blue;
-    color:#FFF;
+    background:$garcon-bleu;
+    color:black;
 }

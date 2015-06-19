@@ -117,6 +117,13 @@ angular.module('starter.controllers', ["ionic", "ngStorage", "ngCordova"])
       $rootScope.logged = false;
       $location.path("/login");
     }
+    $scope.test=0;
+
+    $scope.control = function($event,friendData){
+      if($('input[name="friendInvite"]:checked').length > 4){
+        $event.preventDefault();
+      }
+    }
     $rootScope.initCreate = function(){
       $rootScope.title = "Créer une soirée";
       $rootScope.route = "create";

@@ -7675,6 +7675,54 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
+body .list-create .item.item-input {
+  background-color: white; }
+body .list-create .button-block#create-soiree {
+  width: 80%;
+  color: black;
+  background-color: #8fcdfe;
+  border-color: #8fcdfe;
+  margin: 0 auto; }
+body .list-create .friend {
+  display: inline-block;
+  padding: 40px 0; }
+  body .list-create .friend img {
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block; }
+  body .list-create .friend p {
+    padding-top: 20px;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto; }
+body .item-select-create {
+  height: 50px; }
+  body .item-select-create select {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    text-align: right;
+    float: left;
+    display: inline-block;
+    direction: ltr;
+    padding-left: 16px;
+    font-size: 15px;
+    background-color: white !important; }
+body #fb-btn-create {
+  height: 50px;
+  padding-top: 0;
+  position: relative; }
+  body #fb-btn-create .ion-social-facebook {
+    background-color: #36559c;
+    border-color: #36559c;
+    position: absolute;
+    height: 50px;
+    border-radius: 0;
+    margin-top: 15px;
+    width: 20px;
+    right: 0;
+    top: -15px; }
+
 .bar-dark .title {
   text-align: center; }
 
@@ -7805,7 +7853,7 @@ img.profile-pic {
   top: -3px; }
 
 input, textarea, .item-input, .item-input-wrapper {
-  background-color: #f4f4f4 !important; }
+  background-color: #f4f4f4; }
 
 .bold {
   font-weight: bold; }
@@ -7992,5 +8040,5 @@ h1 span {
   right: 0;
   height: 60px;
   border: none;
-  background: blue;
-  color: #FFF; }
+  background: #8fcdfe;
+  color: black; }
